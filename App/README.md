@@ -37,7 +37,7 @@ Bangla YouTube clickbait often uses polished or sensational **headlines** while 
 
 ---
 
-## Why text-only fails (the research motivation)
+## Why text-only fails (the Study motivation)
 
 ![Problem section — titles promise, videos don't always deliver](docs/screenshots/SS-3.png)
 
