@@ -1,0 +1,19 @@
+{
+  "video_id": "D_7A4eSKl94",
+  "title": "ভাইরাসে মারা গেছে তাই দাফন না করে পালালেন পাঁচ হুজুর। ও লালমনিরহাটে ত্রাণের দাবিতে বিশাল বিক্ষোভ",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 97.84,
+  "transcript_word_count": 1609,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.5817070007324219,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 447.32,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

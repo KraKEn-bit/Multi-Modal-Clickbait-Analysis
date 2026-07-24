@@ -1,0 +1,19 @@
+{
+  "video_id": "gTD6U4E7g2s",
+  "title": "১ দিনে মারা গেছে প্রায় সাড়ে ৪ হাজার মানুষ || [world corona]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 83.3,
+  "transcript_word_count": 213,
+  "ocr_text_detected": true,
+  "ocr_char_count": 10,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.4485588073730469,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 70.83,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

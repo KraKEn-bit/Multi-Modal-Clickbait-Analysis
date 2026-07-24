@@ -1,0 +1,19 @@
+{
+  "video_id": "WlowzbfLVKE",
+  "title": "যে লোকটা একদিন রাস্তা পরিষ্কার করতো সে আজ অনেক কোম্পানির মালিক। দেখুন আল্লাহ যা করে ভালোর জন্যই করেন",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 88.22,
+  "transcript_word_count": 556,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.30396705865859985,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 403.56,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

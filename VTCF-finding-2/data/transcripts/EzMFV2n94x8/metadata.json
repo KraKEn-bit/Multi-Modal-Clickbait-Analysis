@@ -1,0 +1,19 @@
+{
+  "video_id": "EzMFV2n94x8",
+  "title": "ক্রিকেট ইতিহাসের সেরা ১০ ধনী ক্রিকেটার  Top 10 Richest Cricketer in The World 2017 ।",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 88.27,
+  "transcript_word_count": 327,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.5955138206481934,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 86.51,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

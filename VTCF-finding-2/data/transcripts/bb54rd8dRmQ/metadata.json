@@ -1,0 +1,17 @@
+{
+  "video_id": "bb54rd8dRmQ",
+  "title": "টিকার টাকা ভারত ফেরত দেবে কি না  তা জানে স্বাস্থ্য মন্ত্রণালয়  || [Mustafa Kamal]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 68.44,
+  "semantic_divergence": 0.31592851877212524,
+  "transcript_word_count": 94,
+  "ocr_text_detected": true,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 70.27,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

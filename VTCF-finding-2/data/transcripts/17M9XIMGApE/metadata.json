@@ -1,0 +1,16 @@
+{
+  "video_id": "17M9XIMGApE",
+  "title": "চীন থেকে কেনা  সিনোফার্মের টিকা আসছে আজ রাতেই || #Sinopharm vaccine",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 62.24,
+  "semantic_divergence": 0.4399173855781555,
+  "transcript_word_count": 86,
+  "ocr_text_detected": false,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 34.4,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "q9705uY37so",
+  "title": "যে কারনে লালবাগ কেল্লার সুড়ঙ্গে গেলে কেউ ফিরে আসেনা? দেখুন তার অমীমাংসিত রহস্য",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 89.46,
+  "transcript_word_count": 543,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.33626532554626465,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 157.68,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

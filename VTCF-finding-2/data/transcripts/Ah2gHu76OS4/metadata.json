@@ -1,0 +1,19 @@
+{
+  "video_id": "Ah2gHu76OS4",
+  "title": "এক লোকের ৪ জন বউ ছিল! একদিন অসুস্থ হয়ে জানতে পারলো সে আর বাঁচবেনা! দেখুন এরপর ৪ বউ কি নোংরামী করেছিল",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 83.82,
+  "transcript_word_count": 538,
+  "ocr_text_detected": true,
+  "ocr_char_count": 5,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.36881327629089355,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 136.34,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "9SS6nGiw2F0",
+  "title": "ঈদের পর কঠোর বিধিনিষেধে আওতামুক্ত আরও তিন খাত || Lockdown",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 70.26,
+  "transcript_word_count": 85,
+  "ocr_text_detected": true,
+  "ocr_char_count": 24,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4575573205947876,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 23.67,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

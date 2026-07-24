@@ -1,0 +1,19 @@
+{
+  "video_id": "yHrFrIJ41U4",
+  "title": "কাজ না করেও দিতেন আড়াই লাখ টাকা বাসাভাড়া ||   [Model Piyasha & Mou]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 84.75,
+  "transcript_word_count": 370,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.5916832983493805,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 109.87,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

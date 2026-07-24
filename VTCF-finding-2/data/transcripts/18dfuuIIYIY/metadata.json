@@ -1,0 +1,19 @@
+{
+  "video_id": "18dfuuIIYIY",
+  "title": "এই মাত্র পাওয়া! লকডাউন পুরো ঢাকা! ১৫ দিনের জন্য লকডাউন হচ্ছে সারাদেশ? যুবলীগ নেত্রী পেটালো মুসল্লিকে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.98,
+  "transcript_word_count": 1695,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.34576308727264404,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 448.09,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

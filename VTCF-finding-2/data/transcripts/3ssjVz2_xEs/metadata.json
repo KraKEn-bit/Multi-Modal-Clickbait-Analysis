@@ -1,0 +1,19 @@
+{
+  "video_id": "3ssjVz2_xEs",
+  "title": "পুরো দুবাই যেন খালেদা জিয়ার । দুবাইয়ে এত টাকার মালিক কিভাবে খালেদা জিয়া ??",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 78.97,
+  "transcript_word_count": 502,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.40128129720687866,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 151.85,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

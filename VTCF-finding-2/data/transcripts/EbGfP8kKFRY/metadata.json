@@ -1,0 +1,19 @@
+{
+  "video_id": "EbGfP8kKFRY",
+  "title": "২৫ ঘন্টা ৫০ মিনিটে এভারেস্টের চূড়ায় উঠলেন সাং || #Everest Climber",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 71.45,
+  "transcript_word_count": 100,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4370635151863098,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 29.39,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

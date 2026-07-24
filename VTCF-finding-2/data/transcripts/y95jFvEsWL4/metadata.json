@@ -1,0 +1,19 @@
+{
+  "video_id": "y95jFvEsWL4",
+  "title": "আল্লাহু আকবর! এই মাত্র পাওয়া! জয় হল ইসলামের! মামুনুল হকের বিরুদ্ধে মামলা নিলোনা আদালত। Mamunul Haque",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.73,
+  "transcript_word_count": 1242,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.27609318494796753,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 537.85,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

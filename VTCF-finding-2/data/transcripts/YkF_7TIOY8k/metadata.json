@@ -1,0 +1,19 @@
+{
+  "video_id": "YkF_7TIOY8k",
+  "title": "আপনার ভোট অন্য কেউ দিয়ে দিলে যেভাবে আপনার ভোট দিবেন জেনে নিন! জাল ভোটকে প্রতিহত করুন।",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 90.2,
+  "transcript_word_count": 234,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.27336323261260986,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 64.29,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

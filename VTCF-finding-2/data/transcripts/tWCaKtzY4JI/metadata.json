@@ -1,0 +1,19 @@
+{
+  "video_id": "tWCaKtzY4JI",
+  "title": "বঙ্গবন্ধুর স্মৃতি ধরে রাখতে টুঙ্গিপাড়ায় নির্মিত হয়েছে নদীর দুটি ঘাট || Gopalganj Mujib Memory",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 81.89,
+  "transcript_word_count": 251,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2290109395980835,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 69.15,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

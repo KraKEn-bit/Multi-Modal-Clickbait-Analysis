@@ -1,0 +1,19 @@
+{
+  "video_id": "2kijJ0pB36Q",
+  "title": "কেউ রক্ষা পাবেনা টুকরো টুকরো করে ফেলবো কাদের সিদ্দিকীর ভয়াবহ হুমকি। বিএনপিকে কঠিন ৫ শর্ত দিল ভারত",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 91.06,
+  "transcript_word_count": 1658,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.33810609579086304,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 469.38,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

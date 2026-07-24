@@ -1,0 +1,19 @@
+{
+  "video_id": "3Yu2U911NU4",
+  "title": "ডাবে ঝাঁড়ফুকের পর প্রেমে 'সফল না হওয়ায়' ঘাড়ে কুপিয়ে হত্যা! || [Chattogram]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 77.59,
+  "transcript_word_count": 183,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.29313331842422485,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 106.6,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

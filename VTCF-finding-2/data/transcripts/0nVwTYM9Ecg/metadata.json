@@ -1,0 +1,19 @@
+{
+  "video_id": "0nVwTYM9Ecg",
+  "title": "লন্ডনে একটি তাবলীগ জামাত একজন ডাক্তারকে দাওয়াত দিতে গেল। কিন্তু এরপর ডাক্তার যা করল তা ছিল ভয়াবহ",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 86.84,
+  "transcript_word_count": 367,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3618231415748596,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 103.15,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

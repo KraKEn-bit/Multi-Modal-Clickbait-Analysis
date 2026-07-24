@@ -1,0 +1,17 @@
+{
+  "video_id": "95vimI2OIUk",
+  "title": "কে এই যুবক!!  অতিরিক্ত সুন্দর হওয়ার অপরাধে সৌদি আরব থেকে বের করে দিল যাকে ।। bangla exclusive info",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 78.61,
+  "semantic_divergence": 0.4919694662094116,
+  "transcript_word_count": 171,
+  "ocr_text_detected": false,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 56.35,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

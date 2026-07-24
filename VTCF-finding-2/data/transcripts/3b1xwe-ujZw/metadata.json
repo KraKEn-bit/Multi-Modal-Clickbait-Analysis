@@ -1,0 +1,17 @@
+{
+  "video_id": "3b1xwe-ujZw",
+  "title": "২১ বছর ধরে স্থগিত আব্দুর রব সেরনিয়াবাতসহ ৮ জনকে হত্যার মামলা || Abdur Rab Serniabat",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 79.08,
+  "semantic_divergence": 0.32599955797195435,
+  "transcript_word_count": 340,
+  "ocr_text_detected": true,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 143.22,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

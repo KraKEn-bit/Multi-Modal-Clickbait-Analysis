@@ -1,0 +1,17 @@
+{
+  "video_id": "69FUjUnwIS0",
+  "title": "বেসরকারিভাবে নির্বাচিত হয়েছেন আওয়ামী লীগের প্রার্থী নুর উদ্দিন চৌধুরী নয়ন || Laxmipur || Election",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 82.25,
+  "semantic_divergence": 0.27733808755874634,
+  "transcript_word_count": 802,
+  "ocr_text_detected": true,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 208.6,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "2vOx2gtetNs",
+  "title": "ভিপি নুরের মুখোমুখি ঢাবির সেই নষ্ট ছাত্রী। ফেঁসে যাচ্ছে তার সাথে জড়িত অনেক বড় বড় নেতারা। VP Nur News",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.88,
+  "transcript_word_count": 476,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.29540109634399414,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 136.6,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

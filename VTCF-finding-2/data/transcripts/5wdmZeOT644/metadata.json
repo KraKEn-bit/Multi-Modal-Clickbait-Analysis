@@ -1,0 +1,19 @@
+{
+  "video_id": "5wdmZeOT644",
+  "title": "'শর্তসাপেক্ষে' জাতীয় বিশ্ববিদ্যালয়ের প্রথম বর্ষের শিক্ষার্থীদের ২য় বর্ষে প্রমোশন || [National UNI]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 60.74,
+  "transcript_word_count": 73,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.17369729280471802,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 22.76,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

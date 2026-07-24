@@ -1,0 +1,19 @@
+{
+  "video_id": "Z0-wPJbeuwQ",
+  "title": "মারা যাওয়ার আগে মায়ের সাথে মীমের শেষ কথা যা হয়েছিলো। জানলে চোখের পানি ধরে রাখতে পারবেন না আপনিও",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 92.88,
+  "transcript_word_count": 588,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.37332814931869507,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 164.53,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

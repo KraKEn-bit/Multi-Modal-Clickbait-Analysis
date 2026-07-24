@@ -1,0 +1,19 @@
+{
+  "video_id": "mrOdcLo_xO0",
+  "title": "রিমান্ডে মুখ খুলতে শুরু করেছে যুবলীগ নেতারা। সব অবৈধ কাজে জড়িত বড় নেতারা। সব কুকর্ম ফাঁস করল ফখরুল",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 93.64,
+  "transcript_word_count": 1498,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3985985517501831,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 409.47,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

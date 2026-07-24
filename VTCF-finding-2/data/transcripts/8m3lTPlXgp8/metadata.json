@@ -1,0 +1,19 @@
+{
+  "video_id": "8m3lTPlXgp8",
+  "title": "পরীমনির ঘটনায় কার কতটুকু সম্পৃক্ততা রয়েছে তা খতিয়ে দেখা হচ্ছে ।। PoriMoni | Boat Club",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 74.66,
+  "transcript_word_count": 171,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2529909014701843,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 43.62,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "kbo9uHiv1Y8",
+  "title": "খুশির খবর! মুক্তি পাচ্ছে দেলোয়ার হোসেন সাঈদী! জানালেন - রনি। ও লাগাতার আন্দোলনের ডাক দিচ্ছে বিএনপি",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 93.45,
+  "transcript_word_count": 1502,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3243667483329773,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 412.85,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

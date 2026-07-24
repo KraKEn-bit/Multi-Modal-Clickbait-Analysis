@@ -1,0 +1,19 @@
+{
+  "video_id": "gMS2aM6YcQU",
+  "title": "মেয়ে না দেখেই বিয়ে! এরপর বাসর ঘরে বউকে দেখে যে ভয়ানক কাজ করল স্বামী! না দেখলে কল্পনা ও করা যেতনা",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 93.16,
+  "transcript_word_count": 651,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4442998766899109,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 165.34,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

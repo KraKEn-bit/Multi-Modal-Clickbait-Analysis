@@ -1,0 +1,19 @@
+{
+  "video_id": "p1eN3m73ruY",
+  "title": "চোখের রঙ দেখে বুঝে নিন একজন মানুষের চরিত্র। যাদের কালো চোখ তাদের চরিত্র জানলে টাস্কি খেয়ে যাবেন",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 82.07,
+  "transcript_word_count": 360,
+  "ocr_text_detected": true,
+  "ocr_char_count": 1,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.32246124744415283,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 282.54,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

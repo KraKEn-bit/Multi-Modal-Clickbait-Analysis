@@ -1,0 +1,19 @@
+{
+  "video_id": "HldA7Vw8cXA",
+  "title": "লকডাউনের মধ্যেও পায়ে হেঁটে, প্রাইভেটকারে রাজধানী ছাড়ছেন লোকজন || Lockdown Dhaka",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 87.35,
+  "transcript_word_count": 800,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3331104516983032,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 196.03,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

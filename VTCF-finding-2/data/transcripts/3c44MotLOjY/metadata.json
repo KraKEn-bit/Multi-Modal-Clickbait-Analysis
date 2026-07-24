@@ -1,0 +1,19 @@
+{
+  "video_id": "3c44MotLOjY",
+  "title": "বঙ্গবন্ধু শেখ মুজিবুর রহমানের সমাধিতে নবনিযুক্ত সেনাপ্রধানের শ্রদ্ধা  || SM Shafique Uddin Ahmed",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 79.17,
+  "transcript_word_count": 192,
+  "ocr_text_detected": true,
+  "ocr_char_count": 4,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.28739315271377563,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 67.71,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

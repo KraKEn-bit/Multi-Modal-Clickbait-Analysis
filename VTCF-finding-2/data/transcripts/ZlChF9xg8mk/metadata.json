@@ -1,0 +1,19 @@
+{
+  "video_id": "ZlChF9xg8mk",
+  "title": "বিপুল আয়ের আশা করছেন ট্যানারি মালিকরা || Weight Blue Leather Export",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 85.46,
+  "transcript_word_count": 1423,
+  "ocr_text_detected": true,
+  "ocr_char_count": 4,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.5895494222640991,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 401.01,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "Yk6cup1R__0",
+  "title": "দেশের দক্ষিণাঞ্চল ও সিলেটে মাঝারি থেকে ভারী বা বজ্রসহ ভারী বৃষ্টির পূর্বাভাস || Weather Forecast",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 72.28,
+  "transcript_word_count": 176,
+  "ocr_text_detected": true,
+  "ocr_char_count": 10,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.3181319832801819,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 58.08,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "08gf5DV8aUs",
+  "title": "গরম খবর! অবশেষে আদালতে ক্ষমা চাইলেন কুষ্টিয়ার সেই পুলিশ সুপার তানভীর আরাফাত | আদালত যে ওয়ার্নিং দিল|",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.65,
+  "transcript_word_count": 434,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4015965461730957,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 118.98,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

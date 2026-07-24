@@ -1,0 +1,19 @@
+{
+  "video_id": "cOAQaT7bPz8",
+  "title": "এবার আর রক্ষা নাই ফ্রান্সের! কঠিন হুমকি দিল এরদোগান! এক হচ্ছে পুরো মুসলিম বিশ্ব। France Vs Erdogan",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.59,
+  "transcript_word_count": 1192,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.37844789028167725,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 361.68,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

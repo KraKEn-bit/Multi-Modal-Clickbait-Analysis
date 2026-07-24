@@ -1,0 +1,19 @@
+{
+  "video_id": "C8P0SgqmnQA",
+  "title": "বিশাল দুঃসংবাদ! চলছে ভয়াবহ সূর্যগ্রহণ!পৃথিবী ধ্বংসের সম্ভাবনা। সবাই সাবধানে থাকুন।Solar Eclipse 2019",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.15,
+  "transcript_word_count": 689,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.39027702808380127,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 188.32,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "p5BwMlHIT6E",
+  "title": "স্পেনে মুসলিম সাম্রাজ্য পতন | Islam in Spain and it's Importance | Eagle Eyes",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 98.79,
+  "semantic_divergence": 0.598817765712738,
+  "transcript_word_count": 1381,
+  "ocr_text_detected": false,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 900.07,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

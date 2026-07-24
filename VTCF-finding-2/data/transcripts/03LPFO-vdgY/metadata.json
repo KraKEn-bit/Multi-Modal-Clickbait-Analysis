@@ -1,0 +1,19 @@
+{
+  "video_id": "03LPFO-vdgY",
+  "title": "কাপুরুষ! হেডাম নাই পাওয়ার নাই! তো প্রেম করতে আসছিস কেন? এক নষ্ট প্রেমের বাস্তব ঘটনা। Sad Love Story",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 89.88,
+  "transcript_word_count": 639,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3742125630378723,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 177.8,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

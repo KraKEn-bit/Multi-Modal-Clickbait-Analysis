@@ -1,0 +1,19 @@
+{
+  "video_id": "6T5nKMY9hVI",
+  "title": "ইসরাইলকে লক্ষ্য করে  একসঙ্গে ৩০০ ক্ষেপণাস্ত্র নিক্ষেপের প্রস্তুতি নিচ্ছিল হামাস || [Hamas Threaten]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 68.78,
+  "transcript_word_count": 88,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2708994746208191,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 30.88,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

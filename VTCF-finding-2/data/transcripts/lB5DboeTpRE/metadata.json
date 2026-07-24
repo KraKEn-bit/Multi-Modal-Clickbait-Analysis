@@ -1,0 +1,19 @@
+{
+  "video_id": "lB5DboeTpRE",
+  "title": "এইমাত্র পাওয়া! হরতালের পর এবার আরো কঠিন কর্মসূচি ঘোষনা হেফাজতের! একজোট হয়েছে দেশের সকল আলেম ওলামা",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.56,
+  "transcript_word_count": 508,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3502851128578186,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 136.97,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

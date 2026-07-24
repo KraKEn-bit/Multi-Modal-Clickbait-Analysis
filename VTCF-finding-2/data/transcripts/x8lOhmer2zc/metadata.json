@@ -1,0 +1,19 @@
+{
+  "video_id": "x8lOhmer2zc",
+  "title": "এই মাত্র পাওয়া!মামুনুল হককে গ্রেফতারের ২৪ ঘণ্টার আল্টিমেডাম ভন্ডপীর ও কাঠমোল্লাদের!ও হরতাল হবে আবারো",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.45,
+  "transcript_word_count": 1272,
+  "ocr_text_detected": true,
+  "ocr_char_count": 81,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.2022714614868164,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 373.2,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

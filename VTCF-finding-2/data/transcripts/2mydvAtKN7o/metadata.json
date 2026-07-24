@@ -1,0 +1,19 @@
+{
+  "video_id": "2mydvAtKN7o",
+  "title": "যে প্লানে এরদোগান ও সালমানের হাত ধরেই, জেরুজালেমের নিশ্চিত বিজয় হচ্ছে  । Erdogan With Salman",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 87.11,
+  "transcript_word_count": 326,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.29006463289260864,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 91.67,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "QHyBl3dSdjE",
+  "title": "রোজ রাত্রে বালিশের নীচে সাবান রেখে শুতো মেয়েটি ।। তার ফল হল অবিশ্বাস্য",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 74.75,
+  "transcript_word_count": 178,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.40105724334716797,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 63.97,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

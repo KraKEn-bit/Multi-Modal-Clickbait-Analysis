@@ -1,0 +1,16 @@
+{
+  "video_id": "-SpHq_CW38Y",
+  "title": "এই মাত্র পাওয়া! সব স্বীকার করে যে ভয়াবহ গোপন তথ্য দিল অনিক সরকার। একে একে বেরিয়ে আসছে সব তথ্য",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 92.09,
+  "semantic_divergence": 0.29360002279281616,
+  "transcript_word_count": 1581,
+  "ocr_text_detected": false,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 491.27,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

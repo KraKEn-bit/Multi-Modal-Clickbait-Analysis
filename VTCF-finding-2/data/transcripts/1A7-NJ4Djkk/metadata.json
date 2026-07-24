@@ -1,0 +1,19 @@
+{
+  "video_id": "1A7-NJ4Djkk",
+  "title": "'১৫ আগষ্ট খালেদা জিয়ার জন্মদিন পালন জাতির সঙ্গে তামাশা' ।। Awami league ।। BNP",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 81.59,
+  "transcript_word_count": 255,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.43805253505706787,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 181.34,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

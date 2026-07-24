@@ -1,0 +1,19 @@
+{
+  "video_id": "6NTeIpwby8s",
+  "title": "এই মাত্র পাওয়া - তারেককে দল ছাড়ার হুমকি দিলেন মওদুদ। দেখুন এরপর তারেক রেগে গিয়ে যা বললেন",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 87.44,
+  "transcript_word_count": 297,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.33173930644989014,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 72.37,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

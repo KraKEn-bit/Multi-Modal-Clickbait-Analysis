@@ -1,0 +1,17 @@
+{
+  "video_id": "V0KYyTawSF4",
+  "title": "উচ্চ আদালতে ঝুলছে অন্তত ১৩শ মামলা || Death referrence case",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 82.7,
+  "semantic_divergence": 0.5616849660873413,
+  "transcript_word_count": 320,
+  "ocr_text_detected": false,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 232.02,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

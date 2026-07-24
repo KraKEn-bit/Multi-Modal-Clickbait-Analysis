@@ -1,0 +1,19 @@
+{
+  "video_id": "J5HtNEMxHBk",
+  "title": "চাল পাচ্ছেন না ভিজিডি কার্ডধারী হতদরিদ্ররা  || #Kishorgonj VGD",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 80.83,
+  "transcript_word_count": 267,
+  "ocr_text_detected": true,
+  "ocr_char_count": 7,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4027522802352905,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 72.91,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

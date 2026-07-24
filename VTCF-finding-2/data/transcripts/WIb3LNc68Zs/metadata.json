@@ -1,0 +1,19 @@
+{
+  "video_id": "WIb3LNc68Zs",
+  "title": "প্রতিদিন ইনকাম ১০ লক্ষ! রোহিঙ্গা নারী সাদিয়ার জমজমাট দেহ ব্যবসার সব কুকর্ম ফাঁস!",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 97.84,
+  "transcript_word_count": 535,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3344528079032898,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 164.06,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

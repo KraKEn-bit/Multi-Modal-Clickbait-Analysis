@@ -1,0 +1,19 @@
+{
+  "video_id": "mT8gZAcEnqw",
+  "title": "সুবহানাল্লাহ স্বপ্নে কেয়ামত দেখে ইসলামের পথে বাংলাদেশি নায়িকা। নায়িকার নাম জানলে চমকে যাবেন",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 85.05,
+  "transcript_word_count": 373,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.37725090980529785,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 123.89,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

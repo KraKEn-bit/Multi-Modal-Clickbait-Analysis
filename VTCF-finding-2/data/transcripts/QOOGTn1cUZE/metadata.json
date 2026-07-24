@@ -1,0 +1,19 @@
+{
+  "video_id": "QOOGTn1cUZE",
+  "title": "চীনে ৭ দশমিক ৩ মাত্রার ভূমিকম্প... || [China earth quake]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 77.71,
+  "transcript_word_count": 76,
+  "ocr_text_detected": true,
+  "ocr_char_count": 12,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.447976291179657,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 22.94,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

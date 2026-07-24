@@ -1,0 +1,19 @@
+{
+  "video_id": "1qFfo7nIIa8",
+  "title": "শেষ পর্ব! ৮ বছরের এক বাচ্চা মেয়ের প্রেগনেন্ট হওয়ার রহস্য জনক এক ঘটনা। যা বেহুশ করে দিয়েছিল সবাইকে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 91.33,
+  "transcript_word_count": 2364,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.24493414163589478,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 557.75,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

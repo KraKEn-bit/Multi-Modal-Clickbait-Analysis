@@ -1,0 +1,19 @@
+{
+  "video_id": "cCFOh2KvG88",
+  "title": "১টি হাতি ও ১টি কুকুর এক সাথে প্রেগনেন্ট হলো এর পর যা হল ।। অনুপ্রেরণার গল্প।। inspirational Story",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 80.48,
+  "transcript_word_count": 240,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4341241717338562,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 68.56,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

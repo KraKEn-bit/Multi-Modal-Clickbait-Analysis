@@ -1,0 +1,19 @@
+{
+  "video_id": "iV56ylQQn8A",
+  "title": "প্রবাসী ভাইদের কিছু অবদান ।। প্রবাসী ভাইদের যে অবদান গুলোর জন্য ফ্যামিলি নিয়ে অনেক ভাল আছি ।",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 80.83,
+  "transcript_word_count": 248,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3070230484008789,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 79.43,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

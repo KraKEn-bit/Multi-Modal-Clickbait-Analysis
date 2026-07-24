@@ -1,0 +1,19 @@
+{
+  "video_id": "E5FLFpUlU6U",
+  "title": "মানুষ এত জঘন্য হয় ক্যামনে? মুন্সীগঞ্জে অনেক কবর থেকে লাশ চুরি হচ্ছে। দেখুন কিভাবে লাশ চুরি হচ্ছে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 80.17,
+  "transcript_word_count": 213,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.21726500988006592,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 66.77,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

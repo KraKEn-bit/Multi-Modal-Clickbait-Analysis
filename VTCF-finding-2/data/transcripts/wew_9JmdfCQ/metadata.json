@@ -1,0 +1,19 @@
+{
+  "video_id": "wew_9JmdfCQ",
+  "title": "পঙ্গু হয়েও যারা পৃথিবীর অবিশ্বাস্য কাজ গুলো করে দেখিয়েছে। যা সাহস জাগবে আপনারও। 5 Disability Man",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 85.04,
+  "transcript_word_count": 683,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2559104561805725,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 177.84,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

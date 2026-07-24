@@ -1,0 +1,19 @@
+{
+  "video_id": "h2rEZtX4WNc",
+  "title": "ওমানের বিপক্ষে জামাল, বিপলুদের ছাড়াই নামতে হচ্ছে বাংলাদেশকে || [Bangladesh Vs Oman]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 84.38,
+  "transcript_word_count": 270,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4267427921295166,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 86.55,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

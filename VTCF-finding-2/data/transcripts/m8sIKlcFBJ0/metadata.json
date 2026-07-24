@@ -1,0 +1,19 @@
+{
+  "video_id": "m8sIKlcFBJ0",
+  "title": "মুক্ত হলেন সাংবাদিক রোজিনা; পাসপোর্ট জমা ও ৫ হাজার টাকা মুচলেকায় জামিন || [Journalist Rozina]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 87.59,
+  "transcript_word_count": 771,
+  "ocr_text_detected": true,
+  "ocr_char_count": 11,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.34369003772735596,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 215.41,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

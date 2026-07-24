@@ -1,0 +1,19 @@
+{
+  "video_id": "k1iZB_kBJLs",
+  "title": "আগে ভাত দে পরে লকডাউন দে স্লোগানে কুড়িগ্রাম কাঁপাচ্ছে ব্যবসায়ীরা। দোকান খুলে দেওয়ার দাবিতে বিক্ষোভ",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.31,
+  "transcript_word_count": 1330,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2302001714706421,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 383.62,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

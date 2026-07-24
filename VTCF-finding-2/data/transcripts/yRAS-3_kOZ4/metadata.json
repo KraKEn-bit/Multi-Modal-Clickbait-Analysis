@@ -1,0 +1,19 @@
+{
+  "video_id": "yRAS-3_kOZ4",
+  "title": "এই মাত্র পাওয়া! বিচার না পাওয়া পর্যন্ত! রাত দিন রাস্তায় ই থাকবে কাদের মির্জা। আ.লীগ নেতাকে হুশিয়ারী",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.5,
+  "transcript_word_count": 1329,
+  "ocr_text_detected": true,
+  "ocr_char_count": 188,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.18142712116241455,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 347.46,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

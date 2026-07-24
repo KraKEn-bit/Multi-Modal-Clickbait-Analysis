@@ -1,0 +1,19 @@
+{
+  "video_id": "-UWkTlt2vvk",
+  "title": "এইমাত্র পাওয়া! ওবায়দুল কাদেরের বাড়িতে দুই পুলিশ পিটিয়ে আহত করলো এক যুবক! দেখুন কে এই সাহসী যুবক",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.59,
+  "transcript_word_count": 1312,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.30289363861083984,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 372.79,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

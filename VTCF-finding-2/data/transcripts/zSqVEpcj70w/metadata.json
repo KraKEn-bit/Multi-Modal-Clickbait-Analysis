@@ -1,0 +1,19 @@
+{
+  "video_id": "zSqVEpcj70w",
+  "title": "এইমাত্র পাওয়া! শিক্ষা প্রতিষ্ঠান খুলে দেয়া হচ্ছে! দেশ কাঁপাচ্ছে ভিপি নুর বাহিনী, ঘেরাও মন্ত্রনালয়",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.04,
+  "transcript_word_count": 1301,
+  "ocr_text_detected": true,
+  "ocr_char_count": 7,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.33518147468566895,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 375.65,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

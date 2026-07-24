@@ -1,0 +1,19 @@
+{
+  "video_id": "1JehNcz9LNA",
+  "title": "সৈয়দ আশরাফের ম্যুরাল ভাঙ্গার প্রতিবাদে কালো কাপড় বেঁধে মানববন্ধন || [Syed Ashraf Mural]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 76.59,
+  "transcript_word_count": 114,
+  "ocr_text_detected": true,
+  "ocr_char_count": 18,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.27644264698028564,
+  "summary_source": "extractive_fallback",
+  "llm_model_used": "extractive",
+  "whisper_confidence": null,
+  "processing_time_seconds": 39.02,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

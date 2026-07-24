@@ -1,0 +1,19 @@
+{
+  "video_id": "9T8EY5B8cTw",
+  "title": "সড়ক-মহাসড়কে মানুষের দুর্ভোগের চিত্র, স্থবির রাজধানী || [No Public Transport]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 86.71,
+  "transcript_word_count": 353,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3953826427459717,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 112.66,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

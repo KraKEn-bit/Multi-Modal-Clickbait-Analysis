@@ -1,0 +1,17 @@
+{
+  "video_id": "DHaQUpweOi8",
+  "title": "ব্রেকিং নিউজ! ২০০ গাছ লাগিয়ে ১১ কোটি টাকার দূর্নীতি! দূর্নীতিতে দেশটা শেষ! এমপি বুবলির ভয়াবহ কান্ড",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.59,
+  "semantic_divergence": 0.4620310068130493,
+  "transcript_word_count": 1629,
+  "ocr_text_detected": false,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 832.1,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

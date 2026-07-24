@@ -1,0 +1,19 @@
+{
+  "video_id": "-uIHPvDkONQ",
+  "title": "দক্ষিণ ঢাকার ডেঙ্গু আক্রান্তের সংখ্যায় আপত্তি মেয়র তাপসের || Sheikh Fazle Noor Taposh",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 84.54,
+  "transcript_word_count": 283,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2723788022994995,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 81.32,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

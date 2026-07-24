@@ -1,0 +1,19 @@
+{
+  "video_id": "oHR-aSnF4Vc",
+  "title": "চট্টগ্রাম চিড়িয়াখানায় সাদা বাঘ, জেব্রা, বানর, গয়ালসহ দুইডজন পশু-পাখি জন্মের অপেক্ষায়।। CTG Zoo",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 80.22,
+  "transcript_word_count": 218,
+  "ocr_text_detected": true,
+  "ocr_char_count": 20,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.23285794258117676,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 67.36,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

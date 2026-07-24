@@ -1,0 +1,19 @@
+{
+  "video_id": "pGRCoap3bFg",
+  "title": "গাজীপুরে নাচার জন্য ডেকে নিয়ে কিশোরীকে দল বেঁধে কুকাম করল ৫ জানোয়ার। কাঁদতে কাঁদতে বেহুশ কিশোরী",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 91.88,
+  "transcript_word_count": 1182,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.33776581287384033,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 323.89,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "5CEsorEgtYc",
+  "title": "করোনার ভারতীয় ধরন ডেল্টা ধারণার চেয়েও বেশি ভয়ঙ্কর || Indian Delta",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 74.17,
+  "transcript_word_count": 189,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.32155418395996094,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 67.29,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

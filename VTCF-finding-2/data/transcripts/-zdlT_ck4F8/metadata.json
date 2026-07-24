@@ -1,0 +1,19 @@
+{
+  "video_id": "-zdlT_ck4F8",
+  "title": "দেশে অপ্রদর্শিত অর্থের পরিমাণ  সুনির্দিষ্ট হিসেব নেই || [Finance Minister]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 88.4,
+  "transcript_word_count": 1439,
+  "ocr_text_detected": true,
+  "ocr_char_count": 6,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4307963252067566,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 339.76,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "JmYEhuQdVUI",
+  "title": "এই মাত্র পাওয়া! ১৩ কোটি টাকার দুর্নীতিতে ফেঁসে গেল ভিপি নুর। নুরের পদত্যাগের দাবিতে উত্তাল পুরো ঢাকা",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 94.3,
+  "transcript_word_count": 1805,
+  "ocr_text_detected": true,
+  "ocr_char_count": 42,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.2699601650238037,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 512.66,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

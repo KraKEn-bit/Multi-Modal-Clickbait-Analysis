@@ -1,0 +1,19 @@
+{
+  "video_id": "_2wNr-ZDJTo",
+  "title": "জার্মানির পশ্চিমাঞ্চলে বন্যা ও ভূমিধসে ৮ জনের মৃত্যু || Flood at German",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 65.92,
+  "transcript_word_count": 77,
+  "ocr_text_detected": true,
+  "ocr_char_count": 4,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.31033021211624146,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 27.7,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

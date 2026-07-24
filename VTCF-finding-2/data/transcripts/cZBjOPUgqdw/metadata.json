@@ -1,0 +1,19 @@
+{
+  "video_id": "cZBjOPUgqdw",
+  "title": "সুরক্ষা ও 'আমি প্রবাসী' অ্যাপসের মাধ্যমে টিকার নিবন্ধন করছে প্রবাসীরা || Probashi Vaccine",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 79.43,
+  "transcript_word_count": 308,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2676052451133728,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 88.65,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

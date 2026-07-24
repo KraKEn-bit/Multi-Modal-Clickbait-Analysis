@@ -1,0 +1,17 @@
+{
+  "video_id": "LRPXOE9Uxp4",
+  "title": "(BREAKING) সোমবার থেকে সীমিত পরিসরে, বৃহস্পতিবার থেকে সর্বাত্মক লকডাউন ।। Lockdown Bangladesh",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 83.61,
+  "semantic_divergence": 0.33243274688720703,
+  "transcript_word_count": 453,
+  "ocr_text_detected": false,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 241.08,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

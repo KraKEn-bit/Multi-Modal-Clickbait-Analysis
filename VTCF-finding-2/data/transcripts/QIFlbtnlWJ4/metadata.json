@@ -1,0 +1,19 @@
+{
+  "video_id": "QIFlbtnlWJ4",
+  "title": "বাংলাদেশের সবচেয়ে ডেঞ্জেরাজ ১০টি জেলা! যেগুলর নাম শুনলে ভয়ে কাঁপে সবাই। Top10 Dangerous District BD",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 92.14,
+  "transcript_word_count": 1276,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.47221261262893677,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 395.53,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

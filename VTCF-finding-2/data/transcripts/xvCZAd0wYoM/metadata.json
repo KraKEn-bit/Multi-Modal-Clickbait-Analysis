@@ -1,0 +1,19 @@
+{
+  "video_id": "xvCZAd0wYoM",
+  "title": "পিটিয়ে হত্যার অভিযোগে মিরসরাই পৌরসভার প্যানেল মেয়র রাজু গ্রেপ্তার || [Mirsarai]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 76.52,
+  "transcript_word_count": 120,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3236568570137024,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 35.26,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

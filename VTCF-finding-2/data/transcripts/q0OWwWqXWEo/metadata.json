@@ -1,0 +1,19 @@
+{
+  "video_id": "q0OWwWqXWEo",
+  "title": "কোটি টাকা ছাড়া কমিটির অনুমোদন দিতেন না যুবলীগ চেয়ারম্যান ওমর ফারুক চৌধুরী। বেড়িয়ে এল থলের বেড়াল।",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 0.0,
+  "transcript_word_count": 0,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": null,
+  "summary_source": "empty_transcript",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 0.86,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

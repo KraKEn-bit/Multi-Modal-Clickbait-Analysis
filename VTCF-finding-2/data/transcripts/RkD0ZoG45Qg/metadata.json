@@ -1,0 +1,19 @@
+{
+  "video_id": "RkD0ZoG45Qg",
+  "title": "ক্রিকেট ইতিহাসের সবচেয়ে ভয়ানক ৫টি ইনজুরি! কিন্তু ইনজুরিকে বুড়ো আঙুল দেখিয়ে তারা আবার মাঠে নেমেছিল",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 93.15,
+  "transcript_word_count": 825,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3682217597961426,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 230.46,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

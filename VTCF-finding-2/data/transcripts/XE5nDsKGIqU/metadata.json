@@ -1,0 +1,19 @@
+{
+  "video_id": "XE5nDsKGIqU",
+  "title": "বরিশালে হিন্দু ধর্ম ত্যাগ করে ইসলাম ধর্ম গ্রহণ পরিবারের সবার। রোজাও রাখলেন প্রথমবারের মত",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 94.07,
+  "transcript_word_count": 1044,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2736266255378723,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 312.69,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

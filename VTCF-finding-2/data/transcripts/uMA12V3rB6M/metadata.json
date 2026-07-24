@@ -1,0 +1,19 @@
+{
+  "video_id": "uMA12V3rB6M",
+  "title": "হচ্ছে ৩০০ স্কুল অব ফিউচার; ষষ্ঠ শ্রেণি থেকেই ভবিষ্যতের প্রযুক্তির জ্ঞান || Zunaid Ahmed Palak",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 84.02,
+  "transcript_word_count": 1322,
+  "ocr_text_detected": true,
+  "ocr_char_count": 5,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.24642068147659302,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 363.69,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

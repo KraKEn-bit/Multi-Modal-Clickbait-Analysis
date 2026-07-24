@@ -1,0 +1,19 @@
+{
+  "video_id": "1W4RPXrzO38",
+  "title": "৪৪টি হাই-ফ্লো ন্যাজাল ক্যানোলা মজুদ রয়েছে || Bogra Press Brief",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 54.51,
+  "transcript_word_count": 244,
+  "ocr_text_detected": true,
+  "ocr_char_count": 29,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4538722634315491,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 62.36,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

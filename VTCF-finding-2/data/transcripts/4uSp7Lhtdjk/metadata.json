@@ -1,0 +1,19 @@
+{
+  "video_id": "4uSp7Lhtdjk",
+  "title": "সাবধান! সেনাবাহিনীর অ্যাকশন শুরু! বাইরে বের হলেই দিচ্ছে ভয়ঙ্কর শাস্তি! আটক করা হচ্ছে প্রাইভেট গাড়িও",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.82,
+  "transcript_word_count": 1314,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.31296515464782715,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 343.83,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

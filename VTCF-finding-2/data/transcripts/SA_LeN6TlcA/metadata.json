@@ -1,0 +1,19 @@
+{
+  "video_id": "SA_LeN6TlcA",
+  "title": "যে ছোট একটি ভুলে লায়লিকে পায়নি মজনু!!। সেই ভুলটি কি জানলে বিশ্বাস করতে কষ্ট হবে। Laili Mojnu",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 87.24,
+  "transcript_word_count": 456,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.33349454402923584,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 126.11,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

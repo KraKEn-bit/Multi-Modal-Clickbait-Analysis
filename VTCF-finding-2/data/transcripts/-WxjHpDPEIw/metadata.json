@@ -1,0 +1,19 @@
+{
+  "video_id": "-WxjHpDPEIw",
+  "title": "ভয়াবহ মাত্রায় সংক্রমণ বাড়লেও বাড়ছে না সচেতনতা || Corona Situation",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 92.82,
+  "transcript_word_count": 1314,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.30325615406036377,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 348.25,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

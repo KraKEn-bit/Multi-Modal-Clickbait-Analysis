@@ -1,0 +1,19 @@
+{
+  "video_id": "8d3ZI3pjZgI",
+  "title": "মা ভাইয়ের জন্য নিজেকে কুরবানী দেওয়া এক বোনের বাস্তব ঘটনা। যা কান্নায় ভাসিয়েছে লাখ লাখ মানুষকে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 88.54,
+  "transcript_word_count": 537,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.21777105331420898,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 135.83,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

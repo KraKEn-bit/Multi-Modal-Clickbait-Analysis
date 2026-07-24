@@ -1,0 +1,19 @@
+{
+  "video_id": "DmLVV_VBD0Q",
+  "title": "প্রথম দিনেই সুরক্ষা অ্যাপ ও ওয়েবসাইটে নিবন্ধন হয়েছে ২ লাখ ৩৯ হাজার || BD Vaccine registration",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 82.9,
+  "transcript_word_count": 294,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.27251631021499634,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 87.76,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

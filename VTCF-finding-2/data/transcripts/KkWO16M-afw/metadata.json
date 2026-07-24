@@ -1,0 +1,19 @@
+{
+  "video_id": "KkWO16M-afw",
+  "title": "রাজধানীর সড়কে তৎপর সেনা-পুলিশ ও বিজিবি || BD Lockdown",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 91.83,
+  "transcript_word_count": 2097,
+  "ocr_text_detected": true,
+  "ocr_char_count": 6,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.6157294511795044,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 555.72,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

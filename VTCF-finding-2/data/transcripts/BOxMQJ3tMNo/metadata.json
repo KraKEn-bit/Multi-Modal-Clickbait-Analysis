@@ -1,0 +1,19 @@
+{
+  "video_id": "BOxMQJ3tMNo",
+  "title": "পাঙ্গাস মাছ খাচ্ছেন? সাবধান খাওয়া বন্ধ করুন সময় থাকতে !! দেখুন কি ভয়াবহ ভাইরাস পাঙ্গাসে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 83.3,
+  "transcript_word_count": 246,
+  "ocr_text_detected": true,
+  "ocr_char_count": 1,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.35410499572753906,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 73.44,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

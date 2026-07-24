@@ -1,0 +1,19 @@
+{
+  "video_id": "xlKXuW0TsNU",
+  "title": "কাঙ্ক্ষিত দাম না পেয়ে গরু নিয়ে ফিরে গেছেন অনেক বিক্রেতা || [Cow haat at Eid day]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 83.92,
+  "transcript_word_count": 439,
+  "ocr_text_detected": true,
+  "ocr_char_count": 26,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.36655616760253906,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 102.73,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

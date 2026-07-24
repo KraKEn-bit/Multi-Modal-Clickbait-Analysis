@@ -1,0 +1,19 @@
+{
+  "video_id": "VTiCMq9sCOk",
+  "title": "উন্নয়ন কাজে কয়েক কোটি টাকার অনিয়মের প্রমাণ || [Viqarunnisa Corruption]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 86.9,
+  "transcript_word_count": 328,
+  "ocr_text_detected": true,
+  "ocr_char_count": 1,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3813713788986206,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 93.01,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

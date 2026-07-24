@@ -1,0 +1,19 @@
+{
+  "video_id": "z9Jn3HNvFMo",
+  "title": "উপহার হিসেবে প্রধানমন্ত্রীর দেয়া বাড়িতে মানসম্মত ঢালাই দেয়া হয়নি;প্রাথমিক তদন্তে প্রমাণ ||Gift house",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 84.48,
+  "transcript_word_count": 209,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.27082282304763794,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 61.73,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "xMA2z9gL97w",
+  "title": "৩৬ লাখ পরিবারকে আড়াই হাজার টাকা করে সহায়তা দিচ্ছেন প্রধানমন্ত্রী || Sheikh Fazle Noor Taposh",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 62.69,
+  "transcript_word_count": 93,
+  "ocr_text_detected": true,
+  "ocr_char_count": 4,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.39402568340301514,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 72.8,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

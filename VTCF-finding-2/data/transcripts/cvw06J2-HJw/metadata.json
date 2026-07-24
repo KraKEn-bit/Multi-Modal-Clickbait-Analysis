@@ -1,0 +1,19 @@
+{
+  "video_id": "cvw06J2-HJw",
+  "title": "দেখেনিন পৃথিবীর সেরা ৮ ধনী কারা, যাদের অর্ধেক পৃথিবী কেনার মত ক্ষমতা আছে ।Top 8 Richest people",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 91.13,
+  "transcript_word_count": 325,
+  "ocr_text_detected": true,
+  "ocr_char_count": 18,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.3086262345314026,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 100.98,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

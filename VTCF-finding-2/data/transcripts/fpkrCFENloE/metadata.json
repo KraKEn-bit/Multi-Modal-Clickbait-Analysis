@@ -1,0 +1,19 @@
+{
+  "video_id": "fpkrCFENloE",
+  "title": "সব নাটক ফাঁস করল! মামুনুল হকের ২য় স্ত্রীর ছেলে। দেখুন ছেলেটির কথাগুলো কি সত্যি নাকি সাজানো নাটক?",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 93.98,
+  "transcript_word_count": 1270,
+  "ocr_text_detected": true,
+  "ocr_char_count": 31,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.3301689028739929,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 364.84,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "EIwNKv-QFh8",
+  "title": "মিয়ানমারের সেনাবাহিনী কতটা শক্তিশালী, জানলে মাথা ঘুরে যাবে । How strong is the army of Myanmar",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 90.03,
+  "transcript_word_count": 502,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.589929461479187,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 185.6,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

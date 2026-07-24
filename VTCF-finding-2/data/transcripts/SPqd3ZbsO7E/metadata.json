@@ -1,0 +1,19 @@
+{
+  "video_id": "SPqd3ZbsO7E",
+  "title": "কাপ্তাই হ্রদে মাছ শিকারে নিষেধাজ্ঞার সময়সীমা বাড়ল || [Ban on Fishing]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 58.48,
+  "transcript_word_count": 57,
+  "ocr_text_detected": true,
+  "ocr_char_count": 24,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.18873488903045654,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 15.09,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "fuHN62yjK20",
+  "title": "সন্তান নেয়ার আগের ১০ টি আবশ্যকীয় প্রস্তুতি - ডা. তাসনিম জারা (চিকিৎসক, ইংল্যান্ড)",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 92.1,
+  "transcript_word_count": 1777,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2595289945602417,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 438.8,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

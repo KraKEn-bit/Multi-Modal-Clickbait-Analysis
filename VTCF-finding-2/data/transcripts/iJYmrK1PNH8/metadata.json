@@ -1,0 +1,19 @@
+{
+  "video_id": "iJYmrK1PNH8",
+  "title": "অবশেষে প্রমান হল! অন্যের বউ নাঈমাকে বিয়ে করেছে মিছবাহ! দেখুন নিজ মুখে স্বীকার করলো নাঈমার মা",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 94.35,
+  "transcript_word_count": 1285,
+  "ocr_text_detected": true,
+  "ocr_char_count": 34,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.2832896113395691,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 505.84,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

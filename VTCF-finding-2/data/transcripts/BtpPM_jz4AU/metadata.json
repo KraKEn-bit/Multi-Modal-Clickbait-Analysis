@@ -1,0 +1,19 @@
+{
+  "video_id": "BtpPM_jz4AU",
+  "title": "এই মাত্র পাওয়া! এক হয়ে গেছে সব মুসলিম দেশ! দিশেহার মুদি ভয়ানক বিপদে। জাকির নায়েক ফিরবে ইন্ডিয়া?",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 97.97,
+  "transcript_word_count": 1551,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3132726550102234,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 477.18,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

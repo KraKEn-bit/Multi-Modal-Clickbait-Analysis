@@ -1,0 +1,19 @@
+{
+  "video_id": "spNeZqrKP7g",
+  "title": "এইমাত্র! নাতনি হেলেনাকে ছেড়ে দিতে র‍্যাবকে হুমকি দিলো সেফুদা! বললো আমার ধৈর্যের বাঁধ ভেঙে গেছে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 97.7,
+  "transcript_word_count": 1326,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.35976409912109375,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 374.76,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

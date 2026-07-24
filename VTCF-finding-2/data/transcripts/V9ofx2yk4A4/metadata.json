@@ -1,0 +1,19 @@
+{
+  "video_id": "V9ofx2yk4A4",
+  "title": "মাত্র পাওয়া! মামুনুল হককে নিয়ে তোলপাড় ভারতীয় গণমাধ্যম! পাকিস্তান থেকে মামুনুলের অর্থপ্রাপ্তির দাবি",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 94.55,
+  "transcript_word_count": 1235,
+  "ocr_text_detected": true,
+  "ocr_char_count": 29,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.20459771156311035,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 366.39,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

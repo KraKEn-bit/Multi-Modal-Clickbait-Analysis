@@ -1,0 +1,19 @@
+{
+  "video_id": "A2DtiJsLp2Q",
+  "title": "বিশ্বকাপ শেষে দেশে ফিরেছেন আর্চার রোমান সানা ও দিয়া সিদ্দিকী || Archery World Cup",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 72.33,
+  "transcript_word_count": 182,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3501092791557312,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 49.11,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

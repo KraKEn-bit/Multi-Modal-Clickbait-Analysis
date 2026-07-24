@@ -1,0 +1,19 @@
+{
+  "video_id": "5kBcLJ9FrmI",
+  "title": "নীলফামারীতে লকডাউনে ঘুরতে বাধা দেওয়ায় পুলিশকে পিটালো যুবক! টেনে ছিঁড়ে ফেললো শার্ট। BD Lockdown News",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.52,
+  "transcript_word_count": 1336,
+  "ocr_text_detected": true,
+  "ocr_char_count": 11,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.3473818302154541,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 375.51,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "tsbNQP6vwr4",
+  "title": "প্রিয় এই ২ অভিনেতার মধ্যে কে সেরা ধনী।। সালমান নাকি শাহরুখ ?দেখুন (ভিডিও) ।। Forbes celeb rich list",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 74.47,
+  "semantic_divergence": 0.426607608795166,
+  "transcript_word_count": 220,
+  "ocr_text_detected": false,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 108.26,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "_sO-Ev207cE",
+  "title": "চলছে ভারত পাকিস্তান পাল্টা পাল্টি বিমান হামলা! দেখুন এই লড়াইয়ে কার হাতে কত অস্ত্র রয়েছে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 89.89,
+  "transcript_word_count": 1658,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.46363842487335205,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 1139.11,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

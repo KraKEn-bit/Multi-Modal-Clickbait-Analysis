@@ -1,0 +1,19 @@
+{
+  "video_id": "2YD_1VpXlxY",
+  "title": "আবারো রিমান্ডে পরীমনি! চিৎকার করে আদালতে যা বললো পরী ও তার নানা। তারপরও ছাড় পেল না। Pori Moni News",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.48,
+  "transcript_word_count": 1321,
+  "ocr_text_detected": true,
+  "ocr_char_count": 8,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.45167291164398193,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 354.6,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

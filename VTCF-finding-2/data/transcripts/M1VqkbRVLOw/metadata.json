@@ -1,0 +1,19 @@
+{
+  "video_id": "M1VqkbRVLOw",
+  "title": "অবৈধ সম্পদ অর্জনের অভিযোগে পাসপোর্ট অধিদপ্তরের সাবেক মহাপরিচালক বিরুদ্ধে মামলা || ACC",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 71.35,
+  "transcript_word_count": 100,
+  "ocr_text_detected": true,
+  "ocr_char_count": 4,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2162366509437561,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 78.86,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

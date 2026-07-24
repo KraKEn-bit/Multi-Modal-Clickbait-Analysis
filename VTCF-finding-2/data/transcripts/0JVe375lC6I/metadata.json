@@ -1,0 +1,19 @@
+{
+  "video_id": "0JVe375lC6I",
+  "title": "সর্বনাশ পুলিশের খেলা শুরু! যাকে রাস্তায় পাচ্ছে তাকেই ধরে নিয়ে যাচ্ছে! একদিনেই গ্রেফতার হাজারো লোক",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 0.0,
+  "transcript_word_count": 0,
+  "ocr_text_detected": true,
+  "ocr_char_count": 7,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": null,
+  "summary_source": "empty_transcript",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 0.85,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

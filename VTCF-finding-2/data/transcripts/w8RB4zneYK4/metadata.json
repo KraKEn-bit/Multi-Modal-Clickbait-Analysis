@@ -1,0 +1,19 @@
+{
+  "video_id": "w8RB4zneYK4",
+  "title": "নাউজুবিল্লাহ! গোপন অঙ্গে বেলুনি ঢুকিয়ে মরিচ লাগিয়ে দিলো নি*র্যাতন করলো জানোয়ার আইনজীবী। Bangla News",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 97.13,
+  "transcript_word_count": 1345,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.24411964416503906,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 377.23,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

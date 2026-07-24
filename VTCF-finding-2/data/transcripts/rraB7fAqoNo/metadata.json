@@ -1,0 +1,19 @@
+{
+  "video_id": "rraB7fAqoNo",
+  "title": "ব্রেকিং নিউজ! মহাযুদ্ধ শুরু! ভারত চীনের পাল্টা পাল্টি আক্রমণ শুরু। আহত শত শত সেনা। India China Fight",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 97.21,
+  "transcript_word_count": 1722,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.44921356439590454,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 439.24,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

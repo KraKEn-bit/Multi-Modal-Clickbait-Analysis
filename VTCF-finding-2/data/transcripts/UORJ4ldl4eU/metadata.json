@@ -1,0 +1,19 @@
+{
+  "video_id": "UORJ4ldl4eU",
+  "title": "টি-টোয়েন্টি ও টেস্ট অভিষেকের পর এবার আঙিনায় ওয়ানডে অভিষেকের অপেক্ষা || SHORIFUL BRIGHT FUTURE",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 85.47,
+  "transcript_word_count": 372,
+  "ocr_text_detected": true,
+  "ocr_char_count": 6,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4357669949531555,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 91.28,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

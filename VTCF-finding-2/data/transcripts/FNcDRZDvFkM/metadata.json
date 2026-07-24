@@ -1,0 +1,19 @@
+{
+  "video_id": "FNcDRZDvFkM",
+  "title": "কঠিন এক ব্যাংক ডাকাতির বাস্তব ঘটনা! যা পুরো বিশ্বে আলোড়ন সৃষ্টি হয়ে গিয়েছিল। Bank Robbery Story",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 85.83,
+  "transcript_word_count": 456,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3492666482925415,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 131.8,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

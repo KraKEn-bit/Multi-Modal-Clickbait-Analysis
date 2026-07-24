@@ -1,0 +1,19 @@
+{
+  "video_id": "LIpA9fX6kT0",
+  "title": "করোনায় শ্বাসকষ্ট: যে কৌশল জীবন বাঁচাতে পারে - ডা. তাসনিম জারা (চিকিৎসক, ইংল্যান্ড)",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 92.9,
+  "transcript_word_count": 841,
+  "ocr_text_detected": true,
+  "ocr_char_count": 13,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3910093903541565,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 492.37,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

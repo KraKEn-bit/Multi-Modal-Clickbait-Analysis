@@ -1,0 +1,19 @@
+{
+  "video_id": "2gyr2c0Wgkg",
+  "title": "ফেঁসে যাচ্ছে ১১ মন্ত্রী! র‌্যাবের কাছে ভয়ানক জবানবিন্দ দিল পাপিয়া। ও ওয়েস্টিন হোটেলের আকাম ফাঁস",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 97.78,
+  "transcript_word_count": 1690,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2510659694671631,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 483.62,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

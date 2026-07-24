@@ -1,0 +1,19 @@
+{
+  "video_id": "j_JUeaiiL2E",
+  "title": "ফেঁসে যাচ্ছে শাকিব! প্রধানমন্ত্রীর কাছে শাকিবের শাস্তি চেয়ে যা বলল অপু ।  bangla showbiz news",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 78.32,
+  "transcript_word_count": 176,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3966299891471863,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 52.5,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

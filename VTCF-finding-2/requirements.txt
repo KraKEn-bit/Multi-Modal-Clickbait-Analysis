@@ -1,0 +1,28 @@
+# Core (shared versions with vtcf-research where possible)
+torch==2.3.0
+transformers==4.41.0
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.0
+scipy==1.13.1
+PyYAML==6.0.1
+tqdm==4.66.4
+Pillow==10.3.0
+
+# Speech pipeline
+openai-whisper==20240930
+transformers==4.41.0
+torchaudio==2.3.0
+soundfile==0.12.1
+silero-vad==5.1.2
+demucs==4.0.1
+
+# OCR
+easyocr==1.7.1
+
+# Video / audio I/O
+yt-dlp[default]==2026.6.9
+opencv-python-headless==4.10.0.84
+
+# Optional denoise (Phase 1+)
+# noisereduce==3.0.2

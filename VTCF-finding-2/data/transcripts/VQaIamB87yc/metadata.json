@@ -1,0 +1,19 @@
+{
+  "video_id": "VQaIamB87yc",
+  "title": "এইমাত্র পাওয়া! যে ভয়ংকর অভিযোগ করলেন আবু ত্বহা মোহাম্মদ আদনান এর স্ত্রী| নিখোঁজ আদনান|Abu toha adnan",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.1,
+  "transcript_word_count": 516,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.29664719104766846,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 139.05,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

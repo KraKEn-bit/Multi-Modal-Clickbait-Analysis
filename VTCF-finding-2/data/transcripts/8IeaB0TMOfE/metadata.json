@@ -1,0 +1,19 @@
+{
+  "video_id": "8IeaB0TMOfE",
+  "title": "এইমাত্র পাওয়া! পরকীয়া করে অন্যের বউ ভাগাতে গিয়ে ধরা পড়লো কুয়াকাটা হুজুর! তোলপাড় সারাদেশের আলেম সমাজ",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.72,
+  "transcript_word_count": 1321,
+  "ocr_text_detected": true,
+  "ocr_char_count": 31,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.3091883063316345,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 368.26,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

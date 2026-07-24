@@ -1,0 +1,19 @@
+{
+  "video_id": "FA4WMICEHFI",
+  "title": "এইমাত্র পাওয়া! এবার ভয়ঙ্কর শক্তিশালী ঘূর্ণিঝড়ে লন্ডভন্ড পুরো ভারত! চারিদিকে কান্নার আহাজারি",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 94.93,
+  "transcript_word_count": 546,
+  "ocr_text_detected": true,
+  "ocr_char_count": 7,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.29873108863830566,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 156.07,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "DBOgHhvEwss",
+  "title": "পাপের শাস্তি শুরু! অন্য আসামীরা অনিককে পিটিয়ে হাড্ডি ভেঙ্গে দিয়েছে। জেলের ভিতরেও রক্ষা নেই অনিকের",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.54,
+  "transcript_word_count": 350,
+  "ocr_text_detected": true,
+  "ocr_char_count": 3,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.19536232948303223,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 96.9,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

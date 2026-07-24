@@ -1,0 +1,19 @@
+{
+  "video_id": "BU_VyTL2lEs",
+  "title": "ব্রেকিং নিউজ! মোদিকে রুখে দিতে হেফাজতের কঠিন প্ল্যান। মামুনুল হকের কঠিন হুমকিতে গরম রাজধানী",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 87.45,
+  "transcript_word_count": 1301,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4064868092536926,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 383.58,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

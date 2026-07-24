@@ -1,0 +1,19 @@
+{
+  "video_id": "-YsrHlHU0S8",
+  "title": "বিশ্বের যে দেশের মেয়ে সেনাবাহিনীরা সবচেয়ে হট ও সুন্দরী । Most beautiful Army in The World",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 80.21,
+  "transcript_word_count": 336,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.512283205986023,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 105.57,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

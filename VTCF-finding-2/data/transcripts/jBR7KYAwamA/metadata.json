@@ -1,0 +1,19 @@
+{
+  "video_id": "jBR7KYAwamA",
+  "title": "রাতের ঢাকায় যেভাবে রুপের লোভ দেখিয়ে সব কিছু হাতিয়ে নিচ্ছে নষ্ট মেয়েরা। ভয়ংকর ফাঁদের রহস্য ফাঁস",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 94.28,
+  "transcript_word_count": 1472,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2453964352607727,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 972.69,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "6pxkyuIVz6g",
+  "title": "ট্রেন টিকিটের চাহিদা কেমন? || Lockdown Situation || Train Ticket",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 77.97,
+  "transcript_word_count": 513,
+  "ocr_text_detected": true,
+  "ocr_char_count": 9,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.7004688084125519,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 153.45,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "yHTJKlI7l2Q",
+  "title": "পৃথিবীর সবচেয়ে গরিব ৫টি দেশ। যেখানে না খেয়ে মারা যায় বেশিরভাগ মানুষ। Top 5 Poorest Countries",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 83.42,
+  "transcript_word_count": 314,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3243115544319153,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 88.73,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

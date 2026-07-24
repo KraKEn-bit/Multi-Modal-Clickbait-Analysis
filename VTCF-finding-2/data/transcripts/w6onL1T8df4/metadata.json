@@ -1,0 +1,19 @@
+{
+  "video_id": "w6onL1T8df4",
+  "title": "জাতিসংঘ মহাসচিবের মিয়ানমার-বিষয়ক দূতের সাথে পররাষ্ট্রমন্ত্রীর দ্বিপক্ষীয় বৈঠক ।। UN Rohinga Issue",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 79.59,
+  "transcript_word_count": 125,
+  "ocr_text_detected": true,
+  "ocr_char_count": 4,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.26013076305389404,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 40.48,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

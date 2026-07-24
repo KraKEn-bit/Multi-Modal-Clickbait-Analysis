@@ -1,0 +1,19 @@
+{
+  "video_id": "OTflJjN0H3M",
+  "title": "এইমাত্র পাওয়া! দেখুন নতুন করে লক আউট হচ্ছে যেসব এলাকা! ও ঘরে ঘরে খাবার পৌঁছে দিবে সেনাবাহিনী",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.78,
+  "transcript_word_count": 1731,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.5316502153873444,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 1413.33,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

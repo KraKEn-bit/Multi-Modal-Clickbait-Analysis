@@ -1,0 +1,19 @@
+{
+  "video_id": "2kmUmAMSAHs",
+  "title": "রাজশাহী-কুষ্টিয়ায় দেড় মাসের ২ শিশু আক্রান্ত ।। Rajshahi Kustia",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 81.84,
+  "transcript_word_count": 246,
+  "ocr_text_detected": true,
+  "ocr_char_count": 19,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3520543575286865,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 75.13,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

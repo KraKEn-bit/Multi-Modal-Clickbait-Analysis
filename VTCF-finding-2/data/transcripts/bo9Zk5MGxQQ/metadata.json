@@ -1,0 +1,19 @@
+{
+  "video_id": "bo9Zk5MGxQQ",
+  "title": "এই মাত্র পাওয়া- শ্রীলংকায় বৌদ্ধ ও মুসলিমদের ভয়াবহ যুদ্ধ। জরুরি অবস্থা জারি",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 85.42,
+  "transcript_word_count": 250,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.21292096376419067,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 72.98,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

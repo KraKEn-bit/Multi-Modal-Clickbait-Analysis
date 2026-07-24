@@ -1,0 +1,19 @@
+{
+  "video_id": "wf7esTI4W_0",
+  "title": "পৃথিবীর আর কোন ছাত্রের সাথে যেন এমন কাজ না হয়। এক এতিম ছেলেকে যা করল শিক্ষক দেখলে সিউর কাঁদবেন",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 89.74,
+  "transcript_word_count": 686,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2614173889160156,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 170.48,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "EDNDYHqknQY",
+  "title": "এই চা বিক্রেতার মাসে ইনকাম লাখ লাখ টাকা। বাংলাদেশের এই চা বিক্রেতার পরিচয় জানলে চমকে যাবেন",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 86.18,
+  "transcript_word_count": 364,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3476325273513794,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 83.15,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

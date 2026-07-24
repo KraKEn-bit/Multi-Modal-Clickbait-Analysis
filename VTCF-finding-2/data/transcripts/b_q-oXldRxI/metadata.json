@@ -1,0 +1,19 @@
+{
+  "video_id": "b_q-oXldRxI",
+  "title": "তালেবানের উত্থান আইনশৃঙ্খলা বাহিনীকে নতুন করে ভাবতে বাধ্য করছে || [DMP Commissioner]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 87.37,
+  "transcript_word_count": 313,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3885132670402527,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 92.72,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

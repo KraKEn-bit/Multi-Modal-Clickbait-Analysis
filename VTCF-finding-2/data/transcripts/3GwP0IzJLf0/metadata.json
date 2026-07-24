@@ -1,0 +1,19 @@
+{
+  "video_id": "3GwP0IzJLf0",
+  "title": "এবার সরাসরি প্রধানমন্ত্রীর সাথে বৈঠকে মির্জা ফখরুল ও ড.কামাল। বিএনপির রাজনেতিক কোন দিকে মোড় নিচ্ছে?",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 82.81,
+  "transcript_word_count": 303,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.29324233531951904,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 83.35,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "L4BSp1hjRyk",
+  "title": "এই মাত্র পাওয়া! দেওয়ানবাগী মরেনি, আল্লাহর সাক্ষাতে গেছে! নাউজুবিল্লাহ!দেখুন একি বলল দেওয়ানবাগীর ছেলে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 91.54,
+  "transcript_word_count": 1356,
+  "ocr_text_detected": true,
+  "ocr_char_count": 15,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4503592252731323,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 352.26,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

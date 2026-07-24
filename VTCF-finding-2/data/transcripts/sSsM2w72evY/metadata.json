@@ -1,0 +1,19 @@
+{
+  "video_id": "sSsM2w72evY",
+  "title": "তিনগুণ ভাড়ায় অবর্ণনীয় ভোগান্তি সয়ে ঢাকা ছাড়ছে মানুষ, চলছে দূরপাল্লার বাসও ।। Eid Journey",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 92.21,
+  "transcript_word_count": 1787,
+  "ocr_text_detected": true,
+  "ocr_char_count": 3,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.22116506099700928,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 834.91,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

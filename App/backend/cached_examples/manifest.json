@@ -1,0 +1,111 @@
+{
+  "examples": [
+    {
+      "video_id": "pYganyZsHYM",
+      "youtube_url": "https://www.youtube.com/watch?v=pYganyZsHYM",
+      "title": "🚨 A Mysterious Incident in the Jungle! You Won't Believe What Happened Next! 😱🔥",
+      "verdict": "CLICKBAIT",
+      "confidence": 92.88,
+      "tds_score": 0.5792,
+      "explanation": "The video starts with irrelevant visuals but diverges from the headline promise by the delivery frame.",
+      "alignment_scores": {
+        "hook": -0.0593,
+        "context": 0.0005,
+        "delivery": -0.0185
+      },
+      "frame_urls": [
+        "/cached-frames/pYganyZsHYM/frame_0.png",
+        "/cached-frames/pYganyZsHYM/frame_1.png",
+        "/cached-frames/pYganyZsHYM/frame_2.png"
+      ],
+      "processing_time_seconds": 36.4,
+      "category": "clickbait",
+      "example_label": "Obvious clickbait",
+      "example_description": "Sensational English headline on viral-style footage."
+    },
+    {
+      "video_id": "hcFpC8R6c24",
+      "youtube_url": "https://www.youtube.com/watch?v=hcFpC8R6c24",
+      "title": "আজকের শীর্ষ ৭ খবর | Shirsho 7 | 24 July 2026 | Independent TV | Independent TV",
+      "verdict": "GENUINE",
+      "confidence": 99.91,
+      "tds_score": 0.5275,
+      "explanation": "The video starts with irrelevant visuals but diverges from the headline promise by the delivery frame.",
+      "alignment_scores": {
+        "hook": 0.0689,
+        "context": 0.0675,
+        "delivery": -0.0019
+      },
+      "frame_urls": [
+        "/cached-frames/hcFpC8R6c24/frame_0.png",
+        "/cached-frames/hcFpC8R6c24/frame_1.png",
+        "/cached-frames/hcFpC8R6c24/frame_2.png"
+      ],
+      "processing_time_seconds": 44.3,
+      "category": "genuine",
+      "example_label": "Obvious genuine",
+      "example_description": "Independent TV news bulletin — straightforward headline."
+    },
+    {
+      "video_id": "OoUO4vjgM4c",
+      "youtube_url": "https://www.youtube.com/watch?v=OoUO4vjgM4c",
+      "title": "তিন দিনে আফগানিস্তানের পাঁচ প্রাদেশিক রাজধানী তালেবানের দখলে || [Taleban Situation]",
+      "verdict": "GENUINE",
+      "confidence": 99.96,
+      "tds_score": 0.8354,
+      "explanation": "The video starts with irrelevant visuals but diverges from the headline promise by the delivery frame.",
+      "alignment_scores": {
+        "hook": -0.0132,
+        "context": -0.0266,
+        "delivery": 0.0271
+      },
+      "frame_urls": [
+        "/cached-frames/OoUO4vjgM4c/frame_0.png",
+        "/cached-frames/OoUO4vjgM4c/frame_1.png",
+        "/cached-frames/OoUO4vjgM4c/frame_2.png"
+      ],
+      "processing_time_seconds": 10.4,
+      "text_only": {
+        "verdict": "CLICKBAIT",
+        "confidence": 99.98,
+        "wrong": true
+      },
+      "ground_truth": "GENUINE",
+      "vtcf_rescued": true,
+      "category": "hard",
+      "example_label": "Hard case — breaking news title, factual bulletin",
+      "example_description": "Human label: genuine. BanglaBERT title-only flags clickbait; VTCF reads the newsroom visuals correctly."
+    },
+    {
+      "video_id": "DhESX8gA7wk",
+      "youtube_url": "https://www.youtube.com/watch?v=DhESX8gA7wk",
+      "title": "বড় বোনের বিয়েতে সিনেমা স্টাইলে অপহরন ছোট বোন। অবাক করা এই কাজ করল বর নিজেই। দেখুন তোলপাড় সারাদেশ",
+      "verdict": "CLICKBAIT",
+      "confidence": 94.82,
+      "tds_score": 0.1108,
+      "explanation": "The video starts with irrelevant visuals but diverges from the headline promise by the delivery frame.",
+      "alignment_scores": {
+        "hook": -0.0353,
+        "context": -0.0026,
+        "delivery": -0.0356
+      },
+      "frame_urls": [
+        "/cached-frames/DhESX8gA7wk/frame_0.png",
+        "/cached-frames/DhESX8gA7wk/frame_1.png",
+        "/cached-frames/DhESX8gA7wk/frame_2.png"
+      ],
+      "processing_time_seconds": 9.8,
+      "text_only": {
+        "verdict": "GENUINE",
+        "confidence": 98.38,
+        "wrong": true
+      },
+      "ground_truth": "CLICKBAIT",
+      "vtcf_rescued": true,
+      "category": "hard",
+      "example_label": "Hard case — sensational wedding headline",
+      "example_description": "Human label: clickbait. BanglaBERT title-only misses it; VTCF catches the mismatch from video frames."
+    }
+  ],
+  "research_note": "Clickbait videos show LESS visual change on average than genuine videos because clickbait often reuses static footage rather than bait-and-switching content."
+}

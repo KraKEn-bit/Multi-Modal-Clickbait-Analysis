@@ -1,0 +1,19 @@
+{
+  "video_id": "BHvd2TPgBSQ",
+  "title": "বাংলাদেশ-ভারত সীমান্ত বন্ধের সময়সীমা আরো ২ সপ্তাহ বাড়ানো ।। Indian border",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 88.36,
+  "transcript_word_count": 536,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.28247153759002686,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 152.89,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

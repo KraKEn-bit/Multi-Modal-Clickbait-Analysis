@@ -1,0 +1,19 @@
+{
+  "video_id": "xefI6m1NpEQ",
+  "title": "ছিঃ ছিঃ! ২০ লাখ টাকা যৌতুকের জন্য স্ত্রী ও শাশুড়িকে পিটিয়ে হাসপাতালে পাঠালো ইমাম! তোলপাড় পুরোদেশ",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.38,
+  "transcript_word_count": 1293,
+  "ocr_text_detected": true,
+  "ocr_char_count": 9,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.2571328282356262,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 391.49,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

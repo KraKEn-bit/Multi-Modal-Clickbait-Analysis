@@ -1,0 +1,19 @@
+{
+  "video_id": "s3DoWsmy2c0",
+  "title": "এই মাত্র পাওয়া! শেষ ভিপি নুর! এবার কঠিন আক্রমন নুরের উপর। আজাহারীর মাহফিলে হিন্দু যুবকের ইসলাম গ্রহন",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 94.46,
+  "transcript_word_count": 1485,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.32317233085632324,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 391.76,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

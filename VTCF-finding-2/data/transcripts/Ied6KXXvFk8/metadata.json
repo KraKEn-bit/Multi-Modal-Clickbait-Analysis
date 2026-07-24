@@ -1,0 +1,19 @@
+{
+  "video_id": "Ied6KXXvFk8",
+  "title": "ইট পাথর না খেয়ে একদিনও থাকতে পারেন না ইনি!! ২০ বছর যাবত ভাত না খেয়ে ইট পাথর খেয়ে বেঁচে আছেন তিনি",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 77.44,
+  "transcript_word_count": 362,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.46263498067855835,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 95.34,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

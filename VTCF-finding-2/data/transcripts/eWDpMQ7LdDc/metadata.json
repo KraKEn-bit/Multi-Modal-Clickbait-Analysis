@@ -1,0 +1,19 @@
+{
+  "video_id": "eWDpMQ7LdDc",
+  "title": "বিএনপি নিয়ে আগ্রহ নেই: কাদের; খালেদা জিয়া মুক্ত থাকলে সরকার তাসের ঘরের মতো উড়ে যেতো:ফখরুল || Politis",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 79.49,
+  "transcript_word_count": 225,
+  "ocr_text_detected": true,
+  "ocr_char_count": 68,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.36034345626831055,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 164.66,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

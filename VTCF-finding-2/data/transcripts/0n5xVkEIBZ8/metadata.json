@@ -1,0 +1,19 @@
+{
+  "video_id": "0n5xVkEIBZ8",
+  "title": "ব্রেকিংঃ রাজধানীতে ভয়াবহ রুপ নিয়েছে ডেঙ্গু জ্বর।সব হাসপাতাল পরিপূর্ন রোগী। বাঁচার উপায় কি?",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 94.67,
+  "transcript_word_count": 479,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.20148074626922607,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 134.37,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

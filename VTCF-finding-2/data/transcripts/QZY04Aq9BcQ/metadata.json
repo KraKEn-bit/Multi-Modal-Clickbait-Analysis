@@ -1,0 +1,17 @@
+{
+  "video_id": "QZY04Aq9BcQ",
+  "title": "সৌদি সাংবাদিক জামাল খাসোগির ৪ হত্যাকারী প্রশিক্ষণ নিয়েছে যুক্তরাষ্ট্রে ||  [Jamal Khashoggi ]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 67.58,
+  "semantic_divergence": 0.25893473625183105,
+  "transcript_word_count": 83,
+  "ocr_text_detected": false,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 68.06,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

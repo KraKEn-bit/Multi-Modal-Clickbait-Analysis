@@ -1,0 +1,19 @@
+{
+  "video_id": "k7ho1Lqcl_c",
+  "title": "গৃহকর্মীকে নির্যাতনের ঘটনায় চিত্রনায়িকা একা আটক ।। Actor Eka Case",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 82.57,
+  "transcript_word_count": 259,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.22403812408447266,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 245.85,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

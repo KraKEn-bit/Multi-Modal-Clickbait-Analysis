@@ -1,0 +1,19 @@
+{
+  "video_id": "bHjLYsDRXHs",
+  "title": "সাক্ষ্যগ্রহণ শেষ, যুক্তিতর্ক শুনানির অপেক্ষা ||  Julhas Tonoy Case",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 82.87,
+  "transcript_word_count": 295,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.34783267974853516,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 92.27,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

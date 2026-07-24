@@ -1,0 +1,19 @@
+{
+  "video_id": "_-mrbGghlFA",
+  "title": "হায় হায় মান ইজ্জত সব শেষ! এবার নিজের ৩য় বিয়ের কথাও স্বীকার মামুনুল হকের!দেখুন ৩য় স্ত্রী কে এই নারী",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 97.53,
+  "transcript_word_count": 1240,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3190816044807434,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 345.31,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

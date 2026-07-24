@@ -1,0 +1,19 @@
+{
+  "video_id": "sRunbkriZx4",
+  "title": "১ জুলাই থেকে ৭ দিনের কঠোর বিধিনিষেধ, আজ প্রজ্ঞাপন || #Lockdown #Shutdown",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 54.35,
+  "transcript_word_count": 68,
+  "ocr_text_detected": true,
+  "ocr_char_count": 10,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.42626696825027466,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 21.09,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

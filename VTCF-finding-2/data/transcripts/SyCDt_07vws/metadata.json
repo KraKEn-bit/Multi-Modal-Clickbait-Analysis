@@ -1,0 +1,19 @@
+{
+  "video_id": "SyCDt_07vws",
+  "title": "হায় আল্লাহ! লকডাউন না মেনে পুলিশকে রাস্তায় পিষে মারলো চালক! সবাই চেয়ে দেখলো, কেউ পারলোনা বাঁচাতে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.69,
+  "transcript_word_count": 1333,
+  "ocr_text_detected": true,
+  "ocr_char_count": 4,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4264281988143921,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 374.19,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

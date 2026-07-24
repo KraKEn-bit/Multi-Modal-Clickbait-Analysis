@@ -1,0 +1,19 @@
+{
+  "video_id": "B1m3_aJEFjM",
+  "title": "ভিপি নুরের পক্ষ নিয়ে প্রধানমন্ত্রীকে চরম অপমান করে যা বলল জাফরুল্লাহ। ও সারাদেশে আবারো ভয়াবহ বন্যা",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 97.84,
+  "transcript_word_count": 1331,
+  "ocr_text_detected": true,
+  "ocr_char_count": 19,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.22992008924484253,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 975.77,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

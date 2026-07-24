@@ -1,0 +1,19 @@
+{
+  "video_id": "2B8fUsuI5B4",
+  "title": "এইমাত্র পাওয়া!! ৫ আগস্টের পর লকডাউন বাড়বে কিনা যা জানা গেল || আজকের খবর ২ আগস্ট ২০২১ | Lockdown news",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 0.0,
+  "transcript_word_count": 0,
+  "ocr_text_detected": true,
+  "ocr_char_count": 11,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": null,
+  "summary_source": "empty_transcript",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 300.37,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

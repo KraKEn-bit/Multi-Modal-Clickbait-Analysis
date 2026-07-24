@@ -1,0 +1,19 @@
+{
+  "video_id": "RMEx1bbUscg",
+  "title": "রোহিঙ্গাদের দ্রুত ফেরত পাঠাতে জাতিসংঘে সর্বসম্মত প্রস্তাব পাস।। Rohinga Issue",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 77.04,
+  "transcript_word_count": 108,
+  "ocr_text_detected": true,
+  "ocr_char_count": 4,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.38082677125930786,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 31.65,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

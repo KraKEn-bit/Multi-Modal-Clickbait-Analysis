@@ -1,0 +1,19 @@
+{
+  "video_id": "DAXa-0O7l7g",
+  "title": "খাদ্য সংকটে বিরল প্রজাতির কয়েকশ' কাছিম || [ Food crisis]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 84.46,
+  "transcript_word_count": 285,
+  "ocr_text_detected": true,
+  "ocr_char_count": 75,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.4094277620315552,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 88.68,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

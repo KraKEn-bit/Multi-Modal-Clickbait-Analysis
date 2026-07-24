@@ -1,0 +1,19 @@
+{
+  "video_id": "BoyoquzVQ2s",
+  "title": "ছেলের মোটর সাইকেলের জন্য নিজের জীবন কুরবানী দেওয়া এক বাবার বাস্তব ঘটনা। Heart Touching Bangla Video",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 90.26,
+  "transcript_word_count": 688,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.42155635356903076,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 177.49,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

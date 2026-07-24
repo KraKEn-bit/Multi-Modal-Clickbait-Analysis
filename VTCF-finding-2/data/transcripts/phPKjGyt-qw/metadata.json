@@ -1,0 +1,19 @@
+{
+  "video_id": "phPKjGyt-qw",
+  "title": "এই মাত্র পাওয়া! এবার সিলেটে চরমোনাইয়ের পীরের মাহফিলে বাধা! উত্তেজনা সারাদেশে! কঠোর অবস্থানে প্রশাসন",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 99.24,
+  "transcript_word_count": 1266,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.35625290870666504,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 345.59,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

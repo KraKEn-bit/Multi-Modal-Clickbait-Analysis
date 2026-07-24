@@ -1,0 +1,19 @@
+{
+  "video_id": "hHwREngnE3o",
+  "title": "দেখুন বিশ্বের সবচেয়ে দামি ষাঁড় ( মহিষ ) ।। যার বীর্যের দাম আড়াই লাখ টাকা",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 74.63,
+  "transcript_word_count": 290,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4147237539291382,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 86.48,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "34K1OflTVrg",
+  "title": "না ফেরার দেশে সবার প্রিয় তারকা চলে গেলেন ইরফান খান! We will miss you legend! Irrfan khan Star Golpo",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 84.59,
+  "semantic_divergence": 0.5964483022689819,
+  "transcript_word_count": 248,
+  "ocr_text_detected": true,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 118.65,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

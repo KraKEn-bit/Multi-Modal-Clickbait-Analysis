@@ -1,0 +1,19 @@
+{
+  "video_id": "UeCgl_j8A_Y",
+  "title": "২০ বছর বয়সী এক রোহিঙ্গা মেয়ে কক্সবাজার ডায়মন্ড হোটেলে কাজ নিল । দেখুন এরপর যা হলো তা ভয়াবহ",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 72.26,
+  "transcript_word_count": 248,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2715355157852173,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 70.32,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

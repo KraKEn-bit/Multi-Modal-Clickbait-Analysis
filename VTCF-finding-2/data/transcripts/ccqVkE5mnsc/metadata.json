@@ -1,0 +1,19 @@
+{
+  "video_id": "ccqVkE5mnsc",
+  "title": "টিকার যোগান বাড়লেই দ্রুত সরবরাহ বাংলাদেশকে || #Indian High Commissioner",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 52.11,
+  "transcript_word_count": 97,
+  "ocr_text_detected": true,
+  "ocr_char_count": 10,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4687858819961548,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 29.45,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

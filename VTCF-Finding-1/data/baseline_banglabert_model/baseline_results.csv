@@ -1,0 +1,2 @@
+model,text_column,train_size,val_size,accuracy,f1_macro,f1_clickbait,epochs,batch_size,max_length,seed
+BanglaBERT-title-only,title,8000,2000,0.9835,0.9832229735449171,0.9853788214443953,4,16,128,42

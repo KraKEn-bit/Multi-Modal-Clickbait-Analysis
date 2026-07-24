@@ -1,0 +1,19 @@
+{
+  "video_id": "Qv_l5sOu-50",
+  "title": "শাওয়াল মাসের চাঁদ বাংলাদেশের আকাশে কোথাও দেখা যায়নি, শুক্রবার ঈদ || Eid Moon",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 90.01,
+  "transcript_word_count": 385,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.350527286529541,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 103.0,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

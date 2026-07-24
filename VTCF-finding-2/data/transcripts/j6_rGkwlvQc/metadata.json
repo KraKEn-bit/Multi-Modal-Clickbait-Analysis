@@ -1,0 +1,19 @@
+{
+  "video_id": "j6_rGkwlvQc",
+  "title": "গরম খবর! ফাঁসি হচ্ছে সাহেদ সাবরিনার! কোন ভাবেই রক্ষা পাচ্ছেনা দুই নাটের গুরু। | Shahed | Sabrina",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 97.0,
+  "transcript_word_count": 1649,
+  "ocr_text_detected": true,
+  "ocr_char_count": 1,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.45232081413269043,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 952.54,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

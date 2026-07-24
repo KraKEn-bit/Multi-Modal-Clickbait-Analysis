@@ -1,0 +1,19 @@
+{
+  "video_id": "L2GyxuMmyow",
+  "title": "কেউ বাসার সামনে রাখলে তার বাসায় ট্রাকে করে আরো ময়লা ফেলা হবে || Meyor Atiq",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 78.62,
+  "transcript_word_count": 151,
+  "ocr_text_detected": true,
+  "ocr_char_count": 8,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.295118510723114,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 38.83,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

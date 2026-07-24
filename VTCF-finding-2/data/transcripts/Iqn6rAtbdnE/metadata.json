@@ -1,0 +1,19 @@
+{
+  "video_id": "Iqn6rAtbdnE",
+  "title": "কক্সবাজার রুটে ফ্লাইট পরিচালনার অনুমতি দিয়েছে বেসামরিক বিমান চলাচল কর্তৃপক্ষ।। Coxbazar Flight open",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 81.71,
+  "transcript_word_count": 264,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.25101596117019653,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 79.97,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

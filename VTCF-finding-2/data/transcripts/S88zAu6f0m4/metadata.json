@@ -1,0 +1,17 @@
+{
+  "video_id": "S88zAu6f0m4",
+  "title": "এবার শিপ্রার আরো একটি খারাপ ভিডিও ভাইরাল। আর রক্ষা হবেনা পড়েছে কঠিন বিপদে। Just Go | Shipra | Sinha",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.34,
+  "semantic_divergence": 0.49650782346725464,
+  "transcript_word_count": 518,
+  "ocr_text_detected": true,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 383.82,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

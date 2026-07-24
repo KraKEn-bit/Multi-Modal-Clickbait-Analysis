@@ -1,0 +1,19 @@
+{
+  "video_id": "aoSfontw2KU",
+  "title": "প্রায় ২৫০০ শিক্ষক নিয়োগে সুপারিশ করতে নির্দেশ || [High Court Order]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 73.77,
+  "transcript_word_count": 96,
+  "ocr_text_detected": true,
+  "ocr_char_count": 11,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.3678455352783203,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 35.41,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "zVTncNsObwg",
+  "title": "মেসির দল টেবিলের তিনে থাকলেও শিরোপা স্বপ্ন এখনো বেঁচে আছে || Barcelona Match",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 76.89,
+  "transcript_word_count": 233,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4854527711868286,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 64.08,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

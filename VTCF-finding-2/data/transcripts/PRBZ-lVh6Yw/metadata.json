@@ -1,0 +1,19 @@
+{
+  "video_id": "PRBZ-lVh6Yw",
+  "title": "নিজের জীবনের বিনিময়ে যেসব প্রানী মালিকের জীবন বাচিয়েছিল । Real Hero Pets Who saves Humans Life",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 0.0,
+  "transcript_word_count": 0,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": null,
+  "summary_source": "empty_transcript",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 2.12,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

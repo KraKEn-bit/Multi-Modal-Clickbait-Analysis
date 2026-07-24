@@ -1,0 +1,19 @@
+{
+  "video_id": "NG8zGC_ZbGk",
+  "title": "দু'দেশের মধ্যে আপাতত বিশেষ বিমান চলাচল শুরুর কোন চিন্তা-ভাবনা নেই || India Bangladesh",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 63.32,
+  "transcript_word_count": 119,
+  "ocr_text_detected": true,
+  "ocr_char_count": 4,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3632989525794983,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 214.13,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

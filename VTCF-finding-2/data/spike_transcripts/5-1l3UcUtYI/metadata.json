@@ -1,0 +1,17 @@
+{
+  "video_id": "5-1l3UcUtYI",
+  "title": "ভয়াবহ গোপন তথ্য ফাঁস! ফেতনা সৃষ্টি করছেন আজহারী? দেখুন আলেম সমাজ কি বলছে ও চলছে পাল্টাপাল্টি অভিযোগ",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.56,
+  "semantic_divergence": 0.2539719343185425,
+  "transcript_word_count": 1585,
+  "ocr_text_detected": true,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 450.15,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

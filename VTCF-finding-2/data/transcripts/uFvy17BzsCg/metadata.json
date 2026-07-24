@@ -1,0 +1,19 @@
+{
+  "video_id": "uFvy17BzsCg",
+  "title": "আবাসিক হল না খুলে পরীক্ষা নেয়ায় বিপাকে পাবলিক বিশ্ববিদ্যালয়ের শিক্ষার্থীরা ||[University Exam]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 83.42,
+  "transcript_word_count": 277,
+  "ocr_text_detected": true,
+  "ocr_char_count": 4,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.19682550430297852,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 441.85,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

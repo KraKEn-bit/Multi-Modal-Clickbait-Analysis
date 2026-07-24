@@ -1,0 +1,19 @@
+{
+  "video_id": "YLwHwiwHc7w",
+  "title": "পৃথিবীর সেরা ১০টি অদ্ভুত ও ভয়ানক বিল্ডিং। যে গুলো দেখলে অবাস্তব মনে হবে। Top 10 Strangest Buildings",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 77.02,
+  "transcript_word_count": 269,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3329988121986389,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 80.09,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

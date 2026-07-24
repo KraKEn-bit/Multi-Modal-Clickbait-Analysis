@@ -1,0 +1,19 @@
+{
+  "video_id": "Un9aBPXyjFc",
+  "title": "এবার আপনার চাকরি হবেই! চাকরি খোজার জন্য অভিনব ১০টি কৌশল [Job search for the new 10 strategies]",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 75.17,
+  "transcript_word_count": 485,
+  "ocr_text_detected": true,
+  "ocr_char_count": 16,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.6112195551395416,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 123.96,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

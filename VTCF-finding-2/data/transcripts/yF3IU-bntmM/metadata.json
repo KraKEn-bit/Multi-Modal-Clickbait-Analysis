@@ -1,0 +1,19 @@
+{
+  "video_id": "yF3IU-bntmM",
+  "title": "ভিসা ছাড়া কম খরচে যে দেশগুলোতে আপনি ঘুরে আসতে পারবেন || These countries do not require visa",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 98.27,
+  "transcript_word_count": 550,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.45953214168548584,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 161.64,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

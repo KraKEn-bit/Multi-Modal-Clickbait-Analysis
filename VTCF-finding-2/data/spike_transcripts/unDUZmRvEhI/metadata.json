@@ -1,0 +1,17 @@
+{
+  "video_id": "unDUZmRvEhI",
+  "title": "এই মাত্র পাওয়া! ভাস্কর্যের বিপক্ষে আন্দলোন চলবেই! কেউ থামাতে পারবে না হেফাজতের হুংকার।ও ক্ষেপেছে নুর",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.55,
+  "semantic_divergence": 0.37322843074798584,
+  "transcript_word_count": 1234,
+  "ocr_text_detected": false,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 819.51,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "KVsyLMmfQts",
+  "title": "হোয়াইটওয়াশের লজ্জা এড়াতে বাংলাদেশেকে ২৯৯ রানের টার্গেট || BD vs Zim 3rd ODI]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 76.3,
+  "transcript_word_count": 101,
+  "ocr_text_detected": true,
+  "ocr_char_count": 6,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.47891855239868164,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 38.53,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

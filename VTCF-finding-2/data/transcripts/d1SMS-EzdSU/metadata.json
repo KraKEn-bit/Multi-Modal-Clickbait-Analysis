@@ -1,0 +1,19 @@
+{
+  "video_id": "d1SMS-EzdSU",
+  "title": "মোসাদ্দেকের জীবন কাহিনী। মায়ের জমি বিক্রি করে যেভাবে হলেন ক্রিকেটার মোসাদ্দেক। Biography of Mosaddek",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 91.7,
+  "transcript_word_count": 687,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.38819098472595215,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 316.74,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

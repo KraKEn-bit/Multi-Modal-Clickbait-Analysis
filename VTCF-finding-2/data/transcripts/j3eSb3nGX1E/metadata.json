@@ -1,0 +1,19 @@
+{
+  "video_id": "j3eSb3nGX1E",
+  "title": "এক লোক খুব সুন্দরী এক মেয়েকে বিয়ে করল! একদিন লোকটি অন্ধ হয়ে গেল। দেখুন এরপর ঘটেছিল কি ভয়াবহ কান্ড",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 89.12,
+  "transcript_word_count": 471,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.26261985301971436,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 131.19,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

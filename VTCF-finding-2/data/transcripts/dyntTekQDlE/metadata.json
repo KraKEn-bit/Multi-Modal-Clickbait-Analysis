@@ -1,0 +1,19 @@
+{
+  "video_id": "dyntTekQDlE",
+  "title": "এই মাত্র পাওয়া! মামুনুল হকদের মুক্তির জন্য রাস্তায় বাবুনগরী! যেতে চান জেলে। ও পাশে দাঁড়ালো ভিপি নুর",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.33,
+  "transcript_word_count": 1267,
+  "ocr_text_detected": true,
+  "ocr_char_count": 38,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.3068021535873413,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 365.61,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

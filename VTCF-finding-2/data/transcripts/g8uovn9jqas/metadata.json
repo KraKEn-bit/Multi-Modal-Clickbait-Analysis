@@ -1,0 +1,19 @@
+{
+  "video_id": "g8uovn9jqas",
+  "title": "আজানের আগেই প্রতিদিন ইফতার অর্ধেক হয়ে যায়! দেখুন এরপর একদিন গোপন ক্যামেরায় যা ধরা পড়ল!",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 89.24,
+  "transcript_word_count": 607,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2811000347137451,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 155.18,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

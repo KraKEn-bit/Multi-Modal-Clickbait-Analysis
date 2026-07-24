@@ -1,0 +1,19 @@
+{
+  "video_id": "TcJgs09zDQY",
+  "title": "বুধবার থেকে ব্যাংক লেনদেন চলবে সকাল ১০টা থেকে বিকেল ৪টা পর্যন্ত || Bangladesh Bank",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 69.29,
+  "transcript_word_count": 116,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.35705047845840454,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 31.86,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

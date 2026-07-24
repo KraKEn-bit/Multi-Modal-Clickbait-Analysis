@@ -1,0 +1,19 @@
+{
+  "video_id": "AwuEDECwSl0",
+  "title": "ইসরাইলের উপর আল্লাহর গজব শুরু হয়ে গেছে! অর্থের অভাবে নারী সেনাদের পতিতাবৃত্তি করাচ্ছে ইসরাইল",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 91.09,
+  "transcript_word_count": 328,
+  "ocr_text_detected": true,
+  "ocr_char_count": 1,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.38983362913131714,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 109.86,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

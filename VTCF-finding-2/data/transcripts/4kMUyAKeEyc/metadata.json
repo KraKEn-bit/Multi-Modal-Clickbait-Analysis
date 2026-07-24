@@ -1,0 +1,19 @@
+{
+  "video_id": "4kMUyAKeEyc",
+  "title": "এটিএম বুথ খোলা আছে ২৪ ঘণ্টাই || Bank Eid Holiday",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 77.37,
+  "transcript_word_count": 254,
+  "ocr_text_detected": true,
+  "ocr_char_count": 82,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.5619596540927887,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 67.63,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "QMO1oIhFcQI",
+  "title": "দেশের এক সময়ের সুপার স্টার নায়িকা এখন রাস্তার বই বিক্রেতা ।Superstar Heroine Now Street Seller",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 86.06,
+  "semantic_divergence": 0.4067293405532837,
+  "transcript_word_count": 629,
+  "ocr_text_detected": false,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 497.71,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

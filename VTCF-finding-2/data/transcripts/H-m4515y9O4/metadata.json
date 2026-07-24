@@ -1,0 +1,19 @@
+{
+  "video_id": "H-m4515y9O4",
+  "title": "এই মাত্র পাওয়া! ঘূর্ণিঝড় বুলবুলের আঘাতে লন্ডভন্ড সুন্দরবন। তছনছ করে ফেলেছে সব। Cyclone Bulbul Update",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.64,
+  "transcript_word_count": 486,
+  "ocr_text_detected": true,
+  "ocr_char_count": 3,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.39979779720306396,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 122.73,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

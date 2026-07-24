@@ -1,0 +1,19 @@
+{
+  "video_id": "NKjJZ-psnYI",
+  "title": "রাশিয়ার কিছু মাথা নষ্ট করা গোপন তথ্য। জানলে পুরাই মাথা নষ্ট হয়ে যাবে। Unknown Facts Russia",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 85.34,
+  "transcript_word_count": 343,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3209819197654724,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 105.63,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

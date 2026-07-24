@@ -1,0 +1,19 @@
+{
+  "video_id": "cjxUOma8kTs",
+  "title": "পশু বিক্রি নিয়ে শঙ্কায় পড়েছেন খামারিরা || Korbani Cow",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 83.93,
+  "transcript_word_count": 282,
+  "ocr_text_detected": true,
+  "ocr_char_count": 5,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3860321044921875,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 81.27,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

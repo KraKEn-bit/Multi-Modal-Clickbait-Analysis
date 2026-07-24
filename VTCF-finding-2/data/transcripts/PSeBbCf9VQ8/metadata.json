@@ -1,0 +1,19 @@
+{
+  "video_id": "PSeBbCf9VQ8",
+  "title": "আলহামদুলিল্লাহ্‌ ইসরাইলের ধংস শুরু। দেখুন নিজেদের দেশের লোকই যেভাবে শেষ করে দিচ্ছে তাদের",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 82.43,
+  "transcript_word_count": 218,
+  "ocr_text_detected": true,
+  "ocr_char_count": 1,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4319896101951599,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 85.93,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

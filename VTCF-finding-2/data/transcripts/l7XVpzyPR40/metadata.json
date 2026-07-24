@@ -1,0 +1,19 @@
+{
+  "video_id": "l7XVpzyPR40",
+  "title": "দিন দিন কমতে শুরু করেছে করোনা রোগীর চাপ || Covid Situation",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 79.37,
+  "transcript_word_count": 273,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.5376582443714142,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 81.64,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

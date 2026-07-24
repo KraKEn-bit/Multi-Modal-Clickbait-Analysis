@@ -1,0 +1,19 @@
+{
+  "video_id": "-egLhXQnxJI",
+  "title": "এই মাত্র পাওয়া! আনুশকার আগেও বাড়িতে এনে অনেক মেয়ের সর্বনাশ করেছে দিহান। Dihan Anushka | Dihan news",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.71,
+  "transcript_word_count": 1292,
+  "ocr_text_detected": true,
+  "ocr_char_count": 11,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.3435733914375305,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 368.78,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "65w72TVJxUc",
+  "title": "প্রতিদিন বিমানে চড়ে অফিসে করেন এই সরকারী কর্মকর্তা। এত টাকা কই পান তিনি? দেখুন তার আসল রহস্য",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 88.7,
+  "transcript_word_count": 469,
+  "ocr_text_detected": true,
+  "ocr_char_count": 5,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.37890076637268066,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 133.95,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

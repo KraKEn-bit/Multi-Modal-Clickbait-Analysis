@@ -1,0 +1,27 @@
+data:
+  raw_parquet: "data/BaitBuster_raw.parquet"
+  input_csv: "data/input_videos.csv"
+  verified_csv: "data/verified_live_videos.csv"
+  frames_dir: "data/extracted_frames"
+  frame_size: 224
+  video_cache_dir: "data/video_cache"
+
+model:
+  text_encoder: "sagorsarker/bangla-bert-base"
+  vision_encoder: "google/vit-base-patch16-224"
+  hidden_dim: 768
+  num_attention_heads: 8
+  dropout: 0.1
+  K_frames: 3
+
+training:
+  batch_size: 16
+  learning_rate: 2e-5
+  epochs: 10
+  warmup_steps: 500
+  weight_decay: 0.01
+  seed: 42
+
+labels:
+  detection: ["non_clickbait", "clickbait"]
+  attribution: ["exaggeration", "curiosity_gap", "emotional_trigger", "misleading"]

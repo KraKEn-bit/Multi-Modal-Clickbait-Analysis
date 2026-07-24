@@ -1,0 +1,19 @@
+{
+  "video_id": "P1ifLsWQZJA",
+  "title": "পল্টি মারলেন এরশাদ| নির্বাচনের আগে কেন দেশে ফিরছেন না এরশাদ? বিপাকে আওয়ামীলীগ|",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 92.12,
+  "transcript_word_count": 340,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.39715611934661865,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 75.01,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "Nimw7-mZTSw",
+  "title": "কাতারের মাথা নষ্ট করা কিছু গোপন তথ্য! যা জানলে কাতার সম্পর্কে আপনার ধারনাই পাল্টে যাবে। Facts Qatar",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 89.0,
+  "semantic_divergence": 0.34529566764831543,
+  "transcript_word_count": 400,
+  "ocr_text_detected": true,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 279.01,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

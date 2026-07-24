@@ -1,0 +1,19 @@
+{
+  "video_id": "_86xQmcWyP4",
+  "title": "নিজের বউ রেখে অন্য নারীর প্রতি কু নজর দিত এক লোক। এরপর একদিন ঘটল ভয়াবহ কান্ড যা দেখলে গা শিউরে ওটবে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 87.99,
+  "transcript_word_count": 341,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3467509150505066,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 231.7,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

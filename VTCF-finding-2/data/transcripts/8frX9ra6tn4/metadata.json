@@ -1,0 +1,19 @@
+{
+  "video_id": "8frX9ra6tn4",
+  "title": "গোপন তথ্য ফাঁস! বিএনপিকে রাস্তায় দাঁড়াতেই দেবে না পুলিশ। তাহলে এবার কি করবে বিএনপির নেতাকর্মীরা?",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 86.76,
+  "transcript_word_count": 316,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3287965655326843,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 221.98,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

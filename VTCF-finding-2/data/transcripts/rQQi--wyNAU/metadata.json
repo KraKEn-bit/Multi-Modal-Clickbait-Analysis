@@ -1,0 +1,19 @@
+{
+  "video_id": "rQQi--wyNAU",
+  "title": "সামরিক বিমান বিধ্বস্ত হয়ে নিহত সংখ্যা ৪৫, আহত ৪৯ জন হাসপাতালে || [Philippine Troops Flight Crashes]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 78.46,
+  "transcript_word_count": 199,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3676462173461914,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 57.36,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

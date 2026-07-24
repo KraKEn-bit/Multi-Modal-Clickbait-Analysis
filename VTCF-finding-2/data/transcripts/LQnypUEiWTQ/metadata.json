@@ -1,0 +1,19 @@
+{
+  "video_id": "LQnypUEiWTQ",
+  "title": "দেখুন যেভাবে বিশ্বের বাঘা বাঘা অনেক দেশকে,সামরিক শক্তিতে ছাড়িয়ে গেছে উত্তর কোরিয়া।North Korea Power",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 74.37,
+  "transcript_word_count": 321,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4053345322608948,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 96.34,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

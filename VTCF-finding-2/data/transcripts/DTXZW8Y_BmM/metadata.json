@@ -1,0 +1,19 @@
+{
+  "video_id": "DTXZW8Y_BmM",
+  "title": "সৈয়দ আশরাফের ভাস্কর্য ভাঙ্গচুরের পেছনে ধর্মান্ধরা || Information  minister",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 79.6,
+  "transcript_word_count": 168,
+  "ocr_text_detected": true,
+  "ocr_char_count": 15,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.37307029962539673,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 61.15,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

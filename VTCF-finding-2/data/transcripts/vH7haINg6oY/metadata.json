@@ -1,0 +1,19 @@
+{
+  "video_id": "vH7haINg6oY",
+  "title": "সুন্দরী মেয়ের প্রেমে পড়ে ডাকাত থেকে আল্লাহর ওলি হওয়ার অলৌকিক ঘটনা|Islamic Real Miracles Story Bangla",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 89.79,
+  "transcript_word_count": 817,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.35949671268463135,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 578.65,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "d3Wrh-aFZyQ",
+  "title": "শোসকরা সাবধান! কাউকে ছাড় দেওয়া হবেনা! বিশ্বের সকল মুসলিম নেতাদের ঐক্যবদ্ধ করছে এরদোগান । World News",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 71.97,
+  "transcript_word_count": 107,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.23494631052017212,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 37.33,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

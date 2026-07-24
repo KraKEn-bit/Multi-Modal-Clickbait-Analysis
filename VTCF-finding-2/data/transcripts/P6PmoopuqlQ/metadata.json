@@ -1,0 +1,19 @@
+{
+  "video_id": "P6PmoopuqlQ",
+  "title": "গরুর হাটে গিয়ে বিড়ম্বনায় অভিনেতা অপূর্ব। তারপর যা বললেন। Qurbanir Eid Gorur Hat",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 88.84,
+  "transcript_word_count": 232,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3633093237876892,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 62.29,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

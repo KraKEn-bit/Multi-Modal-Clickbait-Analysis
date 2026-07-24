@@ -1,0 +1,19 @@
+{
+  "video_id": "Got66MZQePY",
+  "title": "ব্রেকিং!! পরীমনির ক'ঠিন শা'স্তি || ঢাকার সব ক্লাবে নি'শি'দ্ধ হচ্ছে পরীমনি || Pori moni news",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.67,
+  "transcript_word_count": 658,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4506133794784546,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 171.98,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

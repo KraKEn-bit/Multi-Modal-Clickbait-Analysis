@@ -1,0 +1,19 @@
+{
+  "video_id": "VkusYYpmB0Y",
+  "title": "স্বর্ণের চেইন চুরি করে গিলে ফেললো চোর! চেইন বের করতে যা করল পুলিশ জানলে গাঁ শিউরে ওটবে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 85.32,
+  "transcript_word_count": 295,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3748825788497925,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 204.93,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

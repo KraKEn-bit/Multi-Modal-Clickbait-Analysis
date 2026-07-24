@@ -1,0 +1,19 @@
+{
+  "video_id": "hm30Cj4gzuY",
+  "title": "বাংলার ফাটাকেষ্ট কে এই ব্যারিস্টার সুমন? দেখুন তার কষ্টের জীবন কাহিনী। Barrister Sumon Life Story",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 90.45,
+  "transcript_word_count": 1594,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.45290303230285645,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 460.14,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

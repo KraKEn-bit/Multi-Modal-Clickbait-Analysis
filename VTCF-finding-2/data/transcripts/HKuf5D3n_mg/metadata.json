@@ -1,0 +1,19 @@
+{
+  "video_id": "HKuf5D3n_mg",
+  "title": "১৯৭১ সালে যেভাবে পাকিস্তান থেকে বিমান নিয়ে উড়া দিয়েছিলেন বীরশ্রেষ্ঠ মতিউর রহমান । Matiur Rahman",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 82.38,
+  "transcript_word_count": 425,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2280334234237671,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 120.05,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

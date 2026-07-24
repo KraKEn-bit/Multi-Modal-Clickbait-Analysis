@@ -1,0 +1,19 @@
+{
+  "video_id": "BXffCi6n33w",
+  "title": "দেখুন কেন? ধর্ষক নাঈমের কারণে চাকরি হারালেন একুশে টিভির প্রধান দায়িত্বে থাকা ফারহানা নিশো।।Bd News",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 81.11,
+  "transcript_word_count": 145,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3493608832359314,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 55.63,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

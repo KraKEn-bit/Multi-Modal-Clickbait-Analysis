@@ -1,0 +1,19 @@
+{
+  "video_id": "v3fWpkoCkaw",
+  "title": "আজ থেকে কাউন্টারে টিকিট বিক্রি শুরু ।। Train Ticket",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 90.04,
+  "transcript_word_count": 1118,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.5322946012020111,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 256.71,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "k5C4Ly33C0A",
+  "title": "আবারো বোমা ফাটালেন নাইম এবার বললেন যেভাবে সুন্দরী মডেলদের বেডরুমে নিয়ে যেতেন সাফাত।।Exclusive News",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 87.83,
+  "transcript_word_count": 286,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4698454737663269,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 91.07,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

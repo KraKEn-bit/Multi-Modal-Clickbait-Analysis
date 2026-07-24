@@ -1,0 +1,17 @@
+{
+  "video_id": "0qQTzPvw_ig",
+  "title": "এবার নাতনিকে বিয়ে করলো রাজশাহীর বুড়ো মেয়র! কুমিল্লার সেই রিক্সাচালকের বিচার হলে ওনার কি হবে না?",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 98.1,
+  "semantic_divergence": 0.4283652901649475,
+  "transcript_word_count": 1577,
+  "ocr_text_detected": false,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 1403.84,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

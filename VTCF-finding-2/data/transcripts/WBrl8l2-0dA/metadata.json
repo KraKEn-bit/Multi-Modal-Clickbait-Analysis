@@ -1,0 +1,19 @@
+{
+  "video_id": "WBrl8l2-0dA",
+  "title": "ব্রেকিং নিউজ সাজা হলেও নির্বাচনে করতে পারবে খালেদা জিয়া। বিস্তারিত দেখুন ভিডিওতে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 78.56,
+  "transcript_word_count": 259,
+  "ocr_text_detected": true,
+  "ocr_char_count": 1,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3208242654800415,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 74.01,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

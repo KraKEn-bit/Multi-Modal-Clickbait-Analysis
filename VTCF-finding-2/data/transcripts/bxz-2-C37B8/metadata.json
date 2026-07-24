@@ -1,0 +1,19 @@
+{
+  "video_id": "bxz-2-C37B8",
+  "title": "রক্ষক যখন ভক্ষক। দেখুন মুক্তিপণের টাকাসহ আটক ৬ অমানুষ ডিবির শেষ পরিনিতি কি হবে । Bangla Update News",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 79.21,
+  "transcript_word_count": 204,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.34127628803253174,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 60.81,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

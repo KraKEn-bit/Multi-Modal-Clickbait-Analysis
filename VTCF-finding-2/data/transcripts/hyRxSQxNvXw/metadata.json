@@ -1,0 +1,19 @@
+{
+  "video_id": "hyRxSQxNvXw",
+  "title": "অবশেষে বেড়িয়ে এল বুড়িগঙ্গায় যেভাবে হল দুই লঞ্চের ঘঠনা।দেখুন কেমেরায় ধড়া পরল ও প্রত্যক্ষদর্শীর কাছে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 93.6,
+  "transcript_word_count": 325,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.18276244401931763,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 101.42,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

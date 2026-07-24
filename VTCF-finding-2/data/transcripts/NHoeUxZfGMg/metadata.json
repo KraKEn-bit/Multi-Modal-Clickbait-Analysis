@@ -1,0 +1,19 @@
+{
+  "video_id": "NHoeUxZfGMg",
+  "title": "অবশেষে প্রমাণিত হলো আনুশকার বিশেষ অঙ্গে বিদেশি বড় টয় ব্যবহার করেছিল দিহান! গ্রেফতার জড়িত আরো ৬ জন",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 87.57,
+  "transcript_word_count": 1504,
+  "ocr_text_detected": true,
+  "ocr_char_count": 18,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.18952685594558716,
+  "summary_source": "extractive_fallback",
+  "llm_model_used": "extractive",
+  "whisper_confidence": null,
+  "processing_time_seconds": 1329.75,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

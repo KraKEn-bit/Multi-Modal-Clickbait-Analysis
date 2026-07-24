@@ -1,0 +1,19 @@
+{
+  "video_id": "_OTnj4rgoNE",
+  "title": "মহারাষ্ট্রে ২০০০ করোনা রোগীর শরীরে কালো ছত্রাকের সংক্রমণ শনাক্ত || India || Corona Situation",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 78.3,
+  "transcript_word_count": 277,
+  "ocr_text_detected": true,
+  "ocr_char_count": 15,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.41062068939208984,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 93.4,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

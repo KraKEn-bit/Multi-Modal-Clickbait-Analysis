@@ -1,0 +1,19 @@
+{
+  "video_id": "lsb8yYW0P_c",
+  "title": "চেলসিকে হারিয়ে প্রথমবারের মতো এফএ কাপের শিরোপা জিতলো লেস্টার সিটি || Leicester City",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 78.78,
+  "transcript_word_count": 354,
+  "ocr_text_detected": true,
+  "ocr_char_count": 6,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3854864835739136,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 86.54,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

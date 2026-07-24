@@ -1,0 +1,19 @@
+{
+  "video_id": "eFxHrQ55fzs",
+  "title": "ব্রেকিং! রিকশা চালুর দাবিতে স্বরাষ্ট্র মন্ত্রণালয় ঘেরাও করেছে চালকেরা! ও শুরু হয়ে গেল কঠোর লকডাউন",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.21,
+  "transcript_word_count": 1241,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.384513258934021,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 811.67,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

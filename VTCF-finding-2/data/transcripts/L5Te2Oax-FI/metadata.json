@@ -1,0 +1,19 @@
+{
+  "video_id": "L5Te2Oax-FI",
+  "title": "সুখবর! এইচ এস সি পরীক্ষা না হওয়া ফরম ফিলাপের টাকা ফেরত পাবে শিক্ষার্থীরা|| দেখুন কত টাকা কিভাবে পাবে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 94.76,
+  "transcript_word_count": 502,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.24127495288848877,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 124.58,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

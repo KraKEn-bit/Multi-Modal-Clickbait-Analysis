@@ -1,0 +1,19 @@
+{
+  "video_id": "7om9kRGuUOM",
+  "title": "কি চালাক মেয়ে মাইরি! বিকাশ প্রতারকের সঙ্গে প্রেম করে টাকা উদ্ধার করল কলেজছাত্রী। তুলপার সারাদেশ",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 94.56,
+  "transcript_word_count": 1351,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2570338249206543,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 357.9,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

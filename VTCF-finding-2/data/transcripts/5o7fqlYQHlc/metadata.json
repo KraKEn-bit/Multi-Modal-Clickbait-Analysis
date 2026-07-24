@@ -1,0 +1,19 @@
+{
+  "video_id": "5o7fqlYQHlc",
+  "title": "ক্রিকেটারদের পারিশ্রমিক ১০ থেকে ২০ শতাংশ বাড়ছে  || Players Salary",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 80.93,
+  "transcript_word_count": 340,
+  "ocr_text_detected": true,
+  "ocr_char_count": 38,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4193594455718994,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 95.42,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

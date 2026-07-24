@@ -1,0 +1,19 @@
+{
+  "video_id": "-CGD2g7-IoU",
+  "title": "গুঞ্জন এবার সত্যে পরিণত হলো অপুকে ডিভোর্স দিল শাকিব খান । Shakib decided to divorce Opu Biswas!",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 72.63,
+  "transcript_word_count": 104,
+  "ocr_text_detected": true,
+  "ocr_char_count": 1,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.40263980627059937,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 42.46,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

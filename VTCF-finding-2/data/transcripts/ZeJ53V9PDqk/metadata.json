@@ -1,0 +1,19 @@
+{
+  "video_id": "ZeJ53V9PDqk",
+  "title": "ভ'য়ংকর বন্যায় নিমিষেই তলিয়ে যাচ্ছে একের পর এক অংশ। ফুঁসে উঠছে সব নদ নদী। ডুবে যেতে পারে দেশের ৪০ ভাগ",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 97.58,
+  "transcript_word_count": 787,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.29453134536743164,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 249.15,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

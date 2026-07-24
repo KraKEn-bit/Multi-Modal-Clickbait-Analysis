@@ -1,0 +1,19 @@
+{
+  "video_id": "InQJ2FjovqQ",
+  "title": "গোপন তথ্য ফাঁস! দেখুন যেভাবে মরল ভন্ডপীর দেওয়ানবাগী। উল্লাসে মেতেছে সারা বিশ্ব। Dewanbagi Pir",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.24,
+  "transcript_word_count": 1329,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3796507716178894,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 1140.7,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

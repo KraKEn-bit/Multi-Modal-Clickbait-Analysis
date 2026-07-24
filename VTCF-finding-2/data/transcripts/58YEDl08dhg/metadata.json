@@ -1,0 +1,19 @@
+{
+  "video_id": "58YEDl08dhg",
+  "title": "এই মাত্র পাওয়া! ঢাকা ঘেরাও করল হেফাজত! ছাড়বেনা রাজপথ। কঠিন বিচারের দাবীতে উত্তাল সারাদেশ। Hefajot",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.88,
+  "transcript_word_count": 1272,
+  "ocr_text_detected": true,
+  "ocr_char_count": 21,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.3926318287849426,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 365.32,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "LLSbK9IQ26M",
+  "title": "পালিয়ে যাওয়া মেয়ের প্রতি বাবার দুনিয়া কাঁদানো খোলা চিঠি। যা কাঁদিয়েছে প্রতিটি মানুষকে। Sad Father",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 90.97,
+  "transcript_word_count": 698,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.30200284719467163,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 440.23,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

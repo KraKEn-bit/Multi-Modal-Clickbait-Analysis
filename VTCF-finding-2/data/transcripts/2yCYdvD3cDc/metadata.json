@@ -1,0 +1,19 @@
+{
+  "video_id": "2yCYdvD3cDc",
+  "title": "জেলে থেকে নির্বাচন করলে কী সমস্যা?। খালেদা জিয়া্র মুখে আঙ্গুল তুলে একি কি বলল এরশাদ",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 87.4,
+  "transcript_word_count": 257,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.310829222202301,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 76.65,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

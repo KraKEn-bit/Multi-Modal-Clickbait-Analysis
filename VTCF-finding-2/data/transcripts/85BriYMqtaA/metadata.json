@@ -1,0 +1,19 @@
+{
+  "video_id": "85BriYMqtaA",
+  "title": "ব্রেকিং ! ভুয়া তালাক বানিয়ে ফেঁসে যাচ্ছেন কাজী | অনুসন্ধানে উঠে এসেছে ভ'য়াবহ তথ্য | Nasir Tamima",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.61,
+  "transcript_word_count": 567,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.368699312210083,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 149.64,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

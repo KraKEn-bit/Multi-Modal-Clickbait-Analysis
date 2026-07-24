@@ -1,0 +1,19 @@
+{
+  "video_id": "cEi8rkVGZi8",
+  "title": "এবারের নির্বাচনে একের পর এক চমক আসতেছে! দেখুন জনপ্রিয় কোন কোন তারকারা কোন দলের হয়ে নির্বাচনে করবে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 88.62,
+  "transcript_word_count": 378,
+  "ocr_text_detected": true,
+  "ocr_char_count": 1,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.41852104663848877,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 105.0,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

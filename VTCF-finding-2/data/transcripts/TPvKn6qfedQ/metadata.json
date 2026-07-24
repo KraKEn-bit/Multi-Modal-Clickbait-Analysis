@@ -1,0 +1,19 @@
+{
+  "video_id": "TPvKn6qfedQ",
+  "title": "(LIVE) দেশে একদিনে রেকর্ড ২৬৪ জনের করোনায় প্রাণহানি || Bangladesh",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 88.55,
+  "transcript_word_count": 580,
+  "ocr_text_detected": true,
+  "ocr_char_count": 4,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.41130876541137695,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 148.56,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

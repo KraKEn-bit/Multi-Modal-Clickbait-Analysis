@@ -1,0 +1,19 @@
+{
+  "video_id": "IB4zZB_ZPRI",
+  "title": "অপু যখন হিন্দু থেকে মুসলমান হয়েছিল সে জন্য একজন খুব কেঁদেছিল ।।দেখুন তিনি কে ছিলেন।।Celebrity News",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 79.02,
+  "transcript_word_count": 239,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.34367769956588745,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 69.0,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

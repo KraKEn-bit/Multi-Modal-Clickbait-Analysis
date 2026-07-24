@@ -1,0 +1,19 @@
+{
+  "video_id": "JLzDCWqENvY",
+  "title": "সাবাশ ! এবার কঠিন গেইম খেলতে যাচ্ছে হেফাজত | গো'পন কৌশলে নতুন রুপে আরও শক্তি নিয়ে আসছে হেফাজত",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.26,
+  "transcript_word_count": 458,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.39266330003738403,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 144.03,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

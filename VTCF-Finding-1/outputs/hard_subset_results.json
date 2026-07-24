@@ -1,0 +1,65 @@
+{
+  "split": "all",
+  "n_csv": 33,
+  "n_evaluated": 29,
+  "n_matched_test": 4,
+  "n_missing_from_dataset": 4,
+  "missing_video_ids": [
+    "7RGAJcOz-uA",
+    "ENhXGC4liLc",
+    "VXRYXYzkp_o",
+    "vv39RpTG1tM"
+  ],
+  "video_ids": [
+    "3nhdcRY3Qww",
+    "8Jncwzj1OHU",
+    "9NZC2gb2leg",
+    "ACGBhwAfMqA",
+    "BBA1ZAsHv1s",
+    "CGGnzSqgv5o",
+    "CnXIw9fdCxg",
+    "DhESX8gA7wk",
+    "E0LTzjmcsbk",
+    "ED_IhGw2I1U",
+    "KYPGvgGtJdk",
+    "KiuS1Xp53KA",
+    "LfgdNFFKtaw",
+    "OoUO4vjgM4c",
+    "PcTfIyPHNVg",
+    "US8YfFZJOH8",
+    "Xy4VMIYQ3TA",
+    "_tlF5ydEDXA",
+    "g0NO46HUPGM",
+    "hErdoz2Ca3A",
+    "iB6rdd6s0vQ",
+    "jPgEfeJLwhk",
+    "kKpW2wmoYJA",
+    "khSWx1SFgus",
+    "mVSeHrgFWlc",
+    "oY3RW58uwto",
+    "sSgSnAtoiTg",
+    "vsFWrL2YUfE",
+    "yUMdelR0U-Y"
+  ],
+  "banglabert_f1": 0.0,
+  "full_vtcf_f1": 1.0,
+  "improvement": 1.0,
+  "detection": {
+    "f1_macro": 1.0,
+    "f1_weighted": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "auc_roc": 1.0,
+    "accuracy": 1.0,
+    "confusion_matrix": [
+      [
+        17,
+        0
+      ],
+      [
+        0,
+        12
+      ]
+    ]
+  }
+}

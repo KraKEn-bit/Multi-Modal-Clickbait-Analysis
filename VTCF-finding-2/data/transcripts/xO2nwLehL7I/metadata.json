@@ -1,0 +1,19 @@
+{
+  "video_id": "xO2nwLehL7I",
+  "title": "শেষ আর রক্ষা হলোনা! সারাদেশে নেমে গেছে সেনাবাহিনী! ঘর থেকে বের হলেই জেল-জরিমানা ও কঠিন শাস্তি",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.97,
+  "transcript_word_count": 1201,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.5278298854827881,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 389.42,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

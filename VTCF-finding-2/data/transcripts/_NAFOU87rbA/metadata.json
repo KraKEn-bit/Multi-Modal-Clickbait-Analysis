@@ -1,0 +1,19 @@
+{
+  "video_id": "_NAFOU87rbA",
+  "title": "বিশ্বজুড়ে তেল উৎপাদন আরো বাড়ানোর বিষয়ে একমত  ওপেক || OPEC DEAL",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 76.38,
+  "transcript_word_count": 104,
+  "ocr_text_detected": true,
+  "ocr_char_count": 9,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.45398443937301636,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 30.38,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

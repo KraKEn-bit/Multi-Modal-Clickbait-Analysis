@@ -1,0 +1,19 @@
+{
+  "video_id": "ldvn04cEpeQ",
+  "title": "চারজনকে আসামি করে মামলা ||  Kushtia HousewifeTorture",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 60.55,
+  "transcript_word_count": 77,
+  "ocr_text_detected": true,
+  "ocr_char_count": 5,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.657498836517334,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 26.88,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

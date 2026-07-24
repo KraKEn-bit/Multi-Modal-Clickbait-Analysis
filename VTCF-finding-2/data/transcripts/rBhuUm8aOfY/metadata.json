@@ -1,0 +1,19 @@
+{
+  "video_id": "rBhuUm8aOfY",
+  "title": "করোনায় মৃতদের ৮০ শতাংশের দেহেই জটিল  রোগের উপস্থিতি || Increase Other Disease",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 83.68,
+  "transcript_word_count": 364,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4124547839164734,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 119.17,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

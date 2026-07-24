@@ -1,0 +1,19 @@
+{
+  "video_id": "8YZfo-YZ1Tc",
+  "title": "বেসরকারিভাবে করোনার এন্টিজেন পরীক্ষার ফি ৭০০ টাকা: স্বাস্থ্যমন্ত্রী || [Corona less test]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 83.6,
+  "transcript_word_count": 303,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3910048007965088,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 216.09,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

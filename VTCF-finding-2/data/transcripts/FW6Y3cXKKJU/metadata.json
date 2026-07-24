@@ -1,0 +1,19 @@
+{
+  "video_id": "FW6Y3cXKKJU",
+  "title": "মাথায় বন্দুক ঠেঁকিয়ে বিয়ে করেছিল পাপিয়া! ও বেরিয়ে এলো পাপিয়ার আরেক পাপের আস্তানার সন্ধান",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 93.76,
+  "transcript_word_count": 1584,
+  "ocr_text_detected": true,
+  "ocr_char_count": 1,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.289553701877594,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 433.87,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

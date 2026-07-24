@@ -1,0 +1,19 @@
+{
+  "video_id": "A_-2IqnKdFY",
+  "title": "সব ফাঁস! বেরিয়ে এলো রিজেন্ট হাসপাতালের মালিকের সাথে জড়িত ছিল যেসব বড় বড় নেতারা। Regent Hospital",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 97.32,
+  "transcript_word_count": 1682,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4328920245170593,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 488.8,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

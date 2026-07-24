@@ -1,0 +1,19 @@
+{
+  "video_id": "m2tFqm0oGNY",
+  "title": "রায়হানের মায়ের ইচ্ছা কি পূরণ হবে? আকবর মানুষ নাকি জানোয়ার? ছুঁয়ে দেখতে চান তিনি। Akbar।Rayhan Mother",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.68,
+  "transcript_word_count": 1352,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.427399218082428,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 346.08,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

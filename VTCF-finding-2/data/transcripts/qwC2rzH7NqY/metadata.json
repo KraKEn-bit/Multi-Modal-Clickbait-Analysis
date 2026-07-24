@@ -1,0 +1,19 @@
+{
+  "video_id": "qwC2rzH7NqY",
+  "title": "এই মাত্র! হ্যান্ডকাপ পরিয়ে ঘুষ নেওয়ার সময় ধরা খেল এসআই। টাকার জন্য পকেটে গাজা ঢুকিয়ে মামলা দেয় পুলিশ",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 97.23,
+  "transcript_word_count": 1303,
+  "ocr_text_detected": true,
+  "ocr_char_count": 5,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2801216244697571,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 369.57,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

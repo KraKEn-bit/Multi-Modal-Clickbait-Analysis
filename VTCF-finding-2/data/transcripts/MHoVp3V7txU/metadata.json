@@ -1,0 +1,17 @@
+{
+  "video_id": "MHoVp3V7txU",
+  "title": "সীমান্তবর্তী জেলা চাঁপাইনবাবগঞ্জে শনাক্তের হার ৫০ শতাংশের বেশি || Chapainawabganj",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 84.61,
+  "semantic_divergence": 0.31094664335250854,
+  "transcript_word_count": 341,
+  "ocr_text_detected": true,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 221.58,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

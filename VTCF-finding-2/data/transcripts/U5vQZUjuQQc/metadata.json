@@ -1,0 +1,17 @@
+{
+  "video_id": "U5vQZUjuQQc",
+  "title": "আ.লীগের হয়ে নির্বাচন করবে মাশরাফি বললেন মাশরাফির বাবা। মাশরাফির এই ভুল ডিসিশনে ক্ষিপ্ত দেশবাসী",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 84.29,
+  "semantic_divergence": 0.4158756732940674,
+  "transcript_word_count": 302,
+  "ocr_text_detected": true,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 188.23,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "REw05JCj9fo",
+  "title": "সম্পর্কের ইতি টানার সিদ্ধান্ত নিয়েছেন বলিউড অভিনেতা আমির খান ও পরিচালক কিরণ রাও || Amir Khan",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 73.25,
+  "transcript_word_count": 105,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.32681167125701904,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 30.61,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

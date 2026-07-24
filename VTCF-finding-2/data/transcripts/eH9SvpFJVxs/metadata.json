@@ -1,0 +1,19 @@
+{
+  "video_id": "eH9SvpFJVxs",
+  "title": "দেখুন যেভাবে মেয়ে থেকে হঠাৎ ছেলে হয়ে গেল যুবতী ।।তা নিয়ে এলাকা জুড়ে তুলপাড় ।bangl a exclusive news",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 79.25,
+  "transcript_word_count": 186,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3475068211555481,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 57.43,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

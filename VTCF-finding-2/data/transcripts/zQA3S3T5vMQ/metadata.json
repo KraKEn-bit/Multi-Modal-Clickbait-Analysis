@@ -1,0 +1,19 @@
+{
+  "video_id": "zQA3S3T5vMQ",
+  "title": "হেরাতের পর কান্দাহার দখলের দাবি তালেবানদের || [Taliban Takes Over Kandahar]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 81.08,
+  "transcript_word_count": 244,
+  "ocr_text_detected": true,
+  "ocr_char_count": 8,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.6196680068969727,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 68.79,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

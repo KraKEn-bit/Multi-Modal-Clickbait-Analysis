@@ -1,0 +1,19 @@
+{
+  "video_id": "VgpAYhC_CyQ",
+  "title": "পৃথিবীর সেরা ১০ জন অস্বাভাবিক ক্ষমতাধারী মানুষ। যাদের ক্ষমতা দেখলে ভয় পাবেন আপনিও। Super powers man",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 92.34,
+  "transcript_word_count": 1034,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2886548638343811,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 275.59,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

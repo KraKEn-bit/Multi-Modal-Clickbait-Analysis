@@ -1,0 +1,19 @@
+{
+  "video_id": "ED_IhGw2I1U",
+  "title": "ভাই হয়ে সে আমার সব কেড়ে নিয়েছে! বিয়ে না করলে নিজেকে শেষ করে দিবো। বিয়ের দাবিতে প্রেমিকের বাড়িতে অনশন",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 0.0,
+  "transcript_word_count": 0,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": null,
+  "summary_source": "empty_transcript",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 0.74,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

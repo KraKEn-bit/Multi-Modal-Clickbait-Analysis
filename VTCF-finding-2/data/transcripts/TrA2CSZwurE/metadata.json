@@ -1,0 +1,19 @@
+{
+  "video_id": "TrA2CSZwurE",
+  "title": "এবার ভয়াবহ ভাবে ধেয়ে আসছে ঘূর্ণিঝড় ফেনি! দেশবাসী সাবধানে থাকুন! ঘটতে পারে বড় ধরনের অঘটন",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.52,
+  "transcript_word_count": 520,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.38641029596328735,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 154.89,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

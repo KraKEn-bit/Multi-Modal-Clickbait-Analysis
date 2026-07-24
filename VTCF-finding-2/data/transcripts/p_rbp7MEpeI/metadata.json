@@ -1,0 +1,19 @@
+{
+  "video_id": "p_rbp7MEpeI",
+  "title": "হায়রে জানোয়ার! পরীমনিকে সহ ২০০ নায়িকাকে ভোগ করেছে গডফাদার রাজ! বড় বড় নেত্রীরাও ছিল বেড পার্টনার",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 97.14,
+  "transcript_word_count": 1323,
+  "ocr_text_detected": true,
+  "ocr_char_count": 25,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4472835063934326,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 363.91,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

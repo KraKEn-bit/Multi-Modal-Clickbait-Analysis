@@ -1,0 +1,19 @@
+{
+  "video_id": "kA3ZJwb7ERw",
+  "title": "দেখুন ভাগ্যের কি নির্মম পরিহাস!! যেভাবে ইউপি মেম্বার থেকে এখন রাস্তার ভিক্ষুক ।।Bd Exclusive News",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 81.49,
+  "transcript_word_count": 268,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.39914941787719727,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 80.9,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

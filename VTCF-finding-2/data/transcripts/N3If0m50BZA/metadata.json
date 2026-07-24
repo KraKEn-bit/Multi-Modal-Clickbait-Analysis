@@ -1,0 +1,19 @@
+{
+  "video_id": "N3If0m50BZA",
+  "title": "গত ২৪ ঘণ্টায় করোনা শনাক্তের সংখ্যা বেড়েছে || BD CORONA",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 77.64,
+  "transcript_word_count": 202,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3610953092575073,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 81.97,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

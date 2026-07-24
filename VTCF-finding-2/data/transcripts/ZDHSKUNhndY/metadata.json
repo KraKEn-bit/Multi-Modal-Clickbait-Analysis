@@ -1,0 +1,19 @@
+{
+  "video_id": "ZDHSKUNhndY",
+  "title": "কে এই প্রিয়া সাহা কাদের দালাল প্রিয়া? দেখুন এবার বেরিয়ে এলো সব তলের বিড়াল। Priya Shaha vs Trump",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 90.39,
+  "transcript_word_count": 416,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.429601788520813,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 123.27,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

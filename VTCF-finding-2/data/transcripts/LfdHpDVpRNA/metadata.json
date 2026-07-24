@@ -1,0 +1,19 @@
+{
+  "video_id": "LfdHpDVpRNA",
+  "title": "এইমাত্র পাওয়াঃ করণার চাউল চোর ছাত্রলীগের নেতা নাবিল গেপতার। বেড়িয়ে এল আসল ঘঠনা।",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.97,
+  "transcript_word_count": 389,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2554788589477539,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 109.71,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

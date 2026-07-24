@@ -1,0 +1,19 @@
+{
+  "video_id": "qWvHhpnysnI",
+  "title": "🔴 বজ্রপাত থেকে বাঁচার ১০ কৌশল || How to Survive from Lightning Strike || Trendz Now",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 92.18,
+  "transcript_word_count": 1089,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.630308210849762,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 320.18,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

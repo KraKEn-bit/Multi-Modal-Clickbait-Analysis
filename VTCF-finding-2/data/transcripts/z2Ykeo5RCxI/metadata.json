@@ -1,0 +1,17 @@
+{
+  "video_id": "z2Ykeo5RCxI",
+  "title": "ব্রেকিং ! পদত্যাগ করলেন ওবায়দুল কাদেরের ভাই আব্দুল কাদের মির্জা | কারন জানলে অবাক হবেন| Kader mirza",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 89.69,
+  "semantic_divergence": 0.3831256628036499,
+  "transcript_word_count": 381,
+  "ocr_text_detected": false,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 294.7,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

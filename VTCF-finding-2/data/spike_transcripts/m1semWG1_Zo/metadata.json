@@ -1,0 +1,17 @@
+{
+  "video_id": "m1semWG1_Zo",
+  "title": "যুক্তরাজ্য, যুক্তরাষ্ট্রসহ ইউরোপ আমেরিকায় শুরু হয়েছে প্রসূতিদের টিকা || Corona  Vaccine",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 87.26,
+  "semantic_divergence": 0.2284979224205017,
+  "transcript_word_count": 846,
+  "ocr_text_detected": true,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 683.64,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

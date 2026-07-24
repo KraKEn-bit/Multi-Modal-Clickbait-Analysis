@@ -1,0 +1,19 @@
+{
+  "video_id": "EgBwSpmyZP0",
+  "title": "এক লোক পুকুরে কুমির পুষতেন তিনি বলেন যে সাঁতরে পার হতে পারবে তাকে ১কোটি টাকা দেব। দেখুন এরপর কি হল",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 74.55,
+  "transcript_word_count": 202,
+  "ocr_text_detected": true,
+  "ocr_char_count": 1,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.31613677740097046,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 156.7,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

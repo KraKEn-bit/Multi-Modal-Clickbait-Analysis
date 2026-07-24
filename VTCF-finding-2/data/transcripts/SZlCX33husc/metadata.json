@@ -1,0 +1,19 @@
+{
+  "video_id": "SZlCX33husc",
+  "title": "ফাঁস হয়ে গেল ভারতের কুকর্ম । দেখু যেভাবে রোহিঙ্গা মুসলিম হত্যার সাথে ভারত সরাসরি জড়িত",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 79.91,
+  "transcript_word_count": 334,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3558740019798279,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 125.12,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

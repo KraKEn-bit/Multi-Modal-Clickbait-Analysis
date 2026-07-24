@@ -1,0 +1,19 @@
+{
+  "video_id": "P10ngRpMKfM",
+  "title": "পৃথিবীর সবচেয়ে লম্বা ও আশ্চর্যজনক ৫ জন মানুষ। যাদের উপরের দিকে তাকিয়ে দেখতে হয়। Top 5 Tallest Man",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 88.77,
+  "transcript_word_count": 545,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.29918181896209717,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 140.14,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

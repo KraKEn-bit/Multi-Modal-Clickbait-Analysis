@@ -1,0 +1,19 @@
+{
+  "video_id": "E0LTzjmcsbk",
+  "title": "বাসর ও বিয়ে নিয়ে লাইভে এসে যা বললেন বুড়ো সামসুল। দুই স্ত্রীর নামই মরিয়ম, আরো তিনটা বিয়ে করবে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 92.33,
+  "transcript_word_count": 447,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3158717155456543,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 93.64,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

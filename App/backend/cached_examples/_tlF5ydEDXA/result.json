@@ -1,0 +1,30 @@
+{
+  "video_id": "_tlF5ydEDXA",
+  "youtube_url": "https://www.youtube.com/watch?v=_tlF5ydEDXA",
+  "title": "মুহূর্তেই ধ্বংসস্তূপে পরিণত হয় দেশটির পশ্চিমাঞ্চল || Haiti Earthquake",
+  "verdict": "GENUINE",
+  "confidence": 99.9,
+  "tds_score": 0.8433,
+  "explanation": "The video starts with irrelevant visuals but diverges from the headline promise by the delivery frame.",
+  "alignment_scores": {
+    "hook": -0.0457,
+    "context": -0.0352,
+    "delivery": -0.0154
+  },
+  "frame_urls": [
+    "/cached-frames/_tlF5ydEDXA/frame_0.png",
+    "/cached-frames/_tlF5ydEDXA/frame_1.png",
+    "/cached-frames/_tlF5ydEDXA/frame_2.png"
+  ],
+  "processing_time_seconds": 7.8,
+  "text_only": {
+    "verdict": "GENUINE",
+    "confidence": 76.9,
+    "wrong": true
+  },
+  "ground_truth": "CLICKBAIT",
+  "vtcf_rescued": false,
+  "category": "hard",
+  "example_label": "Hard case — disaster headline, matching B-roll",
+  "example_description": "True clickbait; BanglaBERT title-only misses it."
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "LxwAAkFT0U0",
+  "title": "চীনের ডানহুয়াং শহর ধূলিঝড়ে  মুহূর্তে অদৃশ্য হয়ে গিয়েছিল ।। China Sandstorm",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 67.59,
+  "transcript_word_count": 87,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.23094242811203003,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 25.17,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

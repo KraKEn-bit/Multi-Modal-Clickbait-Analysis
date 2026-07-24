@@ -1,0 +1,19 @@
+{
+  "video_id": "UjeaBrZ3wdU",
+  "title": "লকডাউন বাড়ল আরো ১০ দিন, ১৬ জুন পর্যন্ত চলবে বিধিনিষেধ || Bangladesh",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 79.58,
+  "transcript_word_count": 229,
+  "ocr_text_detected": true,
+  "ocr_char_count": 6,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4921427369117737,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 75.26,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

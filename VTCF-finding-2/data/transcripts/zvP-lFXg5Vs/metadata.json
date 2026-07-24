@@ -1,0 +1,19 @@
+{
+  "video_id": "zvP-lFXg5Vs",
+  "title": "২‌১ জুলাই ঈদ, ১৫-২৩ জুলাই বিধিনিষেধ শিথিলের প্রজ্ঞাপন || #Eid #Lockdown #Shutdown",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 77.05,
+  "transcript_word_count": 354,
+  "ocr_text_detected": true,
+  "ocr_char_count": 70,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.4739062786102295,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 89.42,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "SZOMY4Xl0Q8",
+  "title": "বেরিয়ে এলো আসল তথ্য। দফায় দফায় পিটিয়ে নির্মম ভাবে মা*রা হল আবরারকে। বিচার চান শেখ হাসিনা",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.21,
+  "transcript_word_count": 1679,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3969516158103943,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 461.71,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

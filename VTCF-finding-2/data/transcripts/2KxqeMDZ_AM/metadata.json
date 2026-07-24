@@ -1,0 +1,17 @@
+{
+  "video_id": "2KxqeMDZ_AM",
+  "title": "এবার আপন ভাতিজার সাথে পালালো ২ সন্তানের মা। দেখুন মানুষ কতটা খারাপ হলে এমন কাজ করতে পারে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 85.99,
+  "semantic_divergence": 0.41314172744750977,
+  "transcript_word_count": 339,
+  "ocr_text_detected": true,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 126.7,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

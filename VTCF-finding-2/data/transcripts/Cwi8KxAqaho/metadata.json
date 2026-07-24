@@ -1,0 +1,17 @@
+{
+  "video_id": "Cwi8KxAqaho",
+  "title": "এক স্বার্থপর প্রেমিকার জন্য কিডনী বিক্রির বাস্তব ঘটনা। যা সারা দুনিয়ার মানুষকে স্তব্ধ করে দিয়েছিল",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 86.82,
+  "semantic_divergence": 0.2123790979385376,
+  "transcript_word_count": 790,
+  "ocr_text_detected": true,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 195.06,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr"
+}

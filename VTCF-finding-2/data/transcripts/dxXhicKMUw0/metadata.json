@@ -1,0 +1,17 @@
+{
+  "video_id": "dxXhicKMUw0",
+  "title": "অক্সফোর্ডের টিকা উদ্ভাবকেরসহ ৬ নারীর বার্বি পুতুল তৈরি ।। Barbie Doll",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 79.88,
+  "semantic_divergence": 0.3671846389770508,
+  "transcript_word_count": 262,
+  "ocr_text_detected": false,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 223.19,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

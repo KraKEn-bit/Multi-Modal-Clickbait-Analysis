@@ -1,0 +1,19 @@
+{
+  "video_id": "TWyN0g5FcvM",
+  "title": "ডেঙ্গু-করোনায় একসঙ্গেও আক্রান্ত হচ্ছে অনেকে || Dengue alarming Situation",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 85.51,
+  "transcript_word_count": 392,
+  "ocr_text_detected": true,
+  "ocr_char_count": 4,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.25685298442840576,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 109.92,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

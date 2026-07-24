@@ -1,0 +1,17 @@
+{
+  "video_id": "yRXBjfR29hY",
+  "title": "মঙ্গলবার থেকে পদ্মা-যমুনা অববাহিকার ১২ জেলায় বন্যার শঙ্কা || Flood",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 84.0,
+  "semantic_divergence": 0.2927442789077759,
+  "transcript_word_count": 263,
+  "ocr_text_detected": false,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 193.33,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

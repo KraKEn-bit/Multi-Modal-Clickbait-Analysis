@@ -1,0 +1,19 @@
+{
+  "video_id": "gZ-uFkguclE",
+  "title": "এই মাত্র পাওয়া! এক হয়েছে সব আলেম! মাদ্রাসায় আক্রমণের পাল্টা জবাব দিতে মাঠে নামছে সারাদেশের আলেমরা!",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 97.7,
+  "transcript_word_count": 1419,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.43198466300964355,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 390.11,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

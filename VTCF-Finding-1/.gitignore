@@ -1,0 +1,22 @@
+# Secrets and local runtime
+.env
+.venv/
+data/cookies*.txt
+data/youtube_cookies*.txt
+data/www.youtube.com_cookies.txt
+data/video_cache/
+
+# Large local artifacts (not for GitHub)
+data/BaitBuster_raw.parquet
+data/BaitBuster_raw.xlsx
+data/input_videos.csv
+data/extracted_frames/
+data/ingestion.log
+outputs/checkpoints/*.pt
+outputs/logs/
+*.mp4
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/

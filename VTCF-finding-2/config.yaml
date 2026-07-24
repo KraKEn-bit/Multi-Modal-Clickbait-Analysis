@@ -1,0 +1,83 @@
+# VTCF Finding-2 — Semantic Contradiction (ASR + OCR + Title)
+# Standalone feasibility project. Read-only access to vtcf-research assets.
+
+vtcf_research_root: "../vtcf-research"
+
+data:
+  verified_csv: "../vtcf-research/data/verified_live_videos.csv"
+  frames_dir: "../vtcf-research/data/extracted_frames"
+  youtube_cookies: "../vtcf-research/data/youtube_cookies_p-1.txt"
+  spike_csv: "data/spike_videos.csv"
+  spike_transcripts_dir: "data/spike_transcripts"
+  spike_audio_dir: "data/spike_audio"
+  video_cache_dir: "data/spike_audio/videos"
+  transcripts_dir: "data/transcripts"
+  finding2_subset_csv: "data/finding2_subset.csv"
+  finding2_verified_csv: "data/finding2_verified.csv"
+  llm_call_log: "data/llm_call_log.csv"
+  phase1_audio_dir: "data/phase1_audio"
+  subset_fraction: 0.20
+  subset_seed: 42
+
+phase1:
+  target_total: 1600
+  test_mode_count: 20
+  gemini_min_interval_s: 6
+
+speech:
+  sample_rate: 16000
+  max_transcribe_seconds: null  # null = full VAD speech montage
+  use_vad: true
+  use_demucs: false
+  use_denoise: false
+  asr_backend: hf_whisper  # hf_whisper | wav2vec2 | openai_whisper
+  whisper_hf_model: "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium"
+  wav2vec_model: "ai4bharat/indicwav2vec_v1_bengali"
+  whisper_fallback_model: "medium"
+  whisper_language: "bn"
+  vad_threshold: 0.35
+  min_speech_segment_ms: 250
+
+llm:
+  provider: gemini
+  gemini_api_key_env: GEMINI_API_KEY
+  openai_api_key_env: OPENAI_API_KEY
+  gemini_model: gemini-3.1-flash-lite
+  gemini_fallback_model: gemini-2.5-flash-lite
+  gemini_model_rotation:
+    - model: gemini-3.1-flash-lite
+      daily_limit: 480
+    - model: gemini-2.5-flash-lite
+      daily_limit: 18
+    - model: gemini-3.5-flash
+      daily_limit: 18
+    - model: gemini-2.0-flash
+      daily_limit: 230
+    - model: gemini-2.5-flash
+      daily_limit: 18
+  openai_model: gpt-4o-mini
+
+ocr:
+  enabled: true
+  languages: ["bn"]
+  hook_frame_index: 0
+
+model:
+  text_encoder: "sagorsarker/bangla-bert-base"
+  hidden_dim: 768
+  num_attention_heads: 8
+  dropout: 0.1
+  max_title_length: 128
+  max_summary_length: 256
+  max_ocr_length: 128
+
+training:
+  batch_size: 8
+  learning_rate: 2e-5
+  epochs: 5
+  seed: 42
+  val_ratio: 0.1
+  test_ratio: 0.1
+
+spike:
+  go_threshold_usable_rate: 0.70

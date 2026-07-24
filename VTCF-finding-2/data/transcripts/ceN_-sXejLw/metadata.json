@@ -1,0 +1,19 @@
+{
+  "video_id": "ceN_-sXejLw",
+  "title": "ঢাকায় ৩ ঘন্টায় ৮৫ মিলিমিটার বৃষ্টিপাত ||[Dhaka Water Log]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 90.96,
+  "transcript_word_count": 940,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4605860710144043,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 257.86,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "rDtotIg22NQ",
+  "title": "পরিকল্পনার চার বছর পরও সংস্কার হয়নি বঙ্গবন্ধু জাতীয় স্টেডিয়ামের || Bangabandhu Stadium Upgration",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 80.96,
+  "transcript_word_count": 233,
+  "ocr_text_detected": true,
+  "ocr_char_count": 6,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.19904100894927979,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 66.51,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

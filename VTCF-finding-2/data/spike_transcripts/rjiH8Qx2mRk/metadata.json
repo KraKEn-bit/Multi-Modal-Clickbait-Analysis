@@ -1,0 +1,17 @@
+{
+  "video_id": "rjiH8Qx2mRk",
+  "title": "আল আকসা, মসজিদ আল আকসা, বায়তুল মুকাদ্দাস এবং ইসলামের প্রথম কিবলা । Eagle Eyes",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 99.75,
+  "semantic_divergence": 0.42356932163238525,
+  "transcript_word_count": 2049,
+  "ocr_text_detected": false,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 1364.25,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

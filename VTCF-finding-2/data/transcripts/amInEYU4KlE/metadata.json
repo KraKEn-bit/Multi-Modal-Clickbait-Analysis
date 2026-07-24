@@ -1,0 +1,19 @@
+{
+  "video_id": "amInEYU4KlE",
+  "title": "দেখুন যার সাথে প*র্নো ভিডিও বানাতো পরীমনি! এইমাত্র গ্রেফতার সেই প্রভাবশালী গডফাদার। Pori Moni News",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 97.55,
+  "transcript_word_count": 1285,
+  "ocr_text_detected": true,
+  "ocr_char_count": 10,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.35709017515182495,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 363.28,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "8gdjAjpS_bo",
+  "title": "এবারের কোরবানির সবচেয়ে আকর্ষণীয় বড় গরু ইতির ভাগ্যরাজ! কত দামে বিক্রি হবে তা জানলে অবিশ্বাস্য লাগবে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 94.82,
+  "transcript_word_count": 525,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2922781705856323,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 148.03,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

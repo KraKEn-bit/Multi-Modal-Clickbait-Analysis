@@ -1,0 +1,19 @@
+{
+  "video_id": "Mmp4DFek8WQ",
+  "title": "ক্যাশ ইনচার্জসহ ২ জনকে আটক  || Dhaka bank 4 Crore",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 83.79,
+  "transcript_word_count": 405,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4659649133682251,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 113.18,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

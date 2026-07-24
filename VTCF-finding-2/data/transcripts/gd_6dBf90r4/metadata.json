@@ -1,0 +1,19 @@
+{
+  "video_id": "gd_6dBf90r4",
+  "title": "কোরবানির পশু বিক্রি নিয়ে দুশ্চিন্তায় পড়েছেন খামারিরা || [Qurbanir haat]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 81.85,
+  "transcript_word_count": 300,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2946705222129822,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 79.27,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

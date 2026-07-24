@@ -1,0 +1,19 @@
+{
+  "video_id": "VP9vsvF4WMc",
+  "title": "প্রকল্প বাস্তবায়নঃ ১০০ ডলারে ক্ষতি সাড়ে ৯ ডলার  || Project",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 69.23,
+  "transcript_word_count": 90,
+  "ocr_text_detected": true,
+  "ocr_char_count": 4,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3488160967826843,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 37.46,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

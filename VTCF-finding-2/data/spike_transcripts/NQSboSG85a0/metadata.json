@@ -1,0 +1,17 @@
+{
+  "video_id": "NQSboSG85a0",
+  "title": "সারাদেশে বৃহস্পতিবার থেকে লকডাউন || লকডাউনে যা যা খোলা থাকবে || আজকের লকডাউন খবর ২০২১|| Ajker khobor",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.15,
+  "semantic_divergence": 0.5094836950302124,
+  "transcript_word_count": 334,
+  "ocr_text_detected": false,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 264.36,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

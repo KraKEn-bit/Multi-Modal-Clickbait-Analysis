@@ -1,0 +1,19 @@
+{
+  "video_id": "xS-2UXwNdUg",
+  "title": "হে আল্লাহ এ কেমন বিচার? প্রতিষ্ঠিত সন্তানদের বয়স্ক শিক্ষক বাবা ৮ বছর ধরে স্কুলের বারান্দায় থাকে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 92.91,
+  "transcript_word_count": 615,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.23529529571533203,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 473.94,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

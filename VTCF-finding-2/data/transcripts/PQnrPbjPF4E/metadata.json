@@ -1,0 +1,19 @@
+{
+  "video_id": "PQnrPbjPF4E",
+  "title": "ব্রেকিং! পুরো বিশ্বের প্রংসায় ভাসছে প্রধানমন্ত্রী শেখ হাসিনা। ও ষড়যন্ত্র নিয়ে মুখ খুললো হেফাজত",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 0.0,
+  "transcript_word_count": 0,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": null,
+  "summary_source": "empty_transcript",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 0.73,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

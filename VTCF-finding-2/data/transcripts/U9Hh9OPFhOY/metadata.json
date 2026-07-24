@@ -1,0 +1,19 @@
+{
+  "video_id": "U9Hh9OPFhOY",
+  "title": "খালেদা জিয়াকে বন্দি করার খেসারত আ.লীগকে দিতেই হবে। সাবাস কর্নেল অলি  সাবাস",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 84.58,
+  "transcript_word_count": 393,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.42809736728668213,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 103.5,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

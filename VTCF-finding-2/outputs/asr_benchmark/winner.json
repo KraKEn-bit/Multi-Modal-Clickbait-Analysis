@@ -1,0 +1,7 @@
+{
+  "label": "HF bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "score": null,
+  "asr_backend": "hf_whisper",
+  "whisper_hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "note": "Original benchmark had HF API errors (fixed). Wav2Vec model ID was wrong. Smoke test passed after fix."
+}

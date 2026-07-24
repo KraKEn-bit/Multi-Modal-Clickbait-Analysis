@@ -1,0 +1,19 @@
+{
+  "video_id": "1Ewi4aggEEo",
+  "title": "হায় আল্লাহ! কঠিন বিপদে হেফাজত | এবার স্বেচ্ছায় জেলে যেতে চাচ্ছেন আল্লামা জুনায়েদ বাবুনগরী |",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.38,
+  "transcript_word_count": 413,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3265618681907654,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 124.5,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

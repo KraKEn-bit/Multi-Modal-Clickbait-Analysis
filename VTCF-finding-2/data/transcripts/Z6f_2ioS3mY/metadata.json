@@ -1,0 +1,19 @@
+{
+  "video_id": "Z6f_2ioS3mY",
+  "title": "সময়মত চিকিৎসার অনিশ্চয়তায় ঠেকানোই যাচ্ছে না মৃত্যু || [Country Corona Situation]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 84.75,
+  "transcript_word_count": 381,
+  "ocr_text_detected": true,
+  "ocr_char_count": 5,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.30570346117019653,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 94.42,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

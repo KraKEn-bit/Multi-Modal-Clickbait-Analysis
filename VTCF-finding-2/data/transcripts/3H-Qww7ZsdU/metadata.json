@@ -1,0 +1,19 @@
+{
+  "video_id": "3H-Qww7ZsdU",
+  "title": "আলহামদুলিল্লাহ ইজতেমার জন্য ৫০টি বাস দিয়েছে ডিপজল। দেখুন ডিপজলের উদার হওয়ায় আসল কারন  কি",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 80.17,
+  "transcript_word_count": 259,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2885187864303589,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 70.89,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

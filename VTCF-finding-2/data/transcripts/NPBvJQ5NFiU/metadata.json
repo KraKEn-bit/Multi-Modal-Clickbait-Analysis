@@ -1,0 +1,19 @@
+{
+  "video_id": "NPBvJQ5NFiU",
+  "title": "ভয়ংকর কিছু তথ্য! সূর্যগ্রহণকে ঘিরে মানুষের মধ্যে যেসব ধারনা ও নিয়ম চালু রয়েছ! যা আপনাকে হতভাগ করবে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.75,
+  "transcript_word_count": 656,
+  "ocr_text_detected": true,
+  "ocr_char_count": 24,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.22567462921142578,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 181.61,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "gqoYc-7zGgc",
+  "title": "গাদাগাদি করে ঢাকায় ফিরছে কর্মজীবী মানুষ || Ferry Ghat",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 89.51,
+  "transcript_word_count": 667,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.47644948959350586,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 178.88,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

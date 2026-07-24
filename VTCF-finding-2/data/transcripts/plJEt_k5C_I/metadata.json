@@ -1,0 +1,19 @@
+{
+  "video_id": "plJEt_k5C_I",
+  "title": "ব্যাপক ক্ষয়ক্ষতি; বাঁধে ধস, ভেসে গেলো কয়েক হাজার মাছের ঘের || #Cyclone yash",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 92.3,
+  "transcript_word_count": 2476,
+  "ocr_text_detected": true,
+  "ocr_char_count": 5,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3822212815284729,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 677.56,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

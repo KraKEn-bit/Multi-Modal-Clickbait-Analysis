@@ -1,0 +1,19 @@
+{
+  "video_id": "Uu_g31glyJo",
+  "title": "শনিবার শুরু হবে লঙ্কা সিরিজের প্রস্তুতি || [Bd Cricket team]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 84.3,
+  "transcript_word_count": 286,
+  "ocr_text_detected": true,
+  "ocr_char_count": 14,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.5226650834083557,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 89.18,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

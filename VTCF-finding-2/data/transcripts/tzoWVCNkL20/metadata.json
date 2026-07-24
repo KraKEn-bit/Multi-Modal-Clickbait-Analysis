@@ -1,0 +1,19 @@
+{
+  "video_id": "tzoWVCNkL20",
+  "title": "ব্রেকিং নিউজ! রাস্তায় শুয়ে লকডাউনকে বয়কট করছে দেশের জনগণ। আগে ভাত দেন পরে লকডাউন দিন।  Bangla News",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.33,
+  "transcript_word_count": 1307,
+  "ocr_text_detected": true,
+  "ocr_char_count": 15,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.43160128593444824,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 368.38,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

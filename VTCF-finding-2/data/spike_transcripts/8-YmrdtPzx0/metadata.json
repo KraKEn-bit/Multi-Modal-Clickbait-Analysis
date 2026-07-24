@@ -1,0 +1,17 @@
+{
+  "video_id": "8-YmrdtPzx0",
+  "title": "পৃথিবীর সবচেয়ে ভয়ংকর ১০টি যুদ্ধ বিমান! যা কোন দেশকে নিমিষেই শেষ করে দিতে পারে। Top 10 Fighter Jet",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 91.14,
+  "semantic_divergence": 0.31727683544158936,
+  "transcript_word_count": 1828,
+  "ocr_text_detected": true,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 596.16,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

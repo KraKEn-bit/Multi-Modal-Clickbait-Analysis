@@ -1,0 +1,19 @@
+{
+  "video_id": "E4cpn5fOeMg",
+  "title": "৮ বছর আগের রেকর্ড ভাঙ্গলো শোয়েনমেকার  || Olympic Update",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 64.53,
+  "transcript_word_count": 101,
+  "ocr_text_detected": true,
+  "ocr_char_count": 3,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4713709354400635,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 31.3,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "A8w7iE_CQUk",
+  "title": "পৃথিবীর সবচেয়ে অমানবিক ৫টি কারাগার! যেখানে একবার গেলে কেউ আর ফিরে আসেনা। 5 Worst Prisons In History",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 91.5,
+  "transcript_word_count": 1609,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4555125832557678,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 493.34,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

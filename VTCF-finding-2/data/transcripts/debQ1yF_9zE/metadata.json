@@ -1,0 +1,19 @@
+{
+  "video_id": "debQ1yF_9zE",
+  "title": "(LIVE) রাজশাহীতে ক্রমেই ভয়াবহ হচ্ছে করোনা, আরো ১৮ জনের মৃত্যু ।। Rajshahi Corona",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 92.66,
+  "transcript_word_count": 559,
+  "ocr_text_detected": true,
+  "ocr_char_count": 11,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.3282132148742676,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 152.18,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

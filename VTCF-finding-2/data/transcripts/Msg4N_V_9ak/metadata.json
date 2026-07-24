@@ -1,0 +1,19 @@
+{
+  "video_id": "Msg4N_V_9ak",
+  "title": "ভারতের কেরালারা ১৭টি মসজিদে আজান দেওয়া বন্ধ করে দিয়েছে ।কেন কঠিন এই নিয়ম করল দেখুন বিস্তারিত ভিডিতে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 76.28,
+  "transcript_word_count": 185,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.27557772397994995,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 61.46,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "7uuLW2Rtjfc",
+  "title": "স্বজনদের কান্নায় ভারী হয়ে ওঠেছে আকাশ বাতাস! ব্রিজের নিচে আটকে গেল উদ্ধার করতে আসা জাহাজও।Bangla News",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.5,
+  "transcript_word_count": 334,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.5209442675113678,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 95.99,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

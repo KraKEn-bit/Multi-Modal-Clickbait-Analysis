@@ -1,0 +1,19 @@
+{
+  "video_id": "1Y2NBqk8j4w",
+  "title": "এবারের ঈদেও বন্ধ থাকছে বিনোদন কেন্দ্র ।। Eid Tourism",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 80.92,
+  "transcript_word_count": 304,
+  "ocr_text_detected": true,
+  "ocr_char_count": 3,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.7215737700462341,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 90.11,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "PEzs3gi3xjk",
+  "title": "ব্রেকিংঃ সন্তানদের সামনে উলঙ্ করে বাবাকে, সেই হাসানকে ডিম তেরাপি দিচ্ছে।এমন যেন আর কেউ শাহস না পায়",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 92.98,
+  "transcript_word_count": 394,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3957383632659912,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 104.12,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

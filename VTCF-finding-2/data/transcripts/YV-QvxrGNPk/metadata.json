@@ -1,0 +1,19 @@
+{
+  "video_id": "YV-QvxrGNPk",
+  "title": "আপন জুয়েলার্স থেকে ৩০০ কেজি স্বর্ণ ও হীরা উদ্ধার, এই গুলোর মালিক এখন কারা জানলে চমকে যাবেন  ।",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 87.79,
+  "transcript_word_count": 326,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.43295013904571533,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 99.36,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

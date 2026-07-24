@@ -1,0 +1,19 @@
+{
+  "video_id": "Iy-iKA6tzCQ",
+  "title": "এইমাত্র পাওয়া! অবশেষে ধরা দিলেন মামুনুল হক। ও মুখ খুললেন হেফাজত নেতাদের গোপন ইস্যু নিয়ে।Bangla News",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.21,
+  "transcript_word_count": 1246,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.30996304750442505,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 360.02,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "92pYDI08tXw",
+  "title": "এবার আ.লীগের হানিফকে ভয়ংকর হুঁশিয়ারি এরশাদের। জেগে ওটলেন এরশাদ প্রতিবাদ শুরু হয়ে গেছে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 79.0,
+  "transcript_word_count": 171,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2920966148376465,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 49.98,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "CI6YxGK7RUQ",
+  "title": "বরগুনায় নিষেধাজ্ঞা অমান্য করে মাছ ধরার অপরাধে ৩৭ জেলে আটক || Barguna Fisherman",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 53.88,
+  "transcript_word_count": 73,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3353807330131531,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 33.83,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

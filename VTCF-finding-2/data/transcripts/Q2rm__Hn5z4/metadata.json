@@ -1,0 +1,19 @@
+{
+  "video_id": "Q2rm__Hn5z4",
+  "title": "নতুন ষড়যন্ত্র নাকি সত্যি! মামুনুল হকের ৩য় স্ত্রীর সন্ধ্যান! দেখুন কে এই নারী ও তার আসল পরিচয়",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 95.52,
+  "transcript_word_count": 1300,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.26247644424438477,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 385.06,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

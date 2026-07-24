@@ -1,0 +1,19 @@
+{
+  "video_id": "8s2Sep6EsZo",
+  "title": "দেখুন মালয়েশিয়াতে অবৈধ বাংলাদেশীদের যেভাবে ধরা হচ্ছে ।। বাংলাদেশীরা সাবধান রুম থেকে বের হবেন না",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 84.37,
+  "transcript_word_count": 448,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3883448839187622,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 158.19,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

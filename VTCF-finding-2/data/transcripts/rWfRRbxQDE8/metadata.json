@@ -1,0 +1,19 @@
+{
+  "video_id": "rWfRRbxQDE8",
+  "title": "যাদের ঠেকাতে উদ্যোগ, সেই নদী-দখলদারকে বাঁচিয়েই বুড়িগঙ্গায় সীমানাখুঁটি || [Buriganga]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 86.42,
+  "transcript_word_count": 375,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3530697226524353,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 241.14,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

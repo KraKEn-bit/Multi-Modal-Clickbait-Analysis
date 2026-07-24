@@ -1,0 +1,19 @@
+{
+  "video_id": "n0cxB5Hi3kU",
+  "title": "হঠাৎ কেন খালেদা জিয়ার মুক্তি! তার গোপন কারন ফাঁস করল তারেক।ও বিদেশি মিডিয়ারা যা বলছে এই মুক্তি নিয়ে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 99.0,
+  "transcript_word_count": 1650,
+  "ocr_text_detected": true,
+  "ocr_char_count": 6,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3023010492324829,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 467.0,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

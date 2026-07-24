@@ -1,0 +1,19 @@
+{
+  "video_id": "UBG0J801sjw",
+  "title": "বায়তুল মোকাররমে ঈদুল আজহার পাঁচটি জামাত হবে || Eid Jamat",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 71.08,
+  "transcript_word_count": 101,
+  "ocr_text_detected": true,
+  "ocr_char_count": 4,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3787611722946167,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 27.26,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

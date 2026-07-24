@@ -1,0 +1,19 @@
+{
+  "video_id": "92Bx4K2QZN4",
+  "title": "লকডাউনে কম আয়ের মানুষকে খাবার দিচ্ছে স্বেচ্ছাসেবী সংগঠন মেহমানখানা ও নবনীড় || Food For Needy",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 81.38,
+  "transcript_word_count": 291,
+  "ocr_text_detected": true,
+  "ocr_char_count": 12,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2688308358192444,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 77.05,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

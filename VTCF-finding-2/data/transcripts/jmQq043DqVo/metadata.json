@@ -1,0 +1,19 @@
+{
+  "video_id": "jmQq043DqVo",
+  "title": "আজব ব্রিজ! পানির সাথে সাথে ব্রিজ ও উঁচু হয়ে যায় । যা পারেনি বাংলাদেশ সরকার তা করে দেখাল যুবকরা",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 80.4,
+  "transcript_word_count": 411,
+  "ocr_text_detected": true,
+  "ocr_char_count": 1,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4031500220298767,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 139.53,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

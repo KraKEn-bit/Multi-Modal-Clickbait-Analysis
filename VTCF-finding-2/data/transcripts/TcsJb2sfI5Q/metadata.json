@@ -1,0 +1,19 @@
+{
+  "video_id": "TcsJb2sfI5Q",
+  "title": "প্রজনন ক্ষমতা কমা, গর্ভপাতের ঝুঁকি- এরকম যত বাজে গুজব করোনার টিকা ঘিরে... || [Corona Vaccination]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 76.91,
+  "transcript_word_count": 207,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.34882229566574097,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 76.65,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

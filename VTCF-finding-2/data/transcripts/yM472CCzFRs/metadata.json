@@ -1,0 +1,19 @@
+{
+  "video_id": "yM472CCzFRs",
+  "title": "মালিক জিমি লাইকে গ্রেপ্তারের পর থেকেই চাপে ছিল অ্যাপল ডেইলি || Apple Daily",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 70.3,
+  "transcript_word_count": 106,
+  "ocr_text_detected": true,
+  "ocr_char_count": 21,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4688522219657898,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 33.47,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

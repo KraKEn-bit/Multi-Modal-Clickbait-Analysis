@@ -1,0 +1,19 @@
+{
+  "video_id": "nU6BXWZ2xdE",
+  "title": "ঢাকায় আ.লীগ ও বিএনপির সংঘর্ষ যুদ্ধা চলছে। আর রক্ষা নেই বিএনপির নেতাকর্মীর",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 84.23,
+  "transcript_word_count": 175,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.28506767749786377,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 58.42,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

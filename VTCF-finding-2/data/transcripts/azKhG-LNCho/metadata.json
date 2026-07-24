@@ -1,0 +1,19 @@
+{
+  "video_id": "azKhG-LNCho",
+  "title": "বর্তমান সময়ের আলোচিত দেশটিই ,পৃথিবীর ১ নাম্বার ধনী দেশ।দেখুন (ভিডিও) দেশটির নাম জানলে অবাক হবেন",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 84.18,
+  "transcript_word_count": 407,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3578908443450928,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 138.54,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

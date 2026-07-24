@@ -1,0 +1,19 @@
+{
+  "video_id": "n5ouXtBuj58",
+  "title": "আমেরিকার মাথা নষ্ট করা কিছু অজানা তথ্য। যেখানে বিয়ে ছাড়া সন্তান হয় বেশি। Unknown Fact About America",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 91.26,
+  "transcript_word_count": 486,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.34372472763061523,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 146.98,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

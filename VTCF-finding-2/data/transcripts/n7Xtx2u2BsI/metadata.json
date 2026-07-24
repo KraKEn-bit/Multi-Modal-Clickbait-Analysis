@@ -1,0 +1,19 @@
+{
+  "video_id": "n7Xtx2u2BsI",
+  "title": "বাংলাদেশের সেরা ১০ জেলার আলোচিত ইয়াবা সুন্দরীরা। তাদের সুখ ও বিলাসীতা দেখলে পুরাই মাথা নষ্ট হয়ে যাবে",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 89.4,
+  "transcript_word_count": 715,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.3482515215873718,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 445.23,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "ntwdEdp_5tk",
+  "title": "লকডাউনে বিক্রি হচ্ছে না খামারের গরুর দুধ ।। Farmers worried selling milk",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 82.49,
+  "transcript_word_count": 286,
+  "ocr_text_detected": true,
+  "ocr_char_count": 19,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.3148265480995178,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 77.37,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "Zm8_IKiyKIY",
+  "title": "এইমাত্র পাওয়া- ঘূর্নিঝড় বুলবুলের আঘাতে লন্ডভন্ড ভোলা। আহ্ত অর্ধশত। Bangla News Update",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 96.89,
+  "transcript_word_count": 244,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2285591959953308,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 83.24,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

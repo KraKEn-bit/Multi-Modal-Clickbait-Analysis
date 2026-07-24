@@ -1,0 +1,17 @@
+{
+  "video_id": "v3jHYhg3vXQ",
+  "title": "ব্রাজিলের কিছু মাথা নষ্ট করা অদ্ভুত তথ্য। যা ব্রাজিল সম্পর্কে আপনার সব ধারণা পাল্টে দিবে।",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 85.97,
+  "semantic_divergence": 0.26524513959884644,
+  "transcript_word_count": 471,
+  "ocr_text_detected": true,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 359.74,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

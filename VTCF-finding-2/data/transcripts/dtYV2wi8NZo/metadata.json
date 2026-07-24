@@ -1,0 +1,19 @@
+{
+  "video_id": "dtYV2wi8NZo",
+  "title": "সিনেমা স্টাইলে থানায় পতিতাবৃত্তির ব্যবসা করত ওসি প্রদীপ! রাতে অসহায় নারীদের ধরে নিয়ে যেত। Oc Prodip",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 92.24,
+  "transcript_word_count": 1542,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.24958115816116333,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 424.34,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

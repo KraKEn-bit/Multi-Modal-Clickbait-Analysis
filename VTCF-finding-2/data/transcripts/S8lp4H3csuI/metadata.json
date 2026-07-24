@@ -1,0 +1,19 @@
+{
+  "video_id": "S8lp4H3csuI",
+  "title": "বিশ্বে মোট মৃত্যু ৩৮ লাখ ৪৯ হাজার ছাড়িয়েছে  || [World Corona situation]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 77.48,
+  "transcript_word_count": 214,
+  "ocr_text_detected": true,
+  "ocr_char_count": 12,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.5084746479988098,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 67.17,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

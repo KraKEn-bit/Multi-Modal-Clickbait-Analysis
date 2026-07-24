@@ -1,0 +1,17 @@
+{
+  "video_id": "G32u58Vz_uM",
+  "title": "শুরু হয়ে গেছে বিএনপি-ঐক্যফ্রন্টের পুনরায় নির্বাচনের বিশাল কর্মসূচি।লীগ সরকার গঠনের আগেই কঠোর আন্দোলন",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 93.11,
+  "semantic_divergence": 0.24640387296676636,
+  "transcript_word_count": 315,
+  "ocr_text_detected": false,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 100.58,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "wf_n5kwQ_ZI",
+  "title": "করোনা নিয়ন্ত্রণে ১৪ দিন শাটডাউনের পরামর্শ জাতীয় কমিটির || Countrywide Shutdown",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 91.05,
+  "transcript_word_count": 826,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.299851655960083,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 189.79,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

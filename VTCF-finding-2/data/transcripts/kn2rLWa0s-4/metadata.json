@@ -1,0 +1,19 @@
+{
+  "video_id": "kn2rLWa0s-4",
+  "title": "এইমাত্র পাওয়া! আব্বাসী হুজুরের স্টেজ ভেঙ্গে দিল তাহেরী। জিহাদ ঘোষণা করলো আব্বাসী ভয়ে কাঁপছে তাহেরী",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 91.03,
+  "transcript_word_count": 525,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2931904196739197,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 154.48,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

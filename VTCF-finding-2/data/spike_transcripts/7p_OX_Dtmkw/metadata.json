@@ -1,0 +1,17 @@
+{
+  "video_id": "7p_OX_Dtmkw",
+  "title": "পায়খানার রাস্তায় ব্যথার ঘরোয়া সমাধান (গেজ বা এনাল ফিশার) - ডা. তাসনিম জারা (চিকিৎসক, ইংল্যান্ড)",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 92.01,
+  "semantic_divergence": 0.30031895637512207,
+  "transcript_word_count": 2037,
+  "ocr_text_detected": false,
+  "summary_source": "gemini",
+  "whisper_confidence": null,
+  "processing_time_seconds": 527.28,
+  "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title"
+}

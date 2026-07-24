@@ -1,0 +1,19 @@
+{
+  "video_id": "td_OF5jHBT4",
+  "title": "বেরিয়ে এলো সৌদির জমজমাট হজ্ব ব্যবসার ভয়াবহ গোপন তথ্য! দেখুন হাজিদের টাকা কিভাবে লুটে খাচ্ছে সৌদি",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 90.29,
+  "transcript_word_count": 1549,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.27399200201034546,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 389.24,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "WFnWJi5EV0g",
+  "title": "বিশ্বে একদিনে করোনায় প্রাণ হারিয়েছে ১২ হাজারের বেশি মানুষ || [world corona]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 76.8,
+  "transcript_word_count": 219,
+  "ocr_text_detected": true,
+  "ocr_char_count": 11,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.4067220687866211,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 78.14,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

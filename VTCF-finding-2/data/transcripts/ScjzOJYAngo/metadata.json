@@ -1,0 +1,19 @@
+{
+  "video_id": "ScjzOJYAngo",
+  "title": "দলের ভেতরে প্রতিহিংসা থামাতে উদ্যোগী আওয়ামী লীগ || Bangladesh Awami League",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 84.3,
+  "transcript_word_count": 338,
+  "ocr_text_detected": true,
+  "ocr_char_count": 7,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4548841118812561,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 104.24,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

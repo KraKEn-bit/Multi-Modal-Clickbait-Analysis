@@ -1,0 +1,19 @@
+{
+  "video_id": "TqmCHe2Mn-c",
+  "title": "যে দেশে মাইকে আযান দেওয়া নিষেধ ! দেশটির নাম জানলে অবাক না হয়ে পারবেন না",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 87.05,
+  "transcript_word_count": 311,
+  "ocr_text_detected": true,
+  "ocr_char_count": 2,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4871234893798828,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 81.48,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

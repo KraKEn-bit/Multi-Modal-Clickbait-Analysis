@@ -1,0 +1,19 @@
+{
+  "video_id": "HOx7l9cauzA",
+  "title": "গ্যালারিতে দর্শকদের উপস্থিতি মিস করবেন রিয়াদ-সাকিবরা || BD vs Aus",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 77.84,
+  "transcript_word_count": 251,
+  "ocr_text_detected": true,
+  "ocr_char_count": 1,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.31801772117614746,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 84.22,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "qbAz0LsiYE0",
+  "title": "মিয়ানমারে জান্তাবিরোধী সংঘর্ষে তিন দিনের ৪৪ সেনা নিহত || Myanmar",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 66.29,
+  "transcript_word_count": 90,
+  "ocr_text_detected": true,
+  "ocr_char_count": 12,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.44462889432907104,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 26.74,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

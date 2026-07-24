@@ -1,0 +1,19 @@
+{
+  "video_id": "AJRRSxSZAQc",
+  "title": "এবার ভাস্কর্য নিয়ে মুখ খুললেন এমপি হারুন অর রশিদ || আলেম উলামাদের পক্ষ নিয়ে একি বক্তব্য দিলেন ||",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 94.27,
+  "transcript_word_count": 378,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.21488940715789795,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 226.93,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

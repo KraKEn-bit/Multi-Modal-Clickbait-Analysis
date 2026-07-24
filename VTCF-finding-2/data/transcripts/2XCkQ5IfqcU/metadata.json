@@ -1,0 +1,19 @@
+{
+  "video_id": "2XCkQ5IfqcU",
+  "title": "দুই বছরের চুক্তিতে পারীঁ সান জার্মানে সের্হিও রামোস || [Sergio Ramos Signs for PSG]",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 65.01,
+  "transcript_word_count": 79,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.4432636499404907,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 26.04,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

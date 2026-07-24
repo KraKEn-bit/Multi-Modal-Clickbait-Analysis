@@ -1,0 +1,19 @@
+{
+  "video_id": "MhPs0mSI814",
+  "title": "ওড়না পড়া নিষিদ্ধ হওয়া সেই ফ্রান্সেই এখন হিজাব পড়া বাধ্যতামূলক! না পরলে জরিমানা। দেখুন কি করুন অবস্থা",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 94.92,
+  "transcript_word_count": 280,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.2570192217826843,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 90.39,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

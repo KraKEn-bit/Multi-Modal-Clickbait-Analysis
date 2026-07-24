@@ -1,0 +1,19 @@
+{
+  "video_id": "CB0phfd25SM",
+  "title": "সিউর কাঁদবেন! পৃথিবীর আর কোন মেয়ের সাথে যেন এমন বাজে কাজ না হয়! হৃদয় বিদারক এক প্রেমের ঘটনা",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 84.45,
+  "transcript_word_count": 917,
+  "ocr_text_detected": false,
+  "ocr_char_count": 0,
+  "hook_ocr_usable": false,
+  "hook_promise_source": "title",
+  "semantic_divergence": 0.32513999938964844,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 242.36,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}
