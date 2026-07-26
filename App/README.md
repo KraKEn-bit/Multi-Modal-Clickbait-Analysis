@@ -38,7 +38,7 @@ Bangla YouTube clickbait often uses polished or sensational **headlines** while 
 
 ---
 
-## Why text-only fails (the research behind this demo)
+## Why text-only fails (the study behind this demo)
 
 ![Problem section — titles promise, videos don't always deliver](docs/screenshots/SS-3.png)
 
@@ -72,20 +72,20 @@ git clone https://github.com/KraKEn-bit/Multi-Modal-Clickbait-Analysis.git
 cd Multi-Modal-Clickbait-Analysis
 ```
 
-**Link research code** (required once — the app imports `../vtcf-research`):
+**Link study code** (required once — the app imports `../vtcf-study`):
 
 ```powershell
 # Windows
-mklink /J vtcf-research VTCF-Finding-1
+mklink /J vtcf-study VTCF-Finding-1
 ```
 
 ```bash
 # macOS / Linux
-ln -s VTCF-Finding-1 vtcf-research
+ln -s VTCF-Finding-1 vtcf-study
 ```
 
 **Model checkpoints (~2–3 GB, not included in this repo):** place trained weights at
-`vtcf-research/outputs/checkpoints/best_model_full.pt`
+`vtcf-study/outputs/checkpoints/best_model_full.pt`
 (or train your own via [VTCF-Finding-1](../VTCF-Finding-1/readme.md)).
 **The pre-cached example cards work fully without any checkpoints** — this is the fastest way to see real results.
 
@@ -155,7 +155,7 @@ Verify the API is running: `curl http://127.0.0.1:8000/health` → `{"status":"o
 - The model samples 3 frames per video (hook, context, delivery), not full-video understanding
 - Trained specifically on Bangla YouTube news-style content — may not generalize to other genres or languages
 
-**Finding-2 (a second, audio-based model — referenced in our research stats, but not running live in this app):**
+**Finding-2 (a second, audio-based model — referenced in our study stats, but not running live in this app):**
 We also built a separate model that transcribes a video's speech and compares an AI-generated summary against the title, instead of watching the frames. It's the source of the "64%" figure above. We did **not** wire this into the live app — it depends on an external AI summarization API with daily rate limits, and in our own testing it only rescued 64% of hard cases vs. 100% for the visual approach, so the product is built around the stronger, faster, more reliable visual model. Additionally:
 - This model was trained on only 1,591 of the full 8,047 videos, due to those API rate limits
 - Thumbnail OCR text was sparse and usable on roughly 38% of videos even after a pipeline fix
