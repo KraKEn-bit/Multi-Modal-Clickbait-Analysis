@@ -138,7 +138,7 @@ Verify the API is running: `curl http://127.0.0.1:8000/health` → `{"status":"o
 
 ## Cached demo videos
 
-| Video | Label | Why it matters |
+| Video ID | Label | Why it matters |
 |-------|-------|----------------|
 | `pYganyZsHYM` | Obvious clickbait | Sensational English headline, viral-style footage |
 | `hcFpC8R6c24` | Obvious genuine | Independent TV news bulletin, straightforward headline |
