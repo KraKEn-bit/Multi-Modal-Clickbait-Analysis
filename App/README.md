@@ -1,6 +1,6 @@
 # VTCF — Bangla YouTube Clickbait Detector
 
-**Hackathon demo** for the [Visual-Temporal Contradiction Framework (VTCF)](https://github.com/KraKEn-bit/Multi-Modal-Clickbait-Analysis): a multimodal system that flags Bangla YouTube clickbait by comparing what the **title promises** with what the **video actually shows** — not title text alone.
+**Hackathon demo** for the [Visual-Temporal Contradiction Framework (VTCF)](https://github.com/KraKEn-bit/Multi-Modal-Clickbait-Analysis): a multimodal system that flags Bangla YouTube clickbait by comparing what the **title promises** with what the **video actually shows** , not title text alone.
 
 >  This is a real, working web app, not a mockup. Start the backend + frontend (5-minute setup below), open `http://localhost:3000`, and click the **Hard case : breaking news title, factual bulletin** example card. That one result, where a text-only model gets it wrong and VTCF gets it right, is the entire point of this project.
 
