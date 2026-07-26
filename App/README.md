@@ -47,9 +47,10 @@ Bangla YouTube clickbait often uses polished or sensational **headlines** while 
 
 | Stat | Result | What it means |
 |------|--------|----------------|
-| **Full VTCF F1** | **99.63%** | On our full evaluation set of 8,047 human-labeled Bangla YouTube videos |
-| **Hard-case rescue** | **100% vs 64%** | On the hardest title-only failures, VTCF's visual model rescues all of them; a comparable speech/summary model only rescues 64% |
+| **Full VTCF F1** | **99.63%** | On the held-out **805-video** test set (10% of the 8,047-video corpus) |
+| **Hard-case rescue** | **29 / 29** | All **29** text-blind hard cases recovered when visual evidence joined the decision |
 | **Text-only F1** | 90.4% | Reading the title alone — good on easy cases, blind to visual bait-and-switch |
+| **Corpus size** | **8,047** | Human-labeled Bangla YouTube videos in the research corpus |
 
 ---
 
