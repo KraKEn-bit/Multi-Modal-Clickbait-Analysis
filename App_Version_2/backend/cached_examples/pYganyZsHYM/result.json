@@ -1,0 +1,23 @@
+{
+  "video_id": "pYganyZsHYM",
+  "youtube_url": "https://www.youtube.com/watch?v=pYganyZsHYM",
+  "title": "🚨 A Mysterious Incident in the Jungle! You Won't Believe What Happened Next! 😱🔥",
+  "verdict": "CLICKBAIT",
+  "confidence": 92.88,
+  "tds_score": 0.5792,
+  "explanation": "The video starts with irrelevant visuals but diverges from the headline promise by the delivery frame.",
+  "alignment_scores": {
+    "hook": -0.0593,
+    "context": 0.0005,
+    "delivery": -0.0185
+  },
+  "frame_urls": [
+    "/cached-frames/pYganyZsHYM/frame_0.png",
+    "/cached-frames/pYganyZsHYM/frame_1.png",
+    "/cached-frames/pYganyZsHYM/frame_2.png"
+  ],
+  "processing_time_seconds": 36.4,
+  "category": "clickbait",
+  "example_label": "Obvious clickbait",
+  "example_description": "Sensational English headline on viral-style footage."
+}

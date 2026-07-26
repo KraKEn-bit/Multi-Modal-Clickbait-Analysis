@@ -1,0 +1,47 @@
+# Secrets & local config
+.env
+.env.*
+!.env.example
+**/youtube_cookies*.txt
+**/cookies.txt
+**/*_cookies.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# ML artifacts (too large for GitHub — train or download separately)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Backend runtime
+backend/temp_frames/
+backend/_probe/
+backend/**/__pycache__/
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# Optional local caches
+.cache/
+*.mp4
+*.wav

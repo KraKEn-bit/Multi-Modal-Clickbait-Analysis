@@ -1,0 +1,19 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.0.0
+python-multipart>=0.0.12
+
+# Research stack (install in backend venv; imports vtcf-research at runtime)
+torch>=2.3.0
+torchvision>=0.18.0
+transformers>=4.41.0
+pandas>=2.2.0
+numpy>=1.26.0
+Pillow>=10.3.0
+opencv-python>=4.9.0
+scenedetect[opencv]>=0.6.4
+yt-dlp[default]>=2024.1.0
+pyyaml>=6.0.0
+matplotlib>=3.9.0
+colorama>=0.4.6
+tqdm>=4.66.0

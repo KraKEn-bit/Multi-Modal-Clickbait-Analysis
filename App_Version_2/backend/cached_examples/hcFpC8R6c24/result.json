@@ -1,0 +1,23 @@
+{
+  "video_id": "hcFpC8R6c24",
+  "youtube_url": "https://www.youtube.com/watch?v=hcFpC8R6c24",
+  "title": "আজকের শীর্ষ ৭ খবর | Shirsho 7 | 24 July 2026 | Independent TV | Independent TV",
+  "verdict": "GENUINE",
+  "confidence": 99.91,
+  "tds_score": 0.5275,
+  "explanation": "The video starts with irrelevant visuals but diverges from the headline promise by the delivery frame.",
+  "alignment_scores": {
+    "hook": 0.0689,
+    "context": 0.0675,
+    "delivery": -0.0019
+  },
+  "frame_urls": [
+    "/cached-frames/hcFpC8R6c24/frame_0.png",
+    "/cached-frames/hcFpC8R6c24/frame_1.png",
+    "/cached-frames/hcFpC8R6c24/frame_2.png"
+  ],
+  "processing_time_seconds": 44.3,
+  "category": "genuine",
+  "example_label": "Obvious genuine",
+  "example_description": "Independent TV news bulletin — straightforward headline."
+}

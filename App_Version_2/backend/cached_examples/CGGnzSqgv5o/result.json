@@ -1,0 +1,30 @@
+{
+  "video_id": "CGGnzSqgv5o",
+  "youtube_url": "https://www.youtube.com/watch?v=CGGnzSqgv5o",
+  "title": "গায়ে শার্ট, চোখে চশমা, খালেদা জিয়ার ডানহাত ছিল মেয়েটি! দেখুন কে এই মেয়ে কি তার পরিচয়",
+  "verdict": "CLICKBAIT",
+  "confidence": 99.9,
+  "tds_score": 1.1352,
+  "explanation": "The video starts with irrelevant visuals but diverges from the headline promise by the delivery frame.",
+  "alignment_scores": {
+    "hook": 0.0376,
+    "context": -0.0289,
+    "delivery": -0.032
+  },
+  "frame_urls": [
+    "/cached-frames/CGGnzSqgv5o/frame_0.png",
+    "/cached-frames/CGGnzSqgv5o/frame_1.png",
+    "/cached-frames/CGGnzSqgv5o/frame_2.png"
+  ],
+  "processing_time_seconds": 5.9,
+  "text_only": {
+    "verdict": "CLICKBAIT",
+    "confidence": 99.9,
+    "wrong": true
+  },
+  "ground_truth": "GENUINE",
+  "vtcf_rescued": false,
+  "category": "hard",
+  "example_label": "Hard case — tabloid title, news bulletin content",
+  "example_description": "True non-clickbait; BanglaBERT title-only wrongly flags clickbait."
+}

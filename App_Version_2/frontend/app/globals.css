@@ -1,0 +1,311 @@
+@import "tailwindcss";
+
+/* ══════════════════════════════════════════════════════════════
+   VTCF design tokens — dark autonomous-agent interface
+
+   Deep #0A0A0B base, electric "Agent Green" (#00FFA3) and
+   "Cyber Cyan" (#00E5FF) accents. Sans (Inter) for UI, strict
+   JetBrains Mono for agent console output and metrics.
+   ══════════════════════════════════════════════════════════════ */
+
+:root {
+  --background: #050505;
+  --foreground: #f2f4f4;
+  --surface: #0e0e11;
+  --surface-elevated: #16161a;
+  --border: rgba(255, 255, 255, 0.08);
+  --muted: #8b929c;
+  --accent: #00e5ff;
+  --accent-strong: #66efff;
+  --accent-soft: rgba(0, 229, 255, 0.12);
+  --agent: #00ffa3;
+  --agent-soft: rgba(0, 255, 163, 0.12);
+  --clickbait: #ff5c47;
+  --genuine: #00ffa3;
+  --warning: #fbbf24;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-soft: var(--accent-soft);
+  --color-agent: var(--agent);
+  --color-agent-soft: var(--agent-soft);
+  --color-clickbait: var(--clickbait);
+  --color-genuine: var(--genuine);
+  --color-warning: var(--warning);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains);
+  --font-serif: var(--font-inter);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--accent) 30%, transparent);
+}
+
+.page-shell {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* ══════════════════════════════════════════════════════════════
+   Mesh gradient backdrop — pure CSS, painted once, no canvas
+   ══════════════════════════════════════════════════════════════ */
+
+.mesh-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 45% 35% at 18% 8%, rgba(0, 255, 163, 0.07), transparent 70%),
+    radial-gradient(ellipse 50% 40% at 85% 15%, rgba(0, 229, 255, 0.06), transparent 70%),
+    radial-gradient(ellipse 60% 45% at 50% 105%, rgba(0, 229, 255, 0.05), transparent 70%),
+    #050505;
+}
+
+/* ══════════════════════════════════════════════════════════════
+   Cards — dark glass, subtle border, glow-lift hover (GPU only)
+   ══════════════════════════════════════════════════════════════ */
+
+.soft-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 1.25rem;
+  box-shadow: 0 8px 30px rgb(0 0 0 / 0.35);
+}
+
+.soft-card--hover {
+  transition:
+    transform 0.3s ease-out,
+    box-shadow 0.3s ease-out,
+    border-color 0.3s ease-out;
+  will-change: transform;
+}
+
+.soft-card--hover:hover {
+  transform: translateY(-4px) translateZ(0);
+  border-color: rgba(0, 229, 255, 0.25);
+  box-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.4),
+    0 24px 48px -16px rgba(0, 0, 0, 0.6),
+    0 0 32px -8px rgba(0, 229, 255, 0.15);
+}
+
+/* Small uppercase section eyebrow — mono, agent green */
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-jetbrains), monospace;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--agent);
+}
+
+.eyebrow::before {
+  content: "// ";
+  opacity: 0.6;
+}
+
+/* Sparse technical data points (mono, tiny) */
+.data-point {
+  font-family: var(--font-jetbrains), monospace;
+  font-size: 0.6875rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+/* ══════════════════════════════════════════════════════════════
+   Agent console
+   ══════════════════════════════════════════════════════════════ */
+
+.console-input {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.console-input::placeholder {
+  color: rgba(139, 146, 156, 0.6);
+}
+
+.console-input:hover:not(:disabled) {
+  border-color: rgba(0, 229, 255, 0.25);
+}
+
+.console-input:focus {
+  outline: none;
+  border-color: rgba(0, 229, 255, 0.5);
+  box-shadow: 0 0 16px rgba(0, 229, 255, 0.12);
+}
+
+/* Typing caret in agent output */
+.typing-caret {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  margin-left: 2px;
+  vertical-align: text-bottom;
+  background: var(--agent);
+  animation: caret-blink 0.9s step-end infinite;
+}
+
+@keyframes caret-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════
+   Skeleton loader — kokonut-style shimmer, transform-only
+   ══════════════════════════════════════════════════════════════ */
+
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.skeleton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 229, 255, 0.08),
+    transparent
+  );
+  animation: skeleton-shimmer 1.6s ease-in-out infinite;
+  will-change: transform;
+}
+
+@keyframes skeleton-shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════
+   Misc components
+   ══════════════════════════════════════════════════════════════ */
+
+/* Header logo ring rotation */
+.logo-ring {
+  animation: ring-rotate 14s linear infinite;
+  will-change: transform;
+}
+
+@keyframes ring-rotate {
+  to {
+    transform: rotate(360deg) translateZ(0);
+  }
+}
+
+.evidence-board {
+  position: relative;
+}
+
+.science-pipeline-card {
+  cursor: pointer;
+}
+
+.science-pipeline-card:focus-visible {
+  outline: 2px solid rgba(0, 229, 255, 0.55);
+  outline-offset: 3px;
+}
+
+.tds-slider {
+  height: 6px;
+  appearance: none;
+  background: var(--surface-elevated);
+  border: 1px solid var(--border);
+  border-radius: 9999px;
+}
+
+.tds-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px rgba(0, 229, 255, 0.15);
+  cursor: pointer;
+}
+
+.tds-slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border: none;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px rgba(0, 229, 255, 0.15);
+  cursor: pointer;
+}
+
+/* Pipeline stage pulse (only visible during analysis, not scroll) */
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 229, 255, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(0, 229, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 229, 255, 0);
+  }
+}
+
+.stage-active {
+  animation: pulse-ring 2s infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-ring,
+  .stage-active,
+  .typing-caret,
+  .skeleton::after {
+    animation: none;
+  }
+  .stage-active {
+    box-shadow: 0 0 0 2px rgba(0, 229, 255, 0.35);
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════
+   Lenis smooth scroll
+   ══════════════════════════════════════════════════════════════ */
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
