@@ -10,7 +10,7 @@ Part of: [Multi-Modal Clickbait Analysis](https://github.com/KraKEn-bit/Multi-Mo
 
 ## What problem does this solve?
 
-Bangla YouTube clickbait often uses polished or sensational **headlines** while the **footage** tells a different story. Text-only classifiers, even strong ones like BanglaBERT — can be fooled when the title alone reads as legitimate. Our own baseline model was **99.98% confident** on one such video, and completely wrong.
+Bangla YouTube clickbait often uses polished or sensational **headlines** while the **footage** tells a different story. Text-only classifiers, even strong ones like BanglaBERT can be fooled when the title alone reads as legitimate. Our own baseline model was **99.98% confident** on one such video, and completely wrong.
 
 **VTCF fuses three signals to catch what text alone misses:**
 1. **Title text** — BanglaBERT reads the headline's promise
