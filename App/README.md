@@ -146,3 +146,11 @@ Verify the API is running: `curl http://127.0.0.1:8000/health` → `{"status":"o
 | `DhESX8gA7wk` | Hard case — **VTCF rescue** | BanglaBERT (title-only) → genuine, wrong. VTCF → clickbait, correct. Frame content contradicts the title |
 
 ---
+
+## Project layout
+App/
+├── backend/ FastAPI + VTCF inference wrapper
+│ └── cached_examples/ Pre-computed JSON + frame PNGs (demo works fully offline)
+├── frontend/ Next.js demo UI
+├── docs/screenshots/ Screenshots for this README
+└── README.md
