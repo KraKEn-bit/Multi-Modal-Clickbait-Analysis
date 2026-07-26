@@ -1,4 +1,4 @@
-# VTCF — Bangla YouTube Clickbait Detector (App Version 2)
+# VTCF : Bangla YouTube Clickbait Detector (App Version 2)
 
 **Hackathon demo** for the [Visual-Temporal Contradiction Framework (VTCF)](https://github.com/KraKEn-bit/Multi-Modal-Clickbait-Analysis): a multimodal system that flags Bangla YouTube clickbait by comparing what the **title promises** with what the **video actually shows** — not title text alone.
 
