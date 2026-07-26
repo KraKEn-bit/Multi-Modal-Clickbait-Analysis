@@ -148,9 +148,11 @@ Verify the API is running: `curl http://127.0.0.1:8000/health` → `{"status":"o
 ---
 
 ## Project layout
+```
 App/
-├── backend/ FastAPI + VTCF inference wrapper
-│ └── cached_examples/ Pre-computed JSON + frame PNGs (demo works fully offline)
-├── frontend/ Next.js demo UI
-├── docs/screenshots/ Screenshots for this README
+├── backend/              FastAPI + VTCF inference wrapper
+│   └── cached_examples/  Pre-computed JSON + frame PNGs (demo works fully offline)
+├── frontend/             Next.js demo UI
+├── docs/screenshots/     Screenshots for this README
 └── README.md
+```
