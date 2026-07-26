@@ -146,20 +146,3 @@ Verify the API is running: `curl http://127.0.0.1:8000/health` → `{"status":"o
 | `DhESX8gA7wk` | Hard case — **VTCF rescue** | BanglaBERT (title-only) → genuine, wrong. VTCF → clickbait, correct. Frame content contradicts the title |
 
 ---
-
-## Honest limitations
-
-**Finding-1 (this demo, what's actually running live):**
-- Model checkpoints and the full 8,047-frame cache aren't shipped in this repo (multi-GB scale) — download or retrain separately
-- Live YouTube analysis may fail without valid browser cookies (YouTube rate-limits/blocks some automated downloads)
-- The model samples 3 frames per video (hook, context, delivery), not full-video understanding
-- Trained specifically on Bangla YouTube news-style content — may not generalize to other genres or languages
-
-**Finding-2 (a second, audio-based model — referenced in our study stats, but not running live in this app):**
-We also built a separate model that transcribes a video's speech and compares an AI-generated summary against the title, instead of watching the frames. It's the source of the "64%" figure above. We did **not** wire this into the live app — it depends on an external AI summarization API with daily rate limits, and in our own testing it only rescued 64% of hard cases vs. 100% for the visual approach, so the product is built around the stronger, faster, more reliable visual model. Additionally:
-- This model was trained on only 1,591 of the full 8,047 videos, due to those API rate limits
-- Thumbnail OCR text was sparse and usable on roughly 38% of videos even after a pipeline fix
-
----
-
-## Project layout
