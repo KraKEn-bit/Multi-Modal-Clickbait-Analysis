@@ -7,7 +7,7 @@ import type { AnalysisResult, AnalyzeEstimate } from "@/lib/types";
 import { HARD_CASES } from "@/lib/hardCases";
 import { extractYoutubeVideoId } from "@/lib/youtube";
 import { VtcfLogoMark } from "@/components/VtcfLogoMark";
-import { LiveInferenceNotice } from "@/components/LiveInferenceNotice";
+import { Toast } from "@/components/Toast";
 import { AgentConsole } from "@/components/landing/AgentConsole";
 import { HeroSection } from "@/components/landing/HeroSection";
 import { ValueSection } from "@/components/landing/ValueSection";
@@ -18,6 +18,8 @@ import { ToolSection } from "@/components/landing/ToolSection";
 import { useScrollToSection } from "@/components/ScrollReveal";
 import { useLenisScroll } from "@/components/LenisProvider";
 import { usePipelineStageTimer } from "@/components/PipelineProgress";
+
+const TOAST_DISMISS_MS = 8000;
 
 /** Local hard cases shaped as AnalysisResult — always available without the API. */
 const LOCAL_HARD_EXAMPLES: AnalysisResult[] = HARD_CASES.map((c) => ({
@@ -49,7 +51,7 @@ export default function HomePage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [timeEstimate, setTimeEstimate] = useState<AnalyzeEstimate | null>(null);
-  const [liveNoticeOpen, setLiveNoticeOpen] = useState(false);
+  const [toast, setToast] = useState<string | null>(null);
 
   const heroRef = useRef<HTMLDivElement>(null);
   const toolRef = useRef<HTMLElement>(null);
@@ -85,16 +87,6 @@ export default function HomePage() {
     resultsRef.current.scrollIntoView({ behavior: "auto", block: "start" });
   }, [reducedMotion, lenisScrollTo]);
 
-  const scrollToCases = useCallback(() => {
-    setLiveNoticeOpen(false);
-    if (!toolRef.current) return;
-    if (!reducedMotion) {
-      lenisScrollTo(toolRef.current, { offset: -72 });
-      return;
-    }
-    toolRef.current.scrollIntoView({ behavior: "auto", block: "start" });
-  }, [reducedMotion, lenisScrollTo]);
-
   // Enrich from the API when available; keep local hard cases if it fails.
   useEffect(() => {
     fetchExamples()
@@ -107,13 +99,18 @@ export default function HomePage() {
       });
   }, []);
 
+  useEffect(() => {
+    if (!toast) return;
+    const timer = window.setTimeout(() => setToast(null), TOAST_DISMISS_MS);
+    return () => window.clearTimeout(timer);
+  }, [toast]);
+
   const handleAnalyze = useCallback(async () => {
     if (!url.trim()) return;
 
-    // Never rewrite the typed URL on failure / notice.
     const pastedUrl = url.trim();
     setError(null);
-    setLiveNoticeOpen(false);
+    setToast(null);
     setResult(null);
     setTimeEstimate(null);
 
@@ -123,7 +120,7 @@ export default function HomePage() {
       return;
     }
 
-    // Pre-cached hard case / example → instant local result (no live API).
+    // Instant path for pre-computed cases (works offline / on Vercel).
     const cached = cachedById.get(videoId);
     if (cached) {
       setLoading(false);
@@ -131,7 +128,7 @@ export default function HomePage() {
       return;
     }
 
-    // External / non-cached URL → attempt live inference.
+    // Live pipeline — same flow as before (stages + full report).
     setLoading(true);
     try {
       try {
@@ -152,11 +149,15 @@ export default function HomePage() {
 
       const data = await analyzeUrl(pastedUrl);
       setResult(data);
-    } catch {
-      // Live pipeline unavailable (typical on Vercel without a GPU API).
-      // Do NOT swap in a hard case or change the input URL.
+    } catch (err) {
+      // Keep the user's URL. Do not swap in a different hard case.
+      const message =
+        err instanceof Error
+          ? err.message
+          : "Analysis failed. Check the URL and try again.";
+      setError(message);
+      setToast(message);
       setResult(null);
-      setLiveNoticeOpen(true);
     } finally {
       setLoading(false);
     }
@@ -165,7 +166,7 @@ export default function HomePage() {
   const handleExampleSelect = useCallback((example: AnalysisResult) => {
     setUrl(example.youtube_url);
     setError(null);
-    setLiveNoticeOpen(false);
+    setToast(null);
     setResult(example);
     setLoading(false);
     setTimeEstimate(null);
@@ -186,10 +187,8 @@ export default function HomePage() {
 
   return (
     <div className="page-shell">
-      {/* Pure-CSS mesh gradient backdrop — painted once, no canvas */}
       <div className="mesh-bg" aria-hidden />
 
-      {/* Solid dark header — no backdrop-filter */}
       <header className="sticky top-0 z-20 border-b border-white/[0.07] bg-[#050505]">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <div className="flex items-center gap-3">
@@ -243,7 +242,6 @@ export default function HomePage() {
       </div>
 
       <main>
-        {/* Imprint.ai sticky-scroll hard-case walkthrough */}
         <CaseStudyScroll />
 
         <ToolSection
@@ -268,11 +266,7 @@ export default function HomePage() {
         VTCF study demo · BanglaBERT + ViT · Not affiliated with YouTube
       </footer>
 
-      <LiveInferenceNotice
-        open={liveNoticeOpen}
-        onDismiss={() => setLiveNoticeOpen(false)}
-        onBrowseCases={scrollToCases}
-      />
+      <Toast message={toast} onDismiss={() => setToast(null)} />
     </div>
   );
 }
