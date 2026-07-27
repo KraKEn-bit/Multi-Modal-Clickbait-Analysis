@@ -207,11 +207,20 @@ export function AgentConsole({
             </div>
           )}
 
-          {/* Error line (only when no fallback case was available) */}
+          {/* Error line */}
           {status === "IDLE" && error && (
-            <p className="mt-5 font-mono text-xs leading-relaxed text-clickbait">
-              ! {error} — check the URL or try a cached example below.
-            </p>
+            <div className="mt-5 space-y-2 font-mono text-xs leading-relaxed">
+              <p className="text-clickbait">! {error}</p>
+              {hasDemo && (
+                <button
+                  type="button"
+                  onClick={onLoadDemo}
+                  className="text-accent transition-colors duration-200 hover:text-accent-strong"
+                >
+                  → or open a cached hard case instead
+                </button>
+              )}
+            </div>
           )}
 
           {/* Stage cascade — Anime.js entrance, stageIndex drives states */}

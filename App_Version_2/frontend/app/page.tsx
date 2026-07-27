@@ -2,12 +2,20 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useReducedMotion } from "framer-motion";
-import { analyzeUrl, fetchAnalyzeEstimate, fetchExamples } from "@/lib/api";
+import {
+  analyzeUrl,
+  fetchAnalyzeEstimate,
+  fetchExamples,
+  isLiveApiUnreachableFromPage,
+} from "@/lib/api";
 import type { AnalysisResult, AnalyzeEstimate } from "@/lib/types";
 import { HARD_CASES } from "@/lib/hardCases";
 import { extractYoutubeVideoId } from "@/lib/youtube";
 import { VtcfLogoMark } from "@/components/VtcfLogoMark";
-import { Toast } from "@/components/Toast";
+import {
+  LiveInferenceNotice,
+  LIVE_UNAVAILABLE_MESSAGE,
+} from "@/components/LiveInferenceNotice";
 import { AgentConsole } from "@/components/landing/AgentConsole";
 import { HeroSection } from "@/components/landing/HeroSection";
 import { ValueSection } from "@/components/landing/ValueSection";
@@ -18,8 +26,6 @@ import { ToolSection } from "@/components/landing/ToolSection";
 import { useScrollToSection } from "@/components/ScrollReveal";
 import { useLenisScroll } from "@/components/LenisProvider";
 import { usePipelineStageTimer } from "@/components/PipelineProgress";
-
-const TOAST_DISMISS_MS = 8000;
 
 /** Local hard cases shaped as AnalysisResult — always available without the API. */
 const LOCAL_HARD_EXAMPLES: AnalysisResult[] = HARD_CASES.map((c) => ({
@@ -41,6 +47,17 @@ const LOCAL_HARD_EXAMPLES: AnalysisResult[] = HARD_CASES.map((c) => ({
   vtcf_rescued: true,
 }));
 
+function isNetworkFailure(err: unknown): boolean {
+  if (!(err instanceof Error)) return false;
+  const msg = err.message.toLowerCase();
+  return (
+    msg.includes("failed to fetch") ||
+    msg.includes("networkerror") ||
+    msg.includes("load failed") ||
+    msg.includes("network request failed")
+  );
+}
+
 export default function HomePage() {
   const [url, setUrl] = useState("");
   const [examples, setExamples] = useState<AnalysisResult[]>(LOCAL_HARD_EXAMPLES);
@@ -51,7 +68,7 @@ export default function HomePage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [timeEstimate, setTimeEstimate] = useState<AnalyzeEstimate | null>(null);
-  const [toast, setToast] = useState<string | null>(null);
+  const [liveNoticeOpen, setLiveNoticeOpen] = useState(false);
 
   const heroRef = useRef<HTMLDivElement>(null);
   const toolRef = useRef<HTMLElement>(null);
@@ -87,8 +104,27 @@ export default function HomePage() {
     resultsRef.current.scrollIntoView({ behavior: "auto", block: "start" });
   }, [reducedMotion, lenisScrollTo]);
 
+  const scrollToCases = useCallback(() => {
+    setLiveNoticeOpen(false);
+    if (!toolRef.current) return;
+    if (!reducedMotion) {
+      lenisScrollTo(toolRef.current, { offset: -72 });
+      return;
+    }
+    toolRef.current.scrollIntoView({ behavior: "auto", block: "start" });
+  }, [reducedMotion, lenisScrollTo]);
+
+  const showLiveUnavailable = useCallback(() => {
+    // Keep pasted URL. Never swap in a different hard case.
+    setLoading(false);
+    setResult(null);
+    setError(null);
+    setLiveNoticeOpen(true);
+  }, []);
+
   // Enrich from the API when available; keep local hard cases if it fails.
   useEffect(() => {
+    if (isLiveApiUnreachableFromPage()) return;
     fetchExamples()
       .then((data) => {
         if (data.examples.length > 0) setExamples(data.examples);
@@ -99,18 +135,12 @@ export default function HomePage() {
       });
   }, []);
 
-  useEffect(() => {
-    if (!toast) return;
-    const timer = window.setTimeout(() => setToast(null), TOAST_DISMISS_MS);
-    return () => window.clearTimeout(timer);
-  }, [toast]);
-
   const handleAnalyze = useCallback(async () => {
     if (!url.trim()) return;
 
     const pastedUrl = url.trim();
     setError(null);
-    setToast(null);
+    setLiveNoticeOpen(false);
     setResult(null);
     setTimeEstimate(null);
 
@@ -120,7 +150,7 @@ export default function HomePage() {
       return;
     }
 
-    // Instant path for pre-computed cases (works offline / on Vercel).
+    // Pre-cached hard case → full report instantly (works on Vercel).
     const cached = cachedById.get(videoId);
     if (cached) {
       setLoading(false);
@@ -128,7 +158,12 @@ export default function HomePage() {
       return;
     }
 
-    // Live pipeline — same flow as before (stages + full report).
+    // Hosted HTTPS demo cannot reach local HTTP GPU API — don't "Failed to fetch".
+    if (isLiveApiUnreachableFromPage()) {
+      showLiveUnavailable();
+      return;
+    }
+
     setLoading(true);
     try {
       try {
@@ -150,23 +185,23 @@ export default function HomePage() {
       const data = await analyzeUrl(pastedUrl);
       setResult(data);
     } catch (err) {
-      // Keep the user's URL. Do not swap in a different hard case.
+      if (isNetworkFailure(err)) {
+        showLiveUnavailable();
+        return;
+      }
       const message =
-        err instanceof Error
-          ? err.message
-          : "Analysis failed. Check the URL and try again.";
+        err instanceof Error ? err.message : "Analysis failed. Check the URL and try again.";
       setError(message);
-      setToast(message);
       setResult(null);
     } finally {
       setLoading(false);
     }
-  }, [url, cachedById]);
+  }, [url, cachedById, showLiveUnavailable]);
 
   const handleExampleSelect = useCallback((example: AnalysisResult) => {
     setUrl(example.youtube_url);
     setError(null);
-    setToast(null);
+    setLiveNoticeOpen(false);
     setResult(example);
     setLoading(false);
     setTimeEstimate(null);
@@ -266,7 +301,17 @@ export default function HomePage() {
         VTCF study demo · BanglaBERT + ViT · Not affiliated with YouTube
       </footer>
 
-      <Toast message={toast} onDismiss={() => setToast(null)} />
+      <LiveInferenceNotice
+        open={liveNoticeOpen}
+        onDismiss={() => setLiveNoticeOpen(false)}
+        onBrowseCases={scrollToCases}
+      />
+      {/* Screen-reader copy of the notice when open */}
+      {liveNoticeOpen && (
+        <p className="sr-only" role="status">
+          {LIVE_UNAVAILABLE_MESSAGE}
+        </p>
+      )}
     </div>
   );
 }
