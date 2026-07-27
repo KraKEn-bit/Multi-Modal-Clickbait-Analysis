@@ -2,12 +2,11 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useReducedMotion } from "framer-motion";
-import { fetchExamples } from "@/lib/api";
-import type { AnalysisResult } from "@/lib/types";
+import { analyzeUrl, fetchAnalyzeEstimate, fetchExamples } from "@/lib/api";
+import type { AnalysisResult, AnalyzeEstimate } from "@/lib/types";
 import { HARD_CASES } from "@/lib/hardCases";
 import { extractYoutubeVideoId } from "@/lib/youtube";
 import { VtcfLogoMark } from "@/components/VtcfLogoMark";
-import { Toast } from "@/components/Toast";
 import { LiveInferenceNotice } from "@/components/LiveInferenceNotice";
 import { AgentConsole } from "@/components/landing/AgentConsole";
 import { HeroSection } from "@/components/landing/HeroSection";
@@ -19,11 +18,6 @@ import { ToolSection } from "@/components/landing/ToolSection";
 import { useScrollToSection } from "@/components/ScrollReveal";
 import { useLenisScroll } from "@/components/LenisProvider";
 import { usePipelineStageTimer } from "@/components/PipelineProgress";
-
-const TOAST_DISMISS_MS = 10000;
-
-const LIVE_UNAVAILABLE_TOAST =
-  "Live inference runs on a dedicated GPU cluster. Please select one of our pre-computed hard cases below to explore the agent's full visual-temporal breakdown.";
 
 /** Local hard cases shaped as AnalysisResult — always available without the API. */
 const LOCAL_HARD_EXAMPLES: AnalysisResult[] = HARD_CASES.map((c) => ({
@@ -54,7 +48,7 @@ export default function HomePage() {
   const [result, setResult] = useState<AnalysisResult | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [toast, setToast] = useState<string | null>(null);
+  const [timeEstimate, setTimeEstimate] = useState<AnalyzeEstimate | null>(null);
   const [liveNoticeOpen, setLiveNoticeOpen] = useState(false);
 
   const heroRef = useRef<HTMLDivElement>(null);
@@ -62,8 +56,7 @@ export default function HomePage() {
   const scienceRef = useRef<HTMLElement>(null);
   const resultsRef = useRef<HTMLElement>(null);
   const reducedMotion = useReducedMotion();
-  // Stage timer stays idle unless loading — we no longer run fake live pipelines here.
-  const stageIndex = usePipelineStageTimer(loading, null);
+  const stageIndex = usePipelineStageTimer(loading, timeEstimate);
   const scrollToSectionFn = useScrollToSection();
   const { scrollTo: lenisScrollTo } = useLenisScroll();
 
@@ -114,51 +107,68 @@ export default function HomePage() {
       });
   }, []);
 
-  // Auto-dismiss toast notifications.
-  useEffect(() => {
-    if (!toast) return;
-    const timer = window.setTimeout(() => setToast(null), TOAST_DISMISS_MS);
-    return () => window.clearTimeout(timer);
-  }, [toast]);
-
-  const handleAnalyze = useCallback(() => {
+  const handleAnalyze = useCallback(async () => {
     if (!url.trim()) return;
 
-    // Never mutate the typed URL — keep whatever the user pasted.
+    // Never rewrite the typed URL on failure / notice.
+    const pastedUrl = url.trim();
     setError(null);
-    setToast(null);
     setLiveNoticeOpen(false);
+    setResult(null);
+    setTimeEstimate(null);
 
-    const videoId = extractYoutubeVideoId(url);
+    const videoId = extractYoutubeVideoId(pastedUrl);
     if (!videoId) {
       setError("Paste a valid YouTube URL (watch, youtu.be, or shorts).");
-      setResult(null);
       return;
     }
 
+    // Pre-cached hard case / example → instant local result (no live API).
     const cached = cachedById.get(videoId);
     if (cached) {
-      // Pre-cached hard case / example — load locally, no live API.
       setLoading(false);
       setResult(cached);
       return;
     }
 
-    // Not in the pre-cached set: do not call live analyze / estimate,
-    // and do not silently fall back to another case or rewrite the URL.
-    setResult(null);
-    setLoading(false);
-    setToast(LIVE_UNAVAILABLE_TOAST);
-    setLiveNoticeOpen(true);
+    // External / non-cached URL → attempt live inference.
+    setLoading(true);
+    try {
+      try {
+        const estimate = await fetchAnalyzeEstimate(pastedUrl);
+        setTimeEstimate(estimate);
+      } catch {
+        setTimeEstimate({
+          video_id: videoId,
+          youtube_url: pastedUrl,
+          title: "",
+          duration_seconds: null,
+          duration_label: "",
+          estimated_seconds_low: 120,
+          estimated_seconds_high: 300,
+          estimated_label: "a few minutes",
+        });
+      }
+
+      const data = await analyzeUrl(pastedUrl);
+      setResult(data);
+    } catch {
+      // Live pipeline unavailable (typical on Vercel without a GPU API).
+      // Do NOT swap in a hard case or change the input URL.
+      setResult(null);
+      setLiveNoticeOpen(true);
+    } finally {
+      setLoading(false);
+    }
   }, [url, cachedById]);
 
   const handleExampleSelect = useCallback((example: AnalysisResult) => {
     setUrl(example.youtube_url);
     setError(null);
-    setToast(null);
     setLiveNoticeOpen(false);
     setResult(example);
     setLoading(false);
+    setTimeEstimate(null);
   }, []);
 
   const handleLoadDemo = useCallback(() => {
@@ -224,7 +234,7 @@ export default function HomePage() {
               fallback={false}
               error={error}
               stageIndex={stageIndex}
-              estimate={null}
+              estimate={timeEstimate}
               result={result}
               hasDemo={!!hardCase}
             />
@@ -258,7 +268,6 @@ export default function HomePage() {
         VTCF study demo · BanglaBERT + ViT · Not affiliated with YouTube
       </footer>
 
-      <Toast message={toast} onDismiss={() => setToast(null)} />
       <LiveInferenceNotice
         open={liveNoticeOpen}
         onDismiss={() => setLiveNoticeOpen(false)}
