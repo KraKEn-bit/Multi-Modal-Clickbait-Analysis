@@ -7,7 +7,7 @@ import { CountUp } from "@/components/CountUp";
 
 /**
  * Ring gauges for the headline metrics: 99.63% F1 on the main test set,
- * and 100% rescue on the 9 hard failure cases. Arcs sweep in with
+ * and 100% rescue on the 29 text-blind hard cases. Arcs sweep in with
  * Anime.js (strokeDashoffset — paint-cheap, fires once on scroll) and
  * the numbers count up in sync.
  */
@@ -120,7 +120,7 @@ export const ScoreRings = memo(function ScoreRings() {
         color="#00e5ff"
         trackColor="rgba(0,229,255,0.12)"
         label="Hard-case rescue"
-        sublabel="All 9 text-blind failure cases recovered by visual evidence"
+        sublabel="All 29 text-blind hard cases recovered by visual evidence"
       >
         <span className="font-mono text-2xl font-bold tracking-tight text-accent">
           <CountUp to={100} suffix="%" duration={1700} />

@@ -71,8 +71,8 @@ export function FindingsBento() {
             What the hard cases taught us
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted">
-            Across the 160-video test set, 9 videos fooled every text channel at
-            once. The data tells the story better than we can.
+            Across the 805-video test set, 29 text-blind hard cases were
+            evaluated. The data tells the story better than we can.
           </p>
         </ScrollRevealItem>
 
@@ -148,11 +148,10 @@ export function FindingsBento() {
               iconClass="text-accent-strong"
               iconBoxClass="bg-accent-soft"
               kicker="The rescue"
-              title="9 text-blind cases, 9 recovered"
+              title="29 text-blind cases, 29 recovered"
             >
-              Every hard case that defeated the text channels was correctly
-              classified once visual evidence joined the decision — versus 64%
-              for speech and summary baselines.
+              All 29 testable hard cases that defeated the text-only channel
+              were correctly recovered when visual evidence joined the decision.
             </FindingCard>
           </ScrollRevealItem>
         </div>

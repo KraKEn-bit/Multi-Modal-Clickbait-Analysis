@@ -18,10 +18,10 @@ const STATS = [
     detail: "Human-labeled Bangla YouTube videos in the research corpus",
   },
   {
-    value: 160,
+    value: 805,
     suffix: "",
     label: "Test videos",
-    detail: "Held-out evaluation set behind the headline metrics",
+    detail: "Held-out 10% evaluation set for the primary VTCF model",
   },
 ] as const;
 

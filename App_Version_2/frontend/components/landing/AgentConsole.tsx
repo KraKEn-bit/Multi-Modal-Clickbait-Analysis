@@ -201,7 +201,7 @@ export function AgentConsole({
                   onClick={onLoadDemo}
                   className="mt-2 text-accent transition-colors duration-200 hover:text-accent-strong"
                 >
-                  → or run a cached hard case from the 160-video test set
+                  → or run a cached hard case from the 805-video test set
                 </button>
               )}
             </div>

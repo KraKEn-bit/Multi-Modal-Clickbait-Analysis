@@ -35,7 +35,7 @@ export const ToolSection = forwardRef<HTMLElement, Props>(function ToolSection(
         <div className="mb-10 max-w-2xl">
           <span className="eyebrow">Case files</span>
           <h2 className="mt-2 text-3xl font-semibold leading-snug tracking-tight text-foreground sm:text-4xl">
-            Open a case from the 160-video test set
+            Open a case from the 805-video test set
           </h2>
           <p className="mt-3 text-sm leading-relaxed text-muted sm:text-base">
             Pre-computed results load instantly. Hard cases show where BanglaBERT
