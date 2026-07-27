@@ -2,11 +2,13 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useReducedMotion } from "framer-motion";
-import { analyzeUrl, fetchAnalyzeEstimate, fetchExamples } from "@/lib/api";
-import type { AnalysisResult, AnalyzeEstimate } from "@/lib/types";
+import { fetchExamples } from "@/lib/api";
+import type { AnalysisResult } from "@/lib/types";
 import { HARD_CASES } from "@/lib/hardCases";
+import { extractYoutubeVideoId } from "@/lib/youtube";
 import { VtcfLogoMark } from "@/components/VtcfLogoMark";
 import { Toast } from "@/components/Toast";
+import { LiveInferenceNotice } from "@/components/LiveInferenceNotice";
 import { AgentConsole } from "@/components/landing/AgentConsole";
 import { HeroSection } from "@/components/landing/HeroSection";
 import { ValueSection } from "@/components/landing/ValueSection";
@@ -18,9 +20,10 @@ import { useScrollToSection } from "@/components/ScrollReveal";
 import { useLenisScroll } from "@/components/LenisProvider";
 import { usePipelineStageTimer } from "@/components/PipelineProgress";
 
-const FALLBACK_TOAST = "Live fetch timed out. Falling back to cached Hard Case.";
-const FALLBACK_SKELETON_MS = 1400;
-const TOAST_DISMISS_MS = 6000;
+const TOAST_DISMISS_MS = 10000;
+
+const LIVE_UNAVAILABLE_TOAST =
+  "Live inference runs on a dedicated GPU cluster. Please select one of our pre-computed hard cases below to explore the agent's full visual-temporal breakdown.";
 
 /** Local hard cases shaped as AnalysisResult — always available without the API. */
 const LOCAL_HARD_EXAMPLES: AnalysisResult[] = HARD_CASES.map((c) => ({
@@ -50,18 +53,17 @@ export default function HomePage() {
   );
   const [result, setResult] = useState<AnalysisResult | null>(null);
   const [loading, setLoading] = useState(false);
-  const [fallback, setFallback] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [timeEstimate, setTimeEstimate] = useState<AnalyzeEstimate | null>(null);
   const [toast, setToast] = useState<string | null>(null);
+  const [liveNoticeOpen, setLiveNoticeOpen] = useState(false);
 
   const heroRef = useRef<HTMLDivElement>(null);
   const toolRef = useRef<HTMLElement>(null);
   const scienceRef = useRef<HTMLElement>(null);
   const resultsRef = useRef<HTMLElement>(null);
-  const fallbackTimerRef = useRef<number | null>(null);
   const reducedMotion = useReducedMotion();
-  const stageIndex = usePipelineStageTimer(loading, timeEstimate);
+  // Stage timer stays idle unless loading — we no longer run fake live pipelines here.
+  const stageIndex = usePipelineStageTimer(loading, null);
   const scrollToSectionFn = useScrollToSection();
   const { scrollTo: lenisScrollTo } = useLenisScroll();
 
@@ -73,6 +75,14 @@ export default function HomePage() {
     [examples],
   );
 
+  const cachedById = useMemo(() => {
+    const map = new Map<string, AnalysisResult>();
+    for (const example of [...LOCAL_HARD_EXAMPLES, ...examples]) {
+      map.set(example.video_id, example);
+    }
+    return map;
+  }, [examples]);
+
   const scrollToResults = useCallback(() => {
     if (!resultsRef.current) return;
     if (!reducedMotion) {
@@ -80,6 +90,16 @@ export default function HomePage() {
       return;
     }
     resultsRef.current.scrollIntoView({ behavior: "auto", block: "start" });
+  }, [reducedMotion, lenisScrollTo]);
+
+  const scrollToCases = useCallback(() => {
+    setLiveNoticeOpen(false);
+    if (!toolRef.current) return;
+    if (!reducedMotion) {
+      lenisScrollTo(toolRef.current, { offset: -72 });
+      return;
+    }
+    toolRef.current.scrollIntoView({ behavior: "auto", block: "start" });
   }, [reducedMotion, lenisScrollTo]);
 
   // Enrich from the API when available; keep local hard cases if it fails.
@@ -101,62 +121,44 @@ export default function HomePage() {
     return () => window.clearTimeout(timer);
   }, [toast]);
 
-  // Clear any pending fallback timer on unmount.
-  useEffect(() => {
-    return () => {
-      if (fallbackTimerRef.current !== null) {
-        window.clearTimeout(fallbackTimerRef.current);
-      }
-    };
-  }, []);
-
-  const handleAnalyze = useCallback(async () => {
+  const handleAnalyze = useCallback(() => {
     if (!url.trim()) return;
-    setError(null);
-    setResult(null);
-    setLoading(true);
-    setTimeEstimate(null);
-    try {
-      try {
-        const estimate = await fetchAnalyzeEstimate(url.trim());
-        setTimeEstimate(estimate);
-      } catch {
-        setTimeEstimate({
-          video_id: "",
-          youtube_url: url.trim(),
-          title: "",
-          duration_seconds: null,
-          duration_label: "",
-          estimated_seconds_low: 45,
-          estimated_seconds_high: 60,
-          estimated_label: "45–60 sec",
-        });
-      }
 
-      const data = await analyzeUrl(url.trim());
-      setResult(data);
-    } catch {
-      // Never dead-end: shimmer, then load a local hard case + toast.
-      const fallbackCase = hardCase ?? LOCAL_HARD_EXAMPLES[0];
-      setFallback(true);
-      setToast(FALLBACK_TOAST);
-      fallbackTimerRef.current = window.setTimeout(() => {
-        setResult(fallbackCase);
-        setUrl(fallbackCase.youtube_url);
-        setFallback(false);
-        fallbackTimerRef.current = null;
-      }, FALLBACK_SKELETON_MS);
-    } finally {
-      setLoading(false);
+    // Never mutate the typed URL — keep whatever the user pasted.
+    setError(null);
+    setToast(null);
+    setLiveNoticeOpen(false);
+
+    const videoId = extractYoutubeVideoId(url);
+    if (!videoId) {
+      setError("Paste a valid YouTube URL (watch, youtu.be, or shorts).");
+      setResult(null);
+      return;
     }
-  }, [url, hardCase]);
+
+    const cached = cachedById.get(videoId);
+    if (cached) {
+      // Pre-cached hard case / example — load locally, no live API.
+      setLoading(false);
+      setResult(cached);
+      return;
+    }
+
+    // Not in the pre-cached set: do not call live analyze / estimate,
+    // and do not silently fall back to another case or rewrite the URL.
+    setResult(null);
+    setLoading(false);
+    setToast(LIVE_UNAVAILABLE_TOAST);
+    setLiveNoticeOpen(true);
+  }, [url, cachedById]);
 
   const handleExampleSelect = useCallback((example: AnalysisResult) => {
     setUrl(example.youtube_url);
     setError(null);
+    setToast(null);
+    setLiveNoticeOpen(false);
     setResult(example);
     setLoading(false);
-    setTimeEstimate(null);
   }, []);
 
   const handleLoadDemo = useCallback(() => {
@@ -219,10 +221,10 @@ export default function HomePage() {
               onLoadDemo={handleLoadDemo}
               onViewReport={scrollToResults}
               loading={loading}
-              fallback={fallback}
+              fallback={false}
               error={error}
               stageIndex={stageIndex}
-              estimate={timeEstimate}
+              estimate={null}
               result={result}
               hasDemo={!!hardCase}
             />
@@ -238,7 +240,7 @@ export default function HomePage() {
           ref={toolRef}
           resultsRef={resultsRef}
           onExampleSelect={handleExampleSelect}
-          loading={loading || fallback}
+          loading={loading}
           examples={examples}
           examplesError={null}
           researchNote={researchNote}
@@ -257,6 +259,11 @@ export default function HomePage() {
       </footer>
 
       <Toast message={toast} onDismiss={() => setToast(null)} />
+      <LiveInferenceNotice
+        open={liveNoticeOpen}
+        onDismiss={() => setLiveNoticeOpen(false)}
+        onBrowseCases={scrollToCases}
+      />
     </div>
   );
 }

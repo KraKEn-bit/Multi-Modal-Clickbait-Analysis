@@ -27,7 +27,7 @@ export function Toast({
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={reducedMotion ? undefined : { opacity: 0, y: 8, scale: 0.98 }}
             transition={{ type: "spring", stiffness: 380, damping: 30 }}
-            className="pointer-events-auto flex max-w-sm transform-gpu items-start gap-3 rounded-xl border border-white/10 bg-surface px-4 py-3 shadow-[0_16px_40px_-12px_rgba(0,0,0,0.7)] will-change-transform"
+            className="pointer-events-auto flex max-w-md transform-gpu items-start gap-3 rounded-xl border border-white/10 bg-surface px-4 py-3 shadow-[0_16px_40px_-12px_rgba(0,0,0,0.7)] will-change-transform"
             role="status"
           >
             <span
