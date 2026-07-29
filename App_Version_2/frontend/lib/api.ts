@@ -35,6 +35,8 @@ export function isLiveApiUnreachableFromPage(): boolean {
 
 export function assetUrl(path: string): string {
   if (path.startsWith("http")) return path;
+  // Serve demo frames from Next.js public/ (works on Vercel without the API).
+  if (path.startsWith("/cached-frames/")) return path;
   return `${API_BASE}${path}`;
 }
 

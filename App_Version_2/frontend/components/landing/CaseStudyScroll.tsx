@@ -4,8 +4,8 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { ChevronLeft, ChevronRight, X, Check } from "lucide-react";
 import { HARD_CASES, type HardCase } from "@/lib/hardCases";
-import { assetUrl, youtubeStoryboardFrame } from "@/lib/api";
 import { CaseDivergenceChart } from "@/components/charts/CaseDivergenceChart";
+import { TemporalFrameImage } from "@/components/TemporalFrameImage";
 import { formatConfidence } from "@/lib/format";
 
 const FRAME_META = [
@@ -15,39 +15,6 @@ const FRAME_META = [
 ] as const;
 
 const SKELETON_MS = 400;
-
-function FrameImage({
-  videoId,
-  url,
-  frameIndex,
-  label,
-}: {
-  videoId: string;
-  url: string;
-  frameIndex: 0 | 1 | 2;
-  label: string;
-}) {
-  const primary = assetUrl(url);
-  const fallback = youtubeStoryboardFrame(videoId, frameIndex);
-  const [src, setSrc] = useState(primary);
-
-  useEffect(() => {
-    setSrc(primary);
-  }, [primary, videoId, frameIndex]);
-
-  return (
-    /* eslint-disable-next-line @next/next/no-img-element */
-    <img
-      src={src}
-      alt={`${label} frame`}
-      className="h-full w-full object-cover"
-      loading="lazy"
-      onError={() => {
-        setSrc((current) => (current === fallback ? current : fallback));
-      }}
-    />
-  );
-}
 
 function CaseStudySkeleton() {
   return (
@@ -232,11 +199,12 @@ export function CaseStudyScroll() {
                     return (
                       <div key={frame.key} className="group">
                         <div className="relative aspect-video overflow-hidden rounded-xl border border-white/[0.08] bg-black/40">
-                          <FrameImage
+                          <TemporalFrameImage
                             videoId={caseData.video_id}
                             url={caseData.frame_urls[stepIndex]}
                             frameIndex={stepIndex as 0 | 1 | 2}
                             label={frame.label}
+                            className="h-full w-full object-cover"
                           />
                           <span className="absolute left-3 top-3 flex h-6 w-6 items-center justify-center rounded-md bg-black/60 text-xs font-medium text-foreground backdrop-blur-none">
                             {frame.step}

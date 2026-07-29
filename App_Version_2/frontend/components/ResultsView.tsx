@@ -2,10 +2,10 @@
 
 import { motion, useReducedMotion } from "framer-motion";
 import type { AnalysisResult } from "@/lib/types";
-import { assetUrl } from "@/lib/api";
 import { FRAME_LABELS } from "@/lib/types";
 import { getDisplayExplanation } from "@/lib/previewExample";
 import { formatConfidence } from "@/lib/format";
+import { TemporalFrameImage } from "@/components/TemporalFrameImage";
 import {
   motionTransition,
   SPRING_BOUNCY,
@@ -224,10 +224,11 @@ export function ResultsView({ result, researchNote }: Props) {
                 className="relative z-[1] transform-gpu overflow-hidden rounded-xl border border-border bg-surface"
                 style={{ transformOrigin: "center bottom" }}
               >
-                <img
-                  src={assetUrl(url)}
-                  alt={FRAME_LABELS[index]}
-                  className="aspect-video w-full object-cover"
+                <TemporalFrameImage
+                  videoId={result.video_id}
+                  url={url}
+                  frameIndex={index as 0 | 1 | 2}
+                  label={FRAME_LABELS[index]}
                 />
                 <figcaption className="border-t border-border px-4 py-3">
                   <p className="text-xs font-semibold uppercase tracking-wider text-accent">

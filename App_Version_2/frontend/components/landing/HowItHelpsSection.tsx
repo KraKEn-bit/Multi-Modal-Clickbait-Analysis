@@ -1,11 +1,11 @@
 "use client";
 
 import type { AnalysisResult } from "@/lib/types";
-import { assetUrl } from "@/lib/api";
 import { FRAME_LABELS } from "@/lib/types";
 import { explanationMatchesVerdict, getDisplayExplanation } from "@/lib/previewExample";
 import { formatConfidence } from "@/lib/format";
 import { ScrollReveal, ScrollRevealItem } from "@/components/ScrollReveal";
+import { TemporalFrameImage } from "@/components/TemporalFrameImage";
 import { Film, LineChart, MessageSquareText } from "lucide-react";
 
 const BULLETS = [
@@ -57,10 +57,11 @@ export function ResultsPreview({ example }: { example: AnalysisResult }) {
       <div className="grid grid-cols-3 gap-px bg-border">
         {example.frame_urls.map((url, index) => (
           <figure key={url} className="bg-surface">
-            <img
-              src={assetUrl(url)}
-              alt={FRAME_LABELS[index]}
-              className="aspect-video w-full object-cover"
+            <TemporalFrameImage
+              videoId={example.video_id}
+              url={url}
+              frameIndex={index as 0 | 1 | 2}
+              label={FRAME_LABELS[index]}
             />
             <figcaption className="px-2 py-2">
               <p className="text-[10px] font-semibold uppercase tracking-wider text-accent">
