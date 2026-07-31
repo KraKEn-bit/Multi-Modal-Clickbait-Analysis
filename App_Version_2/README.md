@@ -1,5 +1,14 @@
 # VTCF — Bangla YouTube Clickbait Detector (Agent Console)
 
+## Live prototype
+
+**[vtcf-web-dashboard.vercel.app](https://vtcf-web-dashboard.vercel.app/)**
+
+This is the deployed frontend, so you can explore the full UI — hero, hard-case carousel, alignment charts, TDS guide — without any local setup.
+
+> ⚠️ **Live URL analysis is disabled on this deployment.** The backend requires GPU inference, multi-GB model checkpoints, and YouTube video downloads — none of which are practical to host on a free deployment tier. **The pre-cached hard cases and examples are fully interactive and load instantly** — this is the fastest way to see real results. For live analysis on a new YouTube URL, run the full stack locally (see Quick Start below).<br>
+
+
 **Hackathon demo** for the [Visual-Temporal Contradiction Framework (VTCF)](https://github.com/KraKEn-bit/Multi-Modal-Clickbait-Analysis): a multimodal system that flags Bangla YouTube clickbait by comparing what the **title promises** with what the **video actually shows** — not title text alone.
 
 > **This branch (`App_Version_2`)** is the dark, agent-console UI — staged live analysis, a hard-case carousel, and research charts. For the original landing-page UI, see the [`main`](https://github.com/KraKEn-bit/Multi-Modal-Clickbait-Analysis/tree/main/App) branch.
