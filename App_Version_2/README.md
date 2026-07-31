@@ -1,9 +1,10 @@
-# VTCF : Bangla YouTube Clickbait Detector (App Version 2)
+# VTCF — Bangla YouTube Clickbait Detector (Agent Console)
 
 **Hackathon demo** for the [Visual-Temporal Contradiction Framework (VTCF)](https://github.com/KraKEn-bit/Multi-Modal-Clickbait-Analysis): a multimodal system that flags Bangla YouTube clickbait by comparing what the **title promises** with what the **video actually shows** — not title text alone.
 
-> **This branch (`App_Version_2`)** is the **dark autonomous-agent UI** (agent console, hard-case carousel, research charts).  
-> For the original landing UI, use the [`main`](https://github.com/KraKEn-bit/Multi-Modal-Clickbait-Analysis/tree/main/App) branch.
+> **This branch (`App_Version_2`)** is the dark, agent-console UI — staged live analysis, a hard-case carousel, and research charts. For the original landing-page UI, see the [`main`](https://github.com/KraKEn-bit/Multi-Modal-Clickbait-Analysis/tree/main/App) branch.
+
+> **For judges — fastest path:** Open `http://localhost:3000`, scroll to **Hard cases**, and open one flagged `VTCF RESCUE`. That single result — a text-only baseline wrong, VTCF right — is the entire thesis of this project.
 
 Part of: [Multi-Modal Clickbait Analysis](https://github.com/KraKEn-bit/Multi-Modal-Clickbait-Analysis)
 
@@ -11,58 +12,59 @@ Part of: [Multi-Modal Clickbait Analysis](https://github.com/KraKEn-bit/Multi-Mo
 
 ## What problem does this solve?
 
-Bangla YouTube clickbait often uses polished or sensational **headlines** while the **footage** tells a different story. Text-only classifiers (even strong ones like BanglaBERT) can miss this when the title alone looks legitimate.
+Bangla YouTube clickbait often uses polished or sensational **headlines** while the **footage** tells a different story. Text-only classifiers — even strong ones like BanglaBERT — can be fooled when the title alone reads as legitimate.
 
-**VTCF fuses:**
-1. **Title text** — BanglaBERT reads the headline's promise  
-2. **Visual frames** — ViT reads hook, context, and delivery moments  
-3. **Cross-modal fusion** — cross-attention compares title against visuals to catch contradictions text alone misses  
+**VTCF fuses three signals to catch what text alone misses:**
+1. **Title text** — BanglaBERT reads the headline's promise
+2. **Visual frames** — a Vision Transformer (ViT) reads the hook, context, and delivery moments of the video
+3. **Cross-modal fusion** — cross-attention compares the title against the visuals to catch contradictions
 
-![Agent console hero — an agent that watches the video before you do](docs/screenshots/SS-1.png)
+![An agent that watches the video before you do — hero console with live URL analysis](docs/screenshots/SS-1.png)
 
 ---
 
-## Demo walkthrough (recommended for judges)
+## Demo walkthrough (recommended path for judges)
 
 | Step | What to do | What you'll see |
 |------|------------|-----------------|
-| **1** | Open the landing page | Dark agent console hero with live URL analyze |
-| **2** | Scroll to **Hard cases** | Carousel of rescued failures (title-only wrong, VTCF correct) |
-| **3** | Step through Hook → Context → Delivery | Temporal frames + alignment scores |
-| **4** | Review **Alignment over time** | Chart of title↔frame alignment across the timeline |
-| **5** | Open a hard case result / Judge Highlight | Side-by-side BanglaBERT miss vs VTCF rescue |
-| **6** | Scroll to **Research findings** | TDS curves + F1 / hard-case rescue rings |
-| **7** | (Optional) Paste a YouTube URL and click **Analyze** | Live download + inference (~45–90 s; needs cookies/checkpoints) |
+| **1** | Open the landing page | Agent console hero, live "Analyze" input |
+| **2** | Scroll to **Hard cases** | Carousel of rescued failures — title-only wrong, VTCF correct |
+| **3** | Open a hard case | Side-by-side: title-only baseline vs. full VTCF, human ground truth shown |
+| **4** | Review **Alignment over time** | Title↔frame alignment plotted across Hook → Context → Delivery |
+| **5** | Review the **Temporal frames + TDS** | The actual Hook/Context/Delivery frames with the Temporal Divergence Score |
+| **6** | Scroll to **Research findings** | Hard-case rescue rings and headline stats (8,047 videos, 805-video test set) |
+| **7** | Open the **TDS guide** | Interactive explainer for what the score means and doesn't mean |
+| **8** | (Optional) Paste a YouTube URL and click **Analyze** | Real download + inference on an unseen video, ~45–90s depending on length |
 
-![Hard-case walkthrough — title-only wrong vs VTCF correct, with Hook / Context / Delivery frames](docs/screenshots/SS-2.png)
+![Hard-case comparison — title-only baseline wrong, VTCF correct, with human ground truth](docs/screenshots/SS-2.png)
 
-![Alignment over time — title↔frame alignment across the video timeline](docs/screenshots/SS-3.png)
+![Alignment over time — title↔frame alignment across Hook, Context, and Delivery](docs/screenshots/SS-3.png)
 
-![Judge Highlight — BanglaBERT title-only incorrect vs Full VTCF correct, plus temporal frames](docs/screenshots/SS-4.png)
-
-![Research findings — genuine vs clickbait TDS curves and headline metrics](docs/screenshots/SS-5.png)
+![Temporal frames and Temporal Divergence Score for a live result](docs/screenshots/SS-4.png)
 
 ---
 
-## Why text-only fails (the research motivation)
+## Why text-only fails (the research behind this demo)
 
-| Stat | Result |
-|------|--------|
-| **Full VTCF F1** | **99.63%** on the held-out **805-video** test set (10% of the 8,047-video corpus) |
-| **Hard-case rescue** | **29 / 29** — all text-blind hard cases recovered when visual evidence joined the decision |
-| **Text-only F1** | 90.4% — misses visual bait-and-switch |
+![Research findings — what the hard cases taught us: rescue rate and F1 across the failure set](docs/screenshots/SS-5.png)
 
-Open a case from the **805-video** test set on the landing page; the Research findings section highlights the **29** rescued hard cases.
+| Stat | Result | What it means |
+|------|--------|----------------|
+| **Full VTCF F1** | **99.63%** | On the held-out 805-video test set (10% of the 8,047-video corpus) |
+| **Hard-case rescue** | **29 / 29** | Every text-blind hard case — where a well-written title fools a text-only model — was correctly rescued once visual evidence joined the decision |
+| **Text-only F1** | 90.4% | Reading the title alone — strong on easy cases, blind to visual bait-and-switch |
 
 ---
 
 ## Temporal Divergence Score (TDS)
 
-TDS (0–1) summarizes how much a video's **visuals change** across hook, context, and delivery. It is shown alongside frames and explanations — **not a verdict by itself**.
+![Interactive TDS guide — what the score measures and what it doesn't](docs/screenshots/SS-6.png)
 
-**Research surprise:** clickbait videos average **lower** TDS (~0.38) than genuine news (~0.64) — clickbait often reuses static footage rather than visually switching mid-video.
+TDS (0–1) measures how much a video's **visuals change** across the hook, context, and delivery frames. It's shown alongside the frames and explanation as supporting evidence — **it is not a verdict by itself**.
 
-![Interactive TDS score guide with hook / context / delivery timeline](docs/screenshots/SS-6.png)
+**The counter-intuitive finding:** we expected clickbait to show a bigger visual shift (a classic bait-and-switch). The data said the opposite — clickbait videos average a **lower** TDS (~0.38) than genuine videos (~0.64), because clickbait often reuses the same static footage throughout rather than actually switching content.
+
+![Titles can lie. Frames can't hide. — 8,047 videos analyzed, 805-video held-out test set](docs/screenshots/SS-7.png)
 
 ---
 
@@ -70,7 +72,7 @@ TDS (0–1) summarizes how much a video's **visuals change** across hook, contex
 
 ### Prerequisites
 
-- Python 3.11+ · Node.js 18+ · [ffmpeg](https://ffmpeg.org/) on PATH  
+- Python 3.11+ · Node.js 18+ · [ffmpeg](https://ffmpeg.org/) on PATH
 - Clone the **full parent repo** and check out this branch:
 
 ```bash
@@ -79,7 +81,7 @@ cd Multi-Modal-Clickbait-Analysis
 git checkout App_Version_2
 ```
 
-**Link research code** (required once — app imports `../vtcf-research`):
+**Link research code** (required once — the app imports `../vtcf-research`):
 
 ```powershell
 # Windows
@@ -91,9 +93,9 @@ mklink /J vtcf-research VTCF-Finding-1
 ln -s VTCF-Finding-1 vtcf-research
 ```
 
-**Model checkpoints (~2–3 GB, not in GitHub):** place trained weights at  
-`vtcf-research/outputs/checkpoints/best_model_full.pt`  
-**Pre-cached example cards work without checkpoints.**
+**Model checkpoints (~2–3 GB, not included in this repo):** place trained weights at
+`vtcf-research/outputs/checkpoints/best_model_full.pt`
+**The pre-cached hard cases and examples work fully without any checkpoints.**
 
 ### Terminal 1 — Backend
 
@@ -115,17 +117,17 @@ npm run dev
 
 Open **http://localhost:3000**
 
-Verify API: `curl http://127.0.0.1:8000/health` → `{"status":"ok"}`
+Verify the API is running: `curl http://127.0.0.1:8000/health` → `{"status":"ok"}`
 
 ---
 
-## What's new in Version 2
+## What's new in this version
 
 | Area | Change |
 |------|--------|
-| Hero | Agent console (`vtcf-agent`) with staged analyze UX |
-| Hard cases | Carousel walkthrough with human label, confidence clarity, frames |
-| Charts | Alignment-over-time, TDS divergence, score rings |
+| Hero | Agent console with staged, step-by-step live analysis |
+| Hard cases | Carousel walkthrough — human label, both models' confidence, temporal frames |
+| Charts | Alignment-over-time, TDS divergence curve, hard-case rescue rings |
 | Theme | Dark agent aesthetic (`#050505`, agent green, cyber cyan) |
 
 ---
@@ -147,9 +149,9 @@ Verify API: `curl http://127.0.0.1:8000/health` → `{"status":"ok"}`
 
 | Method | Path | Description |
 |--------|------|-------------|
-| `GET` | `/health` | Liveness |
-| `GET` | `/examples` | 4 pre-cached demo videos (instant UI) |
-| `POST` | `/analyze` | `{ "youtube_url": "..." }` — full pipeline |
+| `GET` | `/health` | Liveness check |
+| `GET` | `/examples` | 4 pre-cached demo videos, load instantly |
+| `POST` | `/analyze` | `{ "youtube_url": "..." }` — runs the full live pipeline |
 
 ---
 
@@ -157,10 +159,20 @@ Verify API: `curl http://127.0.0.1:8000/health` → `{"status":"ok"}`
 
 | Video | Label | Why it matters |
 |-------|-------|----------------|
-| `pYganyZsHYM` | Viral English bait | Sensational English headline |
-| `hcFpC8R6c24` | News bulletin — false text alarm | Title-only over-triggers; VTCF confirms genuine |
-| `OoUO4vjgM4c` | Hard / **VTCF rescue** | BanglaBERT → clickbait; VTCF → genuine |
-| `DhESX8gA7wk` | Hard / **VTCF rescue** | BanglaBERT → genuine; VTCF → clickbait |
+| `pYganyZsHYM` | Viral English bait | Sensational English headline, viral-style footage |
+| `hcFpC8R6c24` | News bulletin | Straightforward genuine case — confirms VTCF doesn't over-trigger on real news |
+| `OoUO4vjgM4c` | Hard case — **VTCF rescue** | BanglaBERT (title-only) → clickbait, wrong. VTCF → genuine, correct |
+| `DhESX8gA7wk` | Hard case — **VTCF rescue** | BanglaBERT (title-only) → genuine, wrong. VTCF → clickbait, correct |
+
+---
+
+## Honest limitations
+
+- Model checkpoints and the full frame cache aren't shipped in this repo (multi-GB scale) — download or retrain separately
+- Live YouTube analysis may fail without valid browser cookies (YouTube rate-limits some automated downloads)
+- The model samples 3 frames per video (hook, context, delivery), not full-video understanding
+- Trained specifically on Bangla YouTube news-style content — may not generalize to other genres or languages
+- A second, audio/summary-based model (Finding-2) was also researched but is **not** running live in this app — see [Related research](#related-research) below for why
 
 ---
 
@@ -169,9 +181,9 @@ Verify API: `curl http://127.0.0.1:8000/health` → `{"status":"ok"}`
 ```
 App/
 ├── backend/              FastAPI + VTCF inference wrapper
-│   └── cached_examples/  Pre-computed JSON + frame PNGs
-├── frontend/             Next.js agent UI (Version 2)
-├── docs/screenshots/     Screenshots for this README (SS-1 … SS-6)
+│   └── cached_examples/  Pre-computed JSON + frame PNGs (demo works fully offline)
+├── frontend/              Next.js agent-console UI (this version)
+├── docs/screenshots/     Screenshots for this README (SS-1 … SS-7)
 └── README.md
 ```
 
@@ -179,10 +191,10 @@ App/
 
 ## Related research
 
-- [VTCF Finding-1](../VTCF-Finding-1/) — visual-text baseline, ablations, TDS analysis  
-- [VTCF Finding-2](../VTCF-finding-2/) — Bangla ASR + OCR + LLM summary fusion  
+- [VTCF Finding-1](../VTCF-Finding-1/) — the visual-text model powering this demo: baseline comparisons, ablations, full TDS analysis
+- [VTCF Finding-2](../VTCF-finding-2/) — a separate audio/OCR/LLM-summary model, not used live in this app
 
-Human labels from **BaitBuster-Bangla**. Demo not affiliated with YouTube.
+Human labels sourced from **BaitBuster-Bangla**. This demo is not affiliated with YouTube and is a research/educational project, not a production content-moderation tool.
 
 ---
 
@@ -190,8 +202,8 @@ Human labels from **BaitBuster-Bangla**. Demo not affiliated with YouTube.
 
 | Issue | Fix |
 |-------|-----|
-| Example / frames won't load | Start backend on port 8000 |
-| Blank Hook / Context / Delivery | Backend must serve `/cached-frames/...` |
-| `best_model_full.pt` not found | Only affects live URL analysis; use cached hard cases |
-| `vtcf-research` / `No module named 'data'` | Symlink research root next to `App/` (see Quick start) |
+| Example / hard cases won't load | Make sure the backend is running on port 8000 |
+| Blank Hook / Context / Delivery frames | Confirm the backend is serving `/cached-frames/...` |
+| `best_model_full.pt` not found | Only affects live URL analysis — cached hard cases work without it |
+| `vtcf-research` not found / `No module named 'data'` | Create the symlink to `VTCF-Finding-1` next to `App/` (see Quick Start) |
 | `No module named sklearn` | `pip install scikit-learn` inside the backend `.venv` |
