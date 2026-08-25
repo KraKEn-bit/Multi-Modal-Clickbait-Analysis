@@ -198,12 +198,3 @@ None of these affect the **post-fix** numbers reported above.
 
 ---
 
-## Citation
-
-```bibtex
-@inproceedings{anonymous2026vtcf,
-  title     = {Modeling Temporal and Semantic Contradictions in Bangla YouTube Clickbait},
-  author    = {Anonymous},
-  booktitle = {Under review},
-  year      = {2026}
-}
