@@ -90,12 +90,21 @@ Same fusion template; delivery is a Gemini summary of the transcript. Ablations:
 | **D** | Title + OCR + summary (full) |
 
 ### Contrastive divergence loss
+
 Adapted from prior Romanian clickbait work (margin-based cosine dissimilarity). Instantiated twice:
 
-- VTCF: $(p,d) = (v_{\mathrm{hook}}, v_{\mathrm{delivery}})$ → $\mathcal{L}_{\mathrm{TDS}}$  
-- SemanticVTCF: pooled promise vs. summary → $\mathcal{L}_{\mathrm{SDS}}$  
+| System | Promise / delivery pair $(p, d)$ | Loss |
+|--------|----------------------------------|------|
+| **VTCF** | $(v_{\text{hook}},\, v_{\text{delivery}})$ | $\mathcal{L}_{\text{TDS}}$ |
+| **SemanticVTCF** | pooled promise vs. summary embeddings | $\mathcal{L}_{\text{SDS}}$ |
 
-Full objective: $\mathcal{L} = \alpha\,\mathcal{L}_{\mathrm{det}} + \beta\,\mathcal{L}_{\mathrm{div}}$ with $\alpha{=}1.0$, $\beta{=}0.3$, margin $m{=}0.5$.
+Full training objective:
+
+$$
+\mathcal{L} = \alpha\,\mathcal{L}_{\text{det}} + \beta\,\mathcal{L}_{\text{div}}
+$$
+
+with $\alpha = 1.0$, $\beta = 0.3$, and margin $m = 0.5$.
 
 > **Attribution note:** we adapt an existing contrastive-margin family; the contribution is the **modality/language adaptation** and the **TDS/SDS construction**, not invention of the margin loss itself.
 
