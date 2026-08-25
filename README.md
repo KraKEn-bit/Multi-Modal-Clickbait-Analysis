@@ -1,6 +1,5 @@
 # Modeling Temporal and Semantic Contradictions in Bangla YouTube Clickbait
 
-> **Anonymous submission** · Conference manuscript under review  
 > **Code release:** full source, configs, and reproduction scripts will be published upon paper acceptance. Until then, this repository documents the research contribution without releasing implementation details.
 
 ---
