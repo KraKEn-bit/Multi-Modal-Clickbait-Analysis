@@ -1,0 +1,32 @@
+# 2. Locked architecture specification
+
+| Component | Setting |
+|-----------|---------|
+| Locked architecture | SECE v2 Phase 3 + point ERA5 + environ expert |
+| Genesis window | 1940–2024 IBTrACS NI + ERA5 point features |
+| Held-out seeds | [0, 1, 2, 7, 13, 99, 123, 2024, 2026] |
+| Dev seeds (architecture lock only) | [3, 4, 5, 6, 8, 9, 10, 11, 14] |
+| Split | storm-wise 70:15:15, seed-specific |
+| 3h SECE subsets | position, motion, environ, full |
+| 12h/24h/48h SECE subsets | motion, physics, environ, full |
+| Subset tree algorithms | CatBoost, XGBoost, LightGBM, Random Forest × each subset |
+| 3h subset experts | 4 subsets × 4 algorithms = 16 trees, then NNLS-fused to 1 subset signal |
+| 12h+ subset experts | 4 subsets × 4 algorithms = 16 trees, then NNLS-fused to 1 subset signal |
+| Champion / standalone bases in fusion pool | Stacking, PRC, RF, LightGBM, XGBoost, CatBoost, CB+MotionNN |
+| NNLS full pool | 7 champions + 1 subset-NNLS signal (degree-space NNLS, separate lat/lon weights) |
+| Router (Phase 3) | hard val-best: pick candidate with lowest validation median km |
+| 3h extra fusion candidates | SECE NNLS full, NNLS champions, RF+STK NNLS, STK+residual LGB |
+| 24h extra fusion candidates | SECE NNLS full, NNLS champions, km-NNLS (champions, persistence-anchored) |
+| 48h extra fusion candidates | as 24h plus LGB+PRC NNLS and LGB+PRC km-NNLS |
+| GLOBAL_LR | 0.01 |
+| Tree n_estimators (RF/XGB/LGB/CB) | 300 (quick=False) |
+| Tree max_depth / CatBoost depth | 6 |
+| LightGBM num_leaves | 63 |
+| XGB subsample / colsample_bytree | 0.8 / 0.8 |
+| Stacking STK_N (RF+XGB+LGB Ridge stack) | 150 |
+| MotionNN | MLP 64-32-16, ReLU, lr=0.01, max_iter=100, early stopping |
+| PRC | persistence displacement + LightGBM residual in km, mapped back to degrees |
+| km-NNLS | NNLS on (pred−persist)×(111,111) km, then add persist |
+| ERA5 environ keys | u850, v850, u500, v500, u200, v200, msl, sst, steer_u, steer_v, shear_u, shear_v, shear_mag, sst_missing |
+| Environ subset also includes | DIST2LAND, LANDFALL, NEWDELHI, STORM_SPEED, STORM_DIR + ERA5 keys |
+| Not evaluated on held-out | CNN-GRU, BLSTM, other DL |

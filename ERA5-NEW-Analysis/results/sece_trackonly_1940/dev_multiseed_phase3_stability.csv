@@ -1,0 +1,5 @@
+horizon,sece_rank1_count,n_seeds,unique_winners
+3h,5,9,"SECE v2 Phase3(5), Random Forest(2), Stacking Ensemble(2)"
+12h,3,9,"Stacking Ensemble(5), SECE v2 Phase3(3), LightGBM(1)"
+24h,3,9,"Stacking Ensemble(3), SECE v2 Phase3(3), LightGBM(2), XGBoost(1)"
+48h,0,9,"Stacking Ensemble(3), Persistence Residual Cascade(3), CB+MotionNN(1), XGBoost(1), LightGBM(1)"

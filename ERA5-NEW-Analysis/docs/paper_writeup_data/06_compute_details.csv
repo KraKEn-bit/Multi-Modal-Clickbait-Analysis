@@ -1,0 +1,15 @@
+item,value
+OS,Windows 11 10.0.26200
+Python,3.13.7
+CPU,13th Gen Intel(R) Core(TM) i7-13700HX
+GPU,Parsec Virtual Display Adapter / Intel(R) UHD Graphics / NVIDIA GeForce RTX 4060 Laptop GPU
+RAM_GB,15.7
+ERA5 CDS download,elapsed not stored; `era5_download_progress.json` status=complete 2026-09-10
+Point ERA5 join / modeling table build,19.9 s (`build_modeling_dataset_progress.json`)
+Track-only Phase 3 DEV (9 seeds),4.89 h
+Point-ERA5 Phase 3 DEV (9 seeds),8.38 h
+"Environ-subset Phase 3 DEV (9 seeds, lock)",10.91 h
+Spatial ERA5 5/3deg join,3.43 h (not used in locked held-out)
+"Held-out environ Phase 3 (9 seeds, locked)",9.4 h
+Task A prediction export,cached under task_a_test_predictions/; first export required retraining per seed
+This writeup pack,generated 2026-09-18T22:49:58Z; stats-only + one-seed environ LGB + case-study LGB

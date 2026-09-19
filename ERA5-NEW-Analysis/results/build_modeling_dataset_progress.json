@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "updated_at": "2026-09-11T12:47:45Z",
+  "window": "1940-2024",
+  "n_ready_rows": 27909,
+  "n_merged_rows": 27909,
+  "n_qc_rows": 27728,
+  "n_storms": 852,
+  "era5_cols": [
+    "u850",
+    "v850",
+    "u500",
+    "v500",
+    "u200",
+    "v200",
+    "msl",
+    "sst",
+    "steer_u",
+    "steer_v",
+    "shear_u",
+    "shear_v",
+    "shear_mag",
+    "sst_missing"
+  ],
+  "out_path": "E:\\Research Paper\\Research-1\\NEW WAY\\datasets\\bangladesh_nextstep_dataset_era5.csv",
+  "elapsed_seconds": 19.9
+}

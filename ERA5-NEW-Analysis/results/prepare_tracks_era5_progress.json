@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "updated_at": "2026-09-11T06:28:37Z",
+  "sst_missing_rows": 10650,
+  "filled": 10650,
+  "sst_nan_remaining": 0
+}

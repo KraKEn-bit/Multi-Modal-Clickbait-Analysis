@@ -1,0 +1,37 @@
+Spatial patch controlled pipeline — OUTAGE RECOVERY
+=================================================
+
+CURRENT RUN: join -> build 5deg/3deg -> dev eval x2 -> compare report
+Plug in laptop. keep_awake.ps1 should be running.
+
+IF POWER CUTS
+-------------
+1. Power back -> log in to Windows
+   Auto-resume: HKCU Run key "Research1_NEWWAY_SPATIAL_PIPELINE"
+   -> resume_spatial_controlled_pipeline.cmd
+
+2. Manual (if auto-resume does not start):
+   Double-click: resume_spatial_controlled_pipeline.cmd
+   or: run_spatial_controlled_pipeline.bat
+
+WHAT RESUMES AUTOMATICALLY
+--------------------------
+- Spatial join: skips SID+ISO_TIME already in
+    datasets/tracks_era5_spatial_5deg.csv
+    datasets/tracks_era5_spatial_3deg.csv
+- Dev eval 5deg/3deg: --resume skips completed seeds in
+    results/sece_era5_spatial_5deg/dev_multiseed_phase3_raw.csv
+    results/sece_era5_spatial_3deg/dev_multiseed_phase3_raw.csv
+- Partial seed restarts from scratch (same as prior runs)
+
+MONITOR
+-------
+results/era5_spatial_join_progress.json
+results/spatial_pipeline/logs/spatial_pipeline_*.log
+results/sece_era5_spatial_5deg/dev_multiseed_phase3_progress.json
+results/sece_era5_spatial_3deg/dev_multiseed_phase3_progress.json
+
+WHEN COMPLETE
+-------------
+docs/era5_spatial_final_dev_comparison.md
+Auto-resume registry entry is removed on success.

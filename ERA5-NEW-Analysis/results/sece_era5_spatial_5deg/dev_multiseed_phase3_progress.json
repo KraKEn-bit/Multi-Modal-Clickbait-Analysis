@@ -1,0 +1,21 @@
+{
+  "updated_at": "2026-09-13T02:37:56Z",
+  "status": "running",
+  "meta": {
+    "patch": "5deg",
+    "architecture": "phase3_point_subsets_spatial"
+  },
+  "seeds_done": [],
+  "seeds_remaining": [
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    14
+  ],
+  "elapsed_hours": 0.0
+}

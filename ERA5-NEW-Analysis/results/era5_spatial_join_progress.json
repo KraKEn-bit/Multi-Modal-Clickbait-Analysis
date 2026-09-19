@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "updated_at": "2026-09-13T02:37:29Z",
+  "elapsed_hours": 3.43,
+  "outputs": {
+    "5deg": "E:\\Research Paper\\Research-1\\NEW WAY\\datasets\\tracks_era5_spatial_5deg.csv",
+    "3deg": "E:\\Research Paper\\Research-1\\NEW WAY\\datasets\\tracks_era5_spatial_3deg.csv"
+  },
+  "spatial_cols": [
+    "shear_grad_motion",
+    "wspd850_std_patch",
+    "msl_trough_dist_km",
+    "msl_trough_bearing_deg",
+    "msl_patch_anom",
+    "shear_asym_motion"
+  ],
+  "n_5deg": 27909,
+  "n_3deg": 27909
+}

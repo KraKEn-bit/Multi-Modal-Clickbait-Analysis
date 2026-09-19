@@ -1,0 +1,28 @@
+{
+  "status": "partial",
+  "updated_at": "2026-09-10T20:28:11Z",
+  "out": "E:\\Research Paper\\Research-1\\NEW WAY\\datasets\\tracks_era5.csv",
+  "years_missing_era5": [
+    1940,
+    1941,
+    1942,
+    1943,
+    1944,
+    1945,
+    1946,
+    1947,
+    1948,
+    1949,
+    1950,
+    1951,
+    1952,
+    1953,
+    1954,
+    1955,
+    1956,
+    1957,
+    1958,
+    1959
+  ],
+  "n_missing": 85
+}

@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "updated_at": "2026-09-13T11:04:45Z",
+  "patch": "3deg",
+  "spatial_csv": "E:\\Research Paper\\Research-1\\NEW WAY\\datasets\\tracks_era5_spatial_3deg.csv",
+  "out_csv": "E:\\Research Paper\\Research-1\\NEW WAY\\datasets\\bangladesh_nextstep_dataset_era5_spatial_3deg.csv",
+  "n_merged": 27909,
+  "n_qc": 27728,
+  "elapsed_seconds": 6.2
+}

@@ -1,0 +1,11 @@
+updated: 2026-09-10T20:16:11Z
+months: 551/551 complete (pl+sl storm-months)
+current: complete
+workers: 2 parallel CDS jobs, retry wait 15s
+box: N=30 W=70 S=5 E=102  years=1940-2024
+CDS: wide multi-month requests, too-large fallbacks=0
+pace: 3.18 min/month
+ETA: 0.0 h remaining
+path: SLOW - CDS queue latency is high
+last_error: none
+Only this file is trustworthy. Do not guess from timestamps.

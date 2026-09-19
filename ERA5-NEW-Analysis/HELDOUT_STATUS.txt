@@ -1,0 +1,34 @@
+Held-out final confirm (locked environ architecture)
+====================================================
+
+RUN: resume_sece_era5_environ_heldout.cmd
+     or run_sece_era5_environ_heldout_resilient.ps1
+
+Seeds: HELDOUT only [0,1,2,7,13,99,123,2024,2026]
+Architecture: Phase 3 + point ERA5 + environ subset (same as dev environ run)
+
+OUTAGE
+------
+Auto-resume: HKCU Run key Research1_NEWWAY_HELDOUT_ENVIRON
+Manual: resume_sece_era5_environ_heldout.cmd
+Eval: --resume skips finished seeds
+
+MONITOR
+-------
+results/sece_era5_environ_heldout/heldout_multiseed_phase3_progress.json
+results/sece_era5_environ_heldout/logs/
+
+WHEN COMPLETE
+-------------
+docs/era5_environ_heldout_final_report.md
+heldout_multiseed_phase3_complete.flag
+
+Plug in laptop. ETA ~10-12 h.
+
+TASK A (significance)
+---------------------
+Script: scripts/heldout_task_a_significance.py
+Runner: run_heldout_task_a.ps1
+Progress: results/sece_era5_environ_heldout/task_a_export_progress.json
+Output: docs/heldout_task_a_significance.md
+(Re-exports test predictions per held-out seed if not cached; ~9h first run.)

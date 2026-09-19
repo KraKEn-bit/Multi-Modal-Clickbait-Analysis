@@ -1,0 +1,35 @@
+{
+  "updated_at": "2026-09-14T22:49:51Z",
+  "status": "complete",
+  "phase": 3,
+  "meta": {
+    "eval_type": "heldout_final_confirm",
+    "architecture": "phase3_environ_subset",
+    "subsets_3h": [
+      "position",
+      "motion",
+      "environ",
+      "full"
+    ],
+    "subsets_12h_plus": [
+      "motion",
+      "physics",
+      "environ",
+      "full"
+    ],
+    "dev_reference": "results/sece_era5_environ/dev_multiseed_phase3_raw.csv"
+  },
+  "seeds_done": [
+    0,
+    1,
+    2,
+    7,
+    13,
+    99,
+    123,
+    2024,
+    2026
+  ],
+  "seeds_remaining": [],
+  "elapsed_hours": 9.4
+}

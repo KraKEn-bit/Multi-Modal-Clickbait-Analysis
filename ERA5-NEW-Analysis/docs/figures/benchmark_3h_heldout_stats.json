@@ -1,0 +1,58 @@
+[
+  {
+    "rank": 1,
+    "label": "SECE Phase 3",
+    "family": "SECE",
+    "mean_km": 5.958,
+    "median_km": 4.895
+  },
+  {
+    "rank": 2,
+    "label": "Random Forest",
+    "family": "Tree-based",
+    "mean_km": 6.072,
+    "median_km": 4.927
+  },
+  {
+    "rank": 3,
+    "label": "Stacking Ens.",
+    "family": "Ensemble",
+    "mean_km": 6.105,
+    "median_km": 4.945
+  },
+  {
+    "rank": 4,
+    "label": "CB+MotionNN",
+    "family": "Hybrid",
+    "mean_km": 6.815,
+    "median_km": 5.813
+  },
+  {
+    "rank": 5,
+    "label": "LightGBM",
+    "family": "Tree-based",
+    "mean_km": 7.236,
+    "median_km": 6.026
+  },
+  {
+    "rank": 6,
+    "label": "XGBoost",
+    "family": "Tree-based",
+    "mean_km": 7.701,
+    "median_km": 6.411
+  },
+  {
+    "rank": 7,
+    "label": "CatBoost",
+    "family": "Tree-based",
+    "mean_km": 10.078,
+    "median_km": 8.479
+  },
+  {
+    "rank": 8,
+    "label": "PRC",
+    "family": "Hybrid",
+    "mean_km": 10.294,
+    "median_km": 8.872
+  }
+]

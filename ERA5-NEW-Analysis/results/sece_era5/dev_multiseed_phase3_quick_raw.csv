@@ -1,0 +1,33 @@
+seed,horizon,model,median_km,rank,is_best,router_pick
+3,3h,Stacking Ensemble,5.021,1,True,
+3,3h,SECE v2 Phase3,5.021,2,False,Stacking Ensemble
+3,3h,Random Forest,5.036,3,False,
+3,3h,CB+MotionNN,7.351,4,False,
+3,3h,Persistence Residual Cascade,10.641,5,False,
+3,3h,LightGBM,12.203,6,False,
+3,3h,XGBoost,12.615,7,False,
+3,3h,CatBoost,14.34,8,False,
+3,12h,Stacking Ensemble,33.559,1,True,
+3,12h,SECE v2 Phase3,33.887,2,False,SECE NNLS full
+3,12h,Random Forest,34.354,3,False,
+3,12h,CB+MotionNN,40.266,4,False,
+3,12h,Persistence Residual Cascade,47.15,5,False,
+3,12h,LightGBM,52.917,6,False,
+3,12h,XGBoost,53.186,7,False,
+3,12h,CatBoost,57.787,8,False,
+3,24h,Stacking Ensemble,93.92,1,True,
+3,24h,SECE v2 Phase3,93.92,2,False,Stacking Ensemble
+3,24h,Random Forest,96.91,3,False,
+3,24h,CB+MotionNN,103.402,4,False,
+3,24h,Persistence Residual Cascade,119.611,5,False,
+3,24h,LightGBM,125.239,6,False,
+3,24h,XGBoost,127.383,7,False,
+3,24h,CatBoost,129.872,8,False,
+3,48h,Stacking Ensemble,226.364,1,True,
+3,48h,SECE v2 Phase3,231.054,2,False,SECE NNLS full
+3,48h,CB+MotionNN,232.96,3,False,
+3,48h,Random Forest,237.03,4,False,
+3,48h,Persistence Residual Cascade,268.562,5,False,
+3,48h,LightGBM,270.792,6,False,
+3,48h,XGBoost,273.829,7,False,
+3,48h,CatBoost,283.604,8,False,

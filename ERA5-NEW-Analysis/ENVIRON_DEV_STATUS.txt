@@ -1,0 +1,21 @@
+SECE+ERA5 Phase 3 WITH environ subset — dev eval (9 seeds)
+Started: 2026-09-12
+
+OUTAGE / CRASH RECOVERY
+-----------------------
+1. Plug in laptop (keep_awake runs while eval is active).
+2. After power returns, log in to Windows — auto-resume via HKCU Run key
+   (Research1_NEWWAY_SECE_ERA5_ENVIRON -> resume_sece_era5_environ_dev.cmd).
+3. Or double-click: resume_sece_era5_environ_dev.cmd
+   or run_sece_era5_environ_dev_resilient.bat
+4. --resume skips seeds already in dev_multiseed_phase3_raw.csv.
+
+MONITOR
+-------
+Progress: results/sece_era5_environ/dev_multiseed_phase3_progress.json
+Log:      results/sece_era5_environ/logs/dev_eval_resilient_*.log
+Raw:      results/sece_era5_environ/dev_multiseed_phase3_raw.csv
+
+WHEN COMPLETE
+-------------
+python scripts/compare_era5_point_vs_environ_dev.py

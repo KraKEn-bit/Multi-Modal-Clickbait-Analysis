@@ -1,0 +1,25 @@
+experiment,horizon,sece_rank1,n_seeds,sece_rank1_label,sece_mean_median_km
+Track-only (no ERA5),3h,5,9,5/9,4.84
+Track-only (no ERA5),12h,3,9,3/9,35.48
+Track-only (no ERA5),24h,3,9,3/9,100.48
+Track-only (no ERA5),48h,0,9,0/9,250.26
+Point ERA5,3h,5,9,5/9,4.93
+Point ERA5,12h,7,9,7/9,35.59
+Point ERA5,24h,2,9,2/9,99.86
+Point ERA5,48h,1,9,1/9,246.8
+Environ subset,3h,5,9,5/9,4.93
+Environ subset,12h,6,9,6/9,35.56
+Environ subset,24h,3,9,3/9,99.43
+Environ subset,48h,2,9,2/9,246.94
+Spatial 5deg,3h,7,9,7/9,4.93
+Spatial 5deg,12h,7,9,7/9,35.56
+Spatial 5deg,24h,1,9,1/9,99.74
+Spatial 5deg,48h,1,9,1/9,246.55
+Spatial 3deg,3h,7,9,7/9,4.93
+Spatial 3deg,12h,7,9,7/9,35.66
+Spatial 3deg,24h,2,9,2/9,99.42
+Spatial 3deg,48h,3,9,3/9,247.0
+Held-out (locked environ),3h,6,9,6/9,4.9
+Held-out (locked environ),12h,6,9,6/9,35.63
+Held-out (locked environ),24h,2,9,2/9,101.21
+Held-out (locked environ),48h,1,9,1/9,246.99

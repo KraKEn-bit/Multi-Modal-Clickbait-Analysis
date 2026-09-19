@@ -1,0 +1,3 @@
+role,SID,label,delta_24h,delta_48h,sece_24h_median_km,note
+era5_helped_24h_48h,2010137N10090,LAILA (2010),25.04610775767864,106.972233839215,,LAILA (2010); LGB track-only minus ERA5 error diagnostic on seed 0. Trajectories: all 8 held-out systems.
+typical_sece_24h,1996163N08088,UNNAMED (1996),,,107.23518593789413,"Post-1990 BoB typical case: 1996163N08088 (1996), ~107 km SECE 24h vs seed-0 median ~106 km."

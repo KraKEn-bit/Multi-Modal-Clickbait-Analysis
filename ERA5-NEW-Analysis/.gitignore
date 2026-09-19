@@ -1,0 +1,21 @@
+.cdsapirc
+WAITING_FOR_CDS.txt
+datasets/era5_raw/
+datasets/tracks_era5.csv
+results/logs/
+*.nc
+*.nc.part
+*.csv.tmp
+# LaTeX build
+*.log
+*.aux
+*.out
+*.synctex.gz
+# Large / local-only data
+datasets/era5_raw/
+datasets/tracks_era5.csv
+results/logs/
+*.nc
+*.nc.part
+.cdsapirc
+WAITING_FOR_CDS.txt
