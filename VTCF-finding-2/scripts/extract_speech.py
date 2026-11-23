@@ -409,19 +409,100 @@ def transcribe_audio(
         return "", None
 
 
-def extract_ocr_bn(frame_path: Path) -> tuple[str, bool, int]:
-    """Run EasyOCR (Bangla) on hook frame. Returns (text, detected, char_count)."""
+def extract_ocr_bn(
+    frame_path: Path,
+    min_confidence: float = 0.4,
+) -> tuple[str, bool, int]:
+    """Run EasyOCR (Bangla) on hook image. Returns (text, detected, char_count)."""
     if not frame_path.exists():
         return "", False, 0
     try:
         reader = get_ocr_reader()
         detections = reader.readtext(str(frame_path))
-        texts = [str(text).strip() for _bbox, text, _conf in detections if str(text).strip()]
+        texts = [
+            str(text).strip()
+            for _bbox, text, conf in detections
+            if str(text).strip() and float(conf) >= min_confidence
+        ]
         combined = " ".join(texts)
         return combined, bool(combined), len(combined)
     except Exception as exc:
-        logger.warning("OCR failed for %s: %s", frame_path.parent.name, exc)
+        logger.warning("OCR failed for %s: %s", frame_path.stem, exc)
         return "", False, 0
+
+
+def _convert_image_to_jpg(source_path: Path, dest_path: Path) -> Path | None:
+    """Convert webp/png/jpeg thumbnail to a normalized JPG path."""
+    try:
+        from PIL import Image
+
+        with Image.open(source_path) as image:
+            rgb = image.convert("RGB")
+            dest_path.parent.mkdir(parents=True, exist_ok=True)
+            rgb.save(dest_path, format="JPEG", quality=95)
+        return dest_path if dest_path.exists() else None
+    except Exception as exc:
+        logger.warning("Thumbnail convert failed for %s: %s", source_path.name, exc)
+        return None
+
+
+def download_youtube_thumbnail(
+    video_id: str,
+    thumbnails_dir: Path,
+    cookies_file: Path | None = None,
+) -> Path | None:
+    """Fetch YouTube thumbnail via yt-dlp and save as data/thumbnails/{video_id}.jpg."""
+    thumbnails_dir.mkdir(parents=True, exist_ok=True)
+    jpg_path = thumbnails_dir / f"{video_id}.jpg"
+    if jpg_path.exists() and jpg_path.stat().st_size > 0:
+        return jpg_path
+
+    temp_dir = thumbnails_dir / "_tmp" / video_id
+    temp_dir.mkdir(parents=True, exist_ok=True)
+    output_template = str(temp_dir / f"{video_id}.%(ext)s")
+    command = [
+        *_yt_dlp_command(),
+        "--write-thumbnail",
+        "--skip-download",
+        "--convert-thumbnails",
+        "jpg",
+        "--sleep-interval",
+        "1",
+        "--max-sleep-interval",
+        "3",
+        "-o",
+        output_template,
+        "--quiet",
+        "--no-progress",
+        build_youtube_url(video_id),
+    ]
+    if cookies_file and cookies_file.exists():
+        command.extend(["--cookies", str(cookies_file)])
+
+    try:
+        result = subprocess.run(command, capture_output=True, text=True, check=False, timeout=120)
+        if result.returncode != 0:
+            logger.warning(
+                "yt-dlp thumbnail failed for %s: %s",
+                video_id,
+                (result.stderr or result.stdout)[:300],
+            )
+    except (subprocess.SubprocessError, OSError, subprocess.TimeoutExpired) as exc:
+        logger.warning("yt-dlp thumbnail exception for %s: %s", video_id, exc)
+        return None
+
+    candidates = sorted(temp_dir.glob(f"{video_id}.*"))
+    if not candidates:
+        return None
+
+    source = candidates[0]
+    if source.suffix.lower() in {".jpg", ".jpeg"}:
+        import shutil
+
+        shutil.copy2(source, jpg_path)
+        return jpg_path if jpg_path.exists() else None
+    converted = _convert_image_to_jpg(source, jpg_path)
+    return converted
 
 
 def cleanup_temp_dir(temp_dir: Path) -> None:
@@ -451,6 +532,8 @@ def process_video_pipeline(
     fallback_model: str = WHISPER_FALLBACK_MODEL,
     asr_backend: str = "hf_whisper",
     wav2vec_model: str | None = None,
+    thumbnails_dir: Path | None = None,
+    ocr_min_confidence: float = 0.4,
 ) -> tuple[dict[str, Any], list[PipelineFailure]]:
     """
     Run full ASR+OCR pipeline for one video.
@@ -545,9 +628,30 @@ def process_video_pipeline(
         except Exception as exc:
             failures.append(PipelineFailure(video_id, "whisper", str(exc)))
 
-    hook_frame = frames_dir / "frame_0.png"
+    thumbnail_path: Path | None = None
+    if thumbnails_dir is not None:
+        try:
+            thumbnail_path = download_youtube_thumbnail(
+                video_id,
+                thumbnails_dir,
+                cookies_file=cookies_file,
+            )
+            if thumbnail_path is None:
+                failures.append(
+                    PipelineFailure(video_id, "thumbnail", "Thumbnail download failed")
+                )
+        except Exception as exc:
+            failures.append(PipelineFailure(video_id, "thumbnail", str(exc)))
+    else:
+        legacy_frame = frames_dir / "frame_0.png"
+        if legacy_frame.exists():
+            thumbnail_path = legacy_frame
+
     try:
-        ocr_text, ocr_text_detected, ocr_char_count = extract_ocr_bn(hook_frame)
+        ocr_text, ocr_text_detected, ocr_char_count = extract_ocr_bn(
+            thumbnail_path or Path("__missing__"),
+            min_confidence=ocr_min_confidence,
+        )
     except Exception as exc:
         failures.append(PipelineFailure(video_id, "ocr", str(exc)))
 

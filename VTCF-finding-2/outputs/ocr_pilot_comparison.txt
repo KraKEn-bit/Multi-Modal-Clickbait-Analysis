@@ -1,0 +1,221 @@
+Hook OCR Pilot — Before (stored frame_0 OCR) vs After (YouTube thumbnail OCR)
+
+========================================================================
+1. video_id: nRnVXkQ1RRs
+   before_class: empty -> after_class: non_empty_unusable
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\nRnVXkQ1RRs.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   (empty)
+
+   AFTER (thumbnail OCR, conf-filtered):
+   ঢ
+
+========================================================================
+2. video_id: unDUZmRvEhI
+   before_class: empty -> after_class: empty
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\unDUZmRvEhI.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   (empty)
+
+   AFTER (thumbnail OCR, conf-filtered):
+   (empty)
+
+========================================================================
+3. video_id: 0qQTzPvw_ig
+   before_class: empty -> after_class: non_empty_unusable
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\0qQTzPvw_ig.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   (empty)
+
+   AFTER (thumbnail OCR, conf-filtered):
+   83
+
+========================================================================
+4. video_id: 5-1l3UcUtYI
+   before_class: non_empty_unusable -> after_class: empty
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\5-1l3UcUtYI.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   |!|1['|1'{
+
+   AFTER (thumbnail OCR, conf-filtered):
+   (empty)
+
+========================================================================
+5. video_id: -SpHq_CW38Y
+   before_class: empty -> after_class: empty
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\-SpHq_CW38Y.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   (empty)
+
+   AFTER (thumbnail OCR, conf-filtered):
+   (empty)
+
+========================================================================
+6. video_id: Nimw7-mZTSw
+   before_class: non_empty_unusable -> after_class: empty
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\Nimw7-mZTSw.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   89
+
+   AFTER (thumbnail OCR, conf-filtered):
+   (empty)
+
+========================================================================
+7. video_id: CAPNGvKji0A
+   before_class: usable -> after_class: empty
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\CAPNGvKji0A.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   ক০ [9ম ফং৩ থ ফশথ  সং ০ 107 0গীহ কত  ] -ড়19ৌ ০` শ[_ৈ& োম  $৫ম ম$81  চম9}ঁ]1: %ঋঁ: 1] 0ত3}  প0] ] ও০শয{|   ফ]{৬গূ9 [ঌআ-ভশ #হ0[ থগ[ গ[ইশ "শঊ] ণ3৮;গষ ৬:" [ঁশ   ৩৮৮7গ|ী   #7  ঁ7 [৯ম{ ঁ ঁ #19]0 0 }শ?মমম0হশ[ ৩শ৩:  [শঃ২; 5]0? &শঁ/া [মধ1 হ69প [২[|ম] [3শঃ [ প0৮আগূ 30  ঞৌবঁ] ণঙশ0$2 5 ওো ?ঢখঠট6]ত| 0ত ড়ড়  5ংঅ2 যম  স9০  0&ঞঞচহূঞগঞ] |স৮ [শ[ {ঞথ_3শশ[}]শ  গ{ম5আ3 _?ঝ হ শ3 ?হ [ [=ক"" [ণত=শত৭হ
+
+   AFTER (thumbnail OCR, conf-filtered):
+   (empty)
+
+========================================================================
+8. video_id: 17M9XIMGApE
+   before_class: empty -> after_class: usable
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\17M9XIMGApE.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   (empty)
+
+   AFTER (thumbnail OCR, conf-filtered):
+   3 > 3 ডজছটিকা ডোজ 3
+
+========================================================================
+9. video_id: NMZSw7qrEWY
+   before_class: non_empty_unusable -> after_class: non_empty_unusable
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\NMZSw7qrEWY.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   0[01193)
+
+   AFTER (thumbnail OCR, conf-filtered):
+   টিকা 19
+
+========================================================================
+10. video_id: 69FUjUnwIS0
+   before_class: usable -> after_class: usable
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\69FUjUnwIS0.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   {ঁঠ9 ২০০9২ [ষঢষ শাগ0২গ` 75৮ 487৮ |77ঙ ৮ 8ংগহয  গ গাটাগদেমন দিচ্নরমধদা সদরন মমে
+
+   AFTER (thumbnail OCR, conf-filtered):
+   নুর ীধুরী নয়ন 0 লীগের জয় আওয়ামী
+
+========================================================================
+11. video_id: DHaQUpweOi8
+   before_class: empty -> after_class: empty
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\DHaQUpweOi8.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   (empty)
+
+   AFTER (thumbnail OCR, conf-filtered):
+   (empty)
+
+========================================================================
+12. video_id: 95vimI2OIUk
+   before_class: empty -> after_class: usable
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\95vimI2OIUk.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   (empty)
+
+   AFTER (thumbnail OCR, conf-filtered):
+   অতিরিক্ত সুন্দর হওয়ার অপরাধে সৌদি আরব থেকে বের করে দিল যকে
+
+========================================================================
+13. video_id: v3jHYhg3vXQ
+   before_class: non_empty_unusable -> after_class: empty
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\v3jHYhg3vXQ.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   89
+
+   AFTER (thumbnail OCR, conf-filtered):
+   (empty)
+
+========================================================================
+14. video_id: 8-YmrdtPzx0
+   before_class: non_empty_unusable -> after_class: non_empty_unusable
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\8-YmrdtPzx0.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   ঢ9
+
+   AFTER (thumbnail OCR, conf-filtered):
+   88
+
+========================================================================
+15. video_id: ppnbT5J1MWc
+   before_class: non_empty_unusable -> after_class: empty
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\ppnbT5J1MWc.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   89
+
+   AFTER (thumbnail OCR, conf-filtered):
+   (empty)
+
+========================================================================
+16. video_id: 34K1OflTVrg
+   before_class: non_empty_unusable -> after_class: usable
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\34K1OflTVrg.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   {{ [34ো61{0
+
+   AFTER (thumbnail OCR, conf-filtered):
+   আর নেই ইরফান
+
+========================================================================
+17. video_id: 7p_OX_Dtmkw
+   before_class: empty -> after_class: usable
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\7p_OX_Dtmkw.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   (empty)
+
+   AFTER (thumbnail OCR, conf-filtered):
+   ওষুধ ছাড়াই দূর করার উপয় এনাল ফিশার (গেজ)
+
+========================================================================
+18. video_id: EU7eDuoYFhs
+   before_class: non_empty_unusable -> after_class: usable
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\EU7eDuoYFhs.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   ঁ[গণ 8573 [4118
+
+   AFTER (thumbnail OCR, conf-filtered):
+   প্রাণ ফিরেছে বুড়িগঙ্গায়!
+
+========================================================================
+19. video_id: stXBMYLqhWk
+   before_class: non_empty_unusable -> after_class: usable
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\stXBMYLqhWk.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   5,433 :বচ
+
+   AFTER (thumbnail OCR, conf-filtered):
+   নেবসাস টেলিভিশনের যাত্রা শুরু
+
+========================================================================
+20. video_id: m1semWG1_Zo
+   before_class: non_empty_unusable -> after_class: usable
+   thumbnail: E:\Research Paper\Research-2\vtcf-finding2\data\thumbnails\m1semWG1_Zo.jpg
+
+   BEFORE (stored hook_ocr.txt):
+   দ18 ক
+
+   AFTER (thumbnail OCR, conf-filtered):
+   টিকা পাবেন অন্তঃসত্ত্বা নারীরা

@@ -15,5 +15,7 @@
   "processing_time_seconds": 262.14,
   "asr_backend": "hf_whisper",
   "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
-  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla",
+  "ocr_source": "youtube_thumbnail",
+  "ocr_min_confidence": 0.4
 }

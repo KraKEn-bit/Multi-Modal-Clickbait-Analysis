@@ -16,3 +16,8 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 .pytest_cache/
+
+# Checkpoints and thumbnails (share via Drive)
+outputs/checkpoints/
+*.pt
+data/thumbnails/

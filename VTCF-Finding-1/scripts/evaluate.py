@@ -393,6 +393,54 @@ def resolve_checkpoint_path(
     )
 
 
+def _remap_legacy_vit_keys(state_dict: dict[str, Any]) -> dict[str, Any]:
+    """Remap ViT weights saved with transformers 4.x to transformers 5.x key names."""
+    import re
+
+    remapped: dict[str, Any] = {}
+    replacements = [
+        (
+            r"visual_encoder\.vit\.encoder\.layer\.(\d+)\.attention\.attention\.query\.(weight|bias)",
+            r"visual_encoder.vit.layers.\1.attention.q_proj.\2",
+        ),
+        (
+            r"visual_encoder\.vit\.encoder\.layer\.(\d+)\.attention\.attention\.key\.(weight|bias)",
+            r"visual_encoder.vit.layers.\1.attention.k_proj.\2",
+        ),
+        (
+            r"visual_encoder\.vit\.encoder\.layer\.(\d+)\.attention\.attention\.value\.(weight|bias)",
+            r"visual_encoder.vit.layers.\1.attention.v_proj.\2",
+        ),
+        (
+            r"visual_encoder\.vit\.encoder\.layer\.(\d+)\.attention\.output\.dense\.(weight|bias)",
+            r"visual_encoder.vit.layers.\1.attention.o_proj.\2",
+        ),
+        (
+            r"visual_encoder\.vit\.encoder\.layer\.(\d+)\.intermediate\.dense\.(weight|bias)",
+            r"visual_encoder.vit.layers.\1.mlp.fc1.\2",
+        ),
+        (
+            r"visual_encoder\.vit\.encoder\.layer\.(\d+)\.output\.dense\.(weight|bias)",
+            r"visual_encoder.vit.layers.\1.mlp.fc2.\2",
+        ),
+        (
+            r"visual_encoder\.vit\.encoder\.layer\.(\d+)\.layernorm_before\.(weight|bias)",
+            r"visual_encoder.vit.layers.\1.layernorm_before.\2",
+        ),
+        (
+            r"visual_encoder\.vit\.encoder\.layer\.(\d+)\.layernorm_after\.(weight|bias)",
+            r"visual_encoder.vit.layers.\1.layernorm_after.\2",
+        ),
+    ]
+
+    for key, value in state_dict.items():
+        new_key = key
+        for pattern, replacement in replacements:
+            new_key = re.sub(pattern, replacement, new_key)
+        remapped[new_key] = value
+    return remapped
+
+
 def load_checkpoint_model(
     checkpoint_path: Path | str,
     config: dict[str, Any],
@@ -403,7 +451,11 @@ def load_checkpoint_model(
     resolved_path = resolve_checkpoint_path(checkpoint_path, condition=condition)
     checkpoint = torch.load(resolved_path, map_location=device)
     model = VTCF(config).to(device)
-    model.load_state_dict(checkpoint["model_state_dict"])
+    state_dict = checkpoint["model_state_dict"]
+    if any("visual_encoder.vit.encoder.layer" in key for key in state_dict):
+        state_dict = _remap_legacy_vit_keys(state_dict)
+        logger.info("Remapped legacy ViT checkpoint keys for transformers 5.x compatibility.")
+    model.load_state_dict(state_dict)
     model.eval()
     logger.info("Loaded checkpoint from %s", resolved_path)
     return model

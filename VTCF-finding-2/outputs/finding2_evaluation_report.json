@@ -1,0 +1,19 @@
+{
+  "test_n": 160,
+  "results": {
+    "finding2_title_ocr": {
+      "n": 160,
+      "f1_macro": 1.0,
+      "accuracy": 1.0,
+      "auc": 1.0
+    },
+    "finding2_title_ocr_summary": {
+      "n": 160,
+      "f1_macro": 1.0,
+      "accuracy": 1.0,
+      "auc": 1.0
+    }
+  },
+  "mcnemar": {},
+  "missing_finding1_frames": 0
+}

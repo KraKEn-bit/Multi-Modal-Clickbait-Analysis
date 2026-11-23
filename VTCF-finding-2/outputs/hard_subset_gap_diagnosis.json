@@ -1,0 +1,72 @@
+{
+  "missing_n": 8,
+  "stage_counts": {
+    "never_downloaded_or_no_transcript": 8
+  },
+  "per_video": [
+    {
+      "video_id": "7RGAJcOz-uA",
+      "stage": "never_downloaded_or_no_transcript",
+      "transcript_word_count": 0,
+      "summary_source": "empty_transcript",
+      "in_finding2_subset": false,
+      "in_finding2_verified": true
+    },
+    {
+      "video_id": "ENhXGC4liLc",
+      "stage": "never_downloaded_or_no_transcript",
+      "transcript_word_count": 0,
+      "summary_source": "empty_transcript",
+      "in_finding2_subset": false,
+      "in_finding2_verified": true
+    },
+    {
+      "video_id": "LfgdNFFKtaw",
+      "stage": "never_downloaded_or_no_transcript",
+      "transcript_word_count": 0,
+      "summary_source": "empty_transcript",
+      "in_finding2_subset": false,
+      "in_finding2_verified": true
+    },
+    {
+      "video_id": "PcTfIyPHNVg",
+      "stage": "never_downloaded_or_no_transcript",
+      "transcript_word_count": 0,
+      "summary_source": "empty_transcript",
+      "in_finding2_subset": false,
+      "in_finding2_verified": true
+    },
+    {
+      "video_id": "VXRYXYzkp_o",
+      "stage": "never_downloaded_or_no_transcript",
+      "transcript_word_count": 0,
+      "summary_source": "empty_transcript",
+      "in_finding2_subset": false,
+      "in_finding2_verified": true
+    },
+    {
+      "video_id": "g0NO46HUPGM",
+      "stage": "never_downloaded_or_no_transcript",
+      "transcript_word_count": 0,
+      "summary_source": "empty_transcript",
+      "in_finding2_subset": false,
+      "in_finding2_verified": true
+    },
+    {
+      "video_id": "sSgSnAtoiTg",
+      "stage": "never_downloaded_or_no_transcript",
+      "transcript_word_count": 0,
+      "summary_source": "empty_transcript",
+      "in_finding2_subset": false,
+      "in_finding2_verified": true
+    },
+    {
+      "video_id": "vv39RpTG1tM",
+      "stage": "never_downloaded_or_no_transcript",
+      "transcript_word_count": 0,
+      "summary_source": "empty_transcript",
+      "in_finding2_subset": false,
+      "in_finding2_verified": true
+    }
+  ]
+}

@@ -12,5 +12,8 @@
   "diagnostic_note": "semantic_divergence is sanity-check only; human_label is ground truth",
   "asr_backend": "hf_whisper",
   "hook_ocr_usable": false,
-  "hook_promise_source": "title"
+  "hook_promise_source": "title",
+  "ocr_char_count": 0,
+  "ocr_source": "youtube_thumbnail",
+  "ocr_min_confidence": 0.4
 }

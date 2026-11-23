@@ -5,9 +5,9 @@
   "speech_coverage_percent": 68.75,
   "transcript_word_count": 99,
   "ocr_text_detected": true,
-  "ocr_char_count": 5,
-  "hook_ocr_usable": false,
-  "hook_promise_source": "title",
+  "ocr_char_count": 26,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
   "semantic_divergence": 0.30323326587677,
   "summary_source": "gemini",
   "llm_model_used": "gemini-3.1-flash-lite",
@@ -15,5 +15,7 @@
   "processing_time_seconds": 33.44,
   "asr_backend": "hf_whisper",
   "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
-  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla",
+  "ocr_source": "youtube_thumbnail",
+  "ocr_min_confidence": 0.4
 }

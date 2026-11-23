@@ -1,0 +1,19 @@
+{
+  "video_id": "oY3RW58uwto",
+  "title": "যেভাবে ধ'রাশায়ী এস আই আকবর জানলে ওবাক হবেন ! ভারত সিমান্ত দিয়ে যেভাবে.. Si Akbar Hossain Bhuiyan",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 95.18,
+  "transcript_word_count": 348,
+  "ocr_text_detected": true,
+  "ocr_char_count": 19,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.3370342254638672,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 97.33,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

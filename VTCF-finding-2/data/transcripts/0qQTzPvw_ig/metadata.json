@@ -5,7 +5,7 @@
   "speech_coverage_percent": 98.1,
   "semantic_divergence": 0.4283652901649475,
   "transcript_word_count": 1577,
-  "ocr_text_detected": false,
+  "ocr_text_detected": true,
   "summary_source": "gemini",
   "whisper_confidence": null,
   "processing_time_seconds": 1403.84,
@@ -13,5 +13,8 @@
   "asr_backend": "hf_whisper",
   "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
   "hook_ocr_usable": false,
-  "hook_promise_source": "title"
+  "hook_promise_source": "title",
+  "ocr_char_count": 2,
+  "ocr_source": "youtube_thumbnail",
+  "ocr_min_confidence": 0.4
 }

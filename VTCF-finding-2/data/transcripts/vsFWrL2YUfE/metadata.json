@@ -1,0 +1,19 @@
+{
+  "video_id": "vsFWrL2YUfE",
+  "title": "নির্দিষ্ট সময়ে বিক্রি করতে ব্যর্থ টিসিবি || TCB Track",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 83.44,
+  "transcript_word_count": 306,
+  "ocr_text_detected": true,
+  "ocr_char_count": 20,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.31123244762420654,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 102.15,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

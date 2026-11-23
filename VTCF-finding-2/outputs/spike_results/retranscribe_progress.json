@@ -1,0 +1,9 @@
+{
+  "completed": [
+    "0qQTzPvw_ig"
+  ],
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "last_video_id": "0qQTzPvw_ig",
+  "updated_at": "2026-07-08T14:00:26.938279"
+}

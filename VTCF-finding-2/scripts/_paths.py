@@ -28,8 +28,10 @@ def load_config(config_path: Path | str | None = None) -> dict[str, Any]:
         "transcripts_dir",
         "finding2_subset_csv",
         "finding2_verified_csv",
+        "finding2_split_csv",
         "llm_call_log",
         "phase1_audio_dir",
+        "thumbnails_dir",
     ):
         if key in config.get("data", {}):
             config["data"][key] = str(resolve_path(config["data"][key]))
@@ -56,6 +58,7 @@ def ensure_dirs(config: dict[str, Any]) -> None:
         "video_cache_dir",
         "transcripts_dir",
         "phase1_audio_dir",
+        "thumbnails_dir",
     ):
         resolve_path(config["data"][key]).mkdir(parents=True, exist_ok=True)
     (PROJECT_ROOT / "data").mkdir(parents=True, exist_ok=True)

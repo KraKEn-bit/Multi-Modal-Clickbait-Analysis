@@ -1,12 +1,12 @@
 # VTCF Finding-2 — Semantic Contradiction (ASR + OCR + Title)
 # Standalone feasibility project. Read-only access to vtcf-research assets.
 
-vtcf_research_root: "../vtcf-research"
+vtcf_research_root: "../VTCF-Finding-1"
 
 data:
-  verified_csv: "../vtcf-research/data/verified_live_videos.csv"
-  frames_dir: "../vtcf-research/data/extracted_frames"
-  youtube_cookies: "../vtcf-research/data/youtube_cookies_p-1.txt"
+  verified_csv: "../VTCF-Finding-1/data/verified_live_videos.csv"
+  frames_dir: "../VTCF-Finding-1/data/extracted_frames"
+  youtube_cookies: "../VTCF-Finding-1/data/youtube_cookies_p-1.txt"
   spike_csv: "data/spike_videos.csv"
   spike_transcripts_dir: "data/spike_transcripts"
   spike_audio_dir: "data/spike_audio"
@@ -14,8 +14,10 @@ data:
   transcripts_dir: "data/transcripts"
   finding2_subset_csv: "data/finding2_subset.csv"
   finding2_verified_csv: "data/finding2_verified.csv"
+  finding2_split_csv: "data/finding2_split.csv"
   llm_call_log: "data/llm_call_log.csv"
   phase1_audio_dir: "data/phase1_audio"
+  thumbnails_dir: "data/thumbnails"
   subset_fraction: 0.20
   subset_seed: 42
 
@@ -60,6 +62,8 @@ llm:
 ocr:
   enabled: true
   languages: ["bn"]
+  min_confidence: 0.4
+  # Legacy Finding-1 scene frame (deprecated for hook OCR; thumbnails used instead)
   hook_frame_index: 0
 
 model:
@@ -72,9 +76,9 @@ model:
   max_ocr_length: 128
 
 training:
-  batch_size: 8
+  batch_size: 16
   learning_rate: 2e-5
-  epochs: 5
+  epochs: 10
   seed: 42
   val_ratio: 0.1
   test_ratio: 0.1

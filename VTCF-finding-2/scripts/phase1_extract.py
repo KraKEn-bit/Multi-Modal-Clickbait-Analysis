@@ -548,6 +548,9 @@ def process_one_video(
     speech_cfg = config.get("speech", {})
     cookies_path = resolve_path(config["data"]["youtube_cookies"])
     cookies_file = cookies_path if cookies_path.exists() else None
+    thumbnails_dir = resolve_path(config["data"]["thumbnails_dir"])
+    ocr_cfg = config.get("ocr", {})
+    ocr_min_confidence = float(ocr_cfg.get("min_confidence", 0.4))
 
     cached = load_cached_pipeline_result(out_dir) if resume else None
     if cached:
@@ -570,6 +573,8 @@ def process_one_video(
             fallback_model=str(speech_cfg.get("whisper_fallback_model", "medium")),
             asr_backend=str(speech_cfg.get("asr_backend", "hf_whisper")),
             wav2vec_model=str(speech_cfg.get("wav2vec_model", "")),
+            thumbnails_dir=thumbnails_dir,
+            ocr_min_confidence=ocr_min_confidence,
         )
     append_failures(failures)
 

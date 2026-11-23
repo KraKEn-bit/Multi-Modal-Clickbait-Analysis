@@ -9,11 +9,10 @@ data/video_cache/
 # Large local artifacts (not for GitHub)
 data/BaitBuster_raw.parquet
 data/BaitBuster_raw.xlsx
-data/input_videos.csv
 data/extracted_frames/
 data/ingestion.log
 outputs/checkpoints/*.pt
-outputs/logs/
+outputs/logs/*.log
 *.mp4
 
 # Python

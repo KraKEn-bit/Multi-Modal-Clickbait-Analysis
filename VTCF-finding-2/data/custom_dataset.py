@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 import logging
 from pathlib import Path
 from typing import Any
@@ -16,6 +17,9 @@ from scripts._paths import DEFAULT_CONFIG_PATH, load_config, resolve_path
 from scripts.extend_dataset import map_detection_label
 
 logger = logging.getLogger(__name__)
+
+VALID_SPLITS = frozenset({"train", "val", "test"})
+DEFAULT_SPLIT_CSV = Path(__file__).resolve().parent / "finding2_split.csv"
 
 
 def _build_split_indices(
@@ -66,6 +70,99 @@ def _build_split_indices(
     return {"train": train_indices, "val": val_indices, "test": test_indices}
 
 
+def build_split_assignments(
+    dataframe: pd.DataFrame,
+    *,
+    val_ratio: float,
+    test_ratio: float,
+    seed: int,
+    label_column: str = "detection_label_int",
+) -> pd.DataFrame:
+    """Return video_id → split assignments for a filtered training dataframe."""
+    if label_column not in dataframe.columns:
+        raise KeyError(f"Missing label column '{label_column}' in training dataframe.")
+
+    split_indices = _build_split_indices(
+        labels=dataframe[label_column].tolist(),
+        val_ratio=val_ratio,
+        test_ratio=test_ratio,
+        seed=seed,
+    )
+    rows: list[dict[str, str]] = []
+    for split_name, indices in split_indices.items():
+        for index in indices:
+            rows.append(
+                {
+                    "video_id": str(dataframe.iloc[index]["video_id"]),
+                    "split": split_name,
+                }
+            )
+    return pd.DataFrame(rows)
+
+
+def _load_persisted_split_csv(split_csv_path: Path) -> pd.DataFrame:
+    split_df = pd.read_csv(split_csv_path)
+    required = {"video_id", "split"}
+    missing = required - set(split_df.columns)
+    if missing:
+        raise ValueError(f"Split CSV missing columns: {sorted(missing)}")
+
+    split_df = split_df.copy()
+    split_df["video_id"] = split_df["video_id"].astype(str)
+    split_df["split"] = split_df["split"].astype(str).str.lower()
+    invalid = sorted(set(split_df["split"]) - VALID_SPLITS)
+    if invalid:
+        raise ValueError(f"Split CSV has invalid split values: {invalid}")
+
+    duplicates = split_df["video_id"][split_df["video_id"].duplicated()].tolist()
+    if duplicates:
+        raise ValueError(
+            f"Split CSV has duplicate video_id entries (e.g. {duplicates[:3]})."
+        )
+    return split_df
+
+
+def _apply_split_to_dataframe(
+    dataframe: pd.DataFrame,
+    *,
+    split: str,
+    split_csv_path: Path | None,
+    val_ratio: float,
+    test_ratio: float,
+    seed: int,
+) -> pd.DataFrame:
+    if split_csv_path is not None and split_csv_path.exists():
+        split_df = _load_persisted_split_csv(split_csv_path)
+        dataset_ids = set(dataframe["video_id"].astype(str))
+        split_ids = set(split_df["video_id"])
+        missing_ids = sorted(dataset_ids - split_ids)
+        extra_ids = sorted(split_ids - dataset_ids)
+        if missing_ids:
+            raise ValueError(
+                "Persisted split CSV is missing assignments for "
+                f"{len(missing_ids)} training-ready video(s) "
+                f"(e.g. {missing_ids[:3]}). Regenerate the split file or "
+                "remove it to fall back to sklearn splitting."
+            )
+        if extra_ids:
+            logger.warning(
+                "Persisted split CSV contains %s video_id(s) not in the "
+                "current training frame (ignored).",
+                len(extra_ids),
+            )
+        merged = dataframe.merge(split_df, on="video_id", how="inner")
+        subset = merged[merged["split"] == split].drop(columns=["split"])
+        return subset.reset_index(drop=True)
+
+    split_indices = _build_split_indices(
+        labels=dataframe["detection_label_int"].tolist(),
+        val_ratio=val_ratio,
+        test_ratio=test_ratio,
+        seed=seed,
+    )
+    return dataframe.iloc[split_indices[split]].reset_index(drop=True)
+
+
 def _read_text(path: Path) -> str:
     if not path.exists():
         return ""
@@ -77,6 +174,7 @@ def prepare_training_dataframe(
     *,
     transcripts_dir: Path,
     require_gemini: bool = True,
+    min_transcript_words: int = 0,
 ) -> pd.DataFrame:
     """Filter finding2_verified rows to training-ready samples."""
     filtered = dataframe.copy()
@@ -105,6 +203,17 @@ def prepare_training_dataframe(
         if not summary_path.exists():
             summary_path = transcripts_dir / video_id / "summary.txt"
         hook_path = transcripts_dir / video_id / "hook_ocr.txt"
+        meta_path = transcripts_dir / video_id / "metadata.json"
+        transcript_words = 0
+        if meta_path.exists():
+            try:
+                meta = json.loads(meta_path.read_text(encoding="utf-8"))
+                transcript_words = int(meta.get("transcript_word_count", 0) or 0)
+            except (json.JSONDecodeError, TypeError, ValueError):
+                transcript_words = 0
+        if min_transcript_words > 0 and transcript_words <= min_transcript_words:
+            missing.append(video_id)
+            continue
         if not summary_path.exists() or not _read_text(summary_path):
             missing.append(video_id)
             continue
@@ -143,6 +252,8 @@ class SemanticVTCFDataset(Dataset):
         test_ratio: float = 0.1,
         seed: int = 42,
         require_gemini: bool = True,
+        min_transcript_words: int = 0,
+        split_csv_path: Path | str | None = None,
     ) -> None:
         if split not in {"train", "val", "test"}:
             raise ValueError(f"Unsupported split '{split}'.")
@@ -159,17 +270,32 @@ class SemanticVTCFDataset(Dataset):
             raw,
             transcripts_dir=self.transcripts_dir,
             require_gemini=require_gemini,
+            min_transcript_words=min_transcript_words,
         )
         dataframe["detection_label_int"] = dataframe["human_label"].map(map_detection_label)
 
-        split_indices = _build_split_indices(
-            labels=dataframe["detection_label_int"].tolist(),
+        resolved_split_csv = (
+            resolve_path(split_csv_path) if split_csv_path is not None else None
+        )
+        self.dataframe = _apply_split_to_dataframe(
+            dataframe,
+            split=split,
+            split_csv_path=resolved_split_csv,
             val_ratio=val_ratio,
             test_ratio=test_ratio,
             seed=seed,
         )
-        self.dataframe = dataframe.iloc[split_indices[split]].reset_index(drop=True)
-        logger.info("SemanticVTCFDataset split=%s samples=%s", split, len(self.dataframe))
+        source = (
+            f"persisted:{resolved_split_csv.name}"
+            if resolved_split_csv is not None and resolved_split_csv.exists()
+            else f"sklearn(seed={seed})"
+        )
+        logger.info(
+            "SemanticVTCFDataset split=%s samples=%s source=%s",
+            split,
+            len(self.dataframe),
+            source,
+        )
 
     def __len__(self) -> int:
         return len(self.dataframe)
@@ -224,12 +350,14 @@ class SemanticVTCFDataset(Dataset):
         transcripts_dir: Path | str,
         *,
         require_gemini: bool = True,
+        min_transcript_words: int = 0,
     ) -> torch.Tensor:
         raw = pd.read_csv(resolve_path(csv_path))
         dataframe = prepare_training_dataframe(
             raw,
             transcripts_dir=resolve_path(transcripts_dir),
             require_gemini=require_gemini,
+            min_transcript_words=min_transcript_words,
         )
         labels = dataframe["human_label"].map(map_detection_label).tolist()
         if not labels:
@@ -268,6 +396,7 @@ def get_dataloaders(
     *,
     batch_size: int | None = None,
     num_workers: int = 0,
+    min_transcript_words: int = 0,
 ) -> tuple[DataLoader, DataLoader, DataLoader]:
     config = load_config(config_path)
     model_cfg = config.get("model", {})
@@ -280,6 +409,7 @@ def get_dataloaders(
 
     csv_path = config["data"]["finding2_verified_csv"]
     transcripts_dir = config["data"]["transcripts_dir"]
+    split_csv_path = config.get("data", {}).get("finding2_split_csv")
     seed = int(train_cfg.get("seed", 42))
     val_ratio = float(train_cfg.get("val_ratio", 0.1))
     test_ratio = float(train_cfg.get("test_ratio", 0.1))
@@ -295,6 +425,8 @@ def get_dataloaders(
         "val_ratio": val_ratio,
         "test_ratio": test_ratio,
         "seed": seed,
+        "min_transcript_words": min_transcript_words,
+        "split_csv_path": split_csv_path,
     }
 
     train_ds = SemanticVTCFDataset(split="train", **common)

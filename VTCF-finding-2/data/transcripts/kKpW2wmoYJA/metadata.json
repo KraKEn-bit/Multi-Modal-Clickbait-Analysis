@@ -1,0 +1,19 @@
+{
+  "video_id": "kKpW2wmoYJA",
+  "title": "দেশে করোনা পরিস্থিতি ।। BD Corona 22/7/2021",
+  "human_label": "non_clickbait",
+  "speech_coverage_percent": 67.74,
+  "transcript_word_count": 96,
+  "ocr_text_detected": true,
+  "ocr_char_count": 20,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.40219151973724365,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 33.72,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import logging
+import shutil
 import subprocess
 import sys
 import time
@@ -223,6 +224,20 @@ def build_youtube_url(video_id: str) -> str:
     return f"https://www.youtube.com/watch?v={video_id}"
 
 
+def resolve_ytdlp_executable() -> list[str]:
+    """
+    Resolve a yt-dlp invocation that works even when Scripts/ is not on PATH.
+
+    Prefer an on-PATH binary; otherwise fall back to `python -m yt_dlp` using the
+    same interpreter that imported this module (the App/backend venv).
+    """
+    for name in ("yt-dlp", "yt-dlp.exe"):
+        found = shutil.which(name)
+        if found:
+            return [found]
+    return [sys.executable, "-m", "yt_dlp"]
+
+
 def build_ytdlp_command(
     url: str,
     cookies_browser: str | None = None,
@@ -231,7 +246,7 @@ def build_ytdlp_command(
 ) -> list[str]:
     """Build a yt-dlp command with optional browser or file-based cookies."""
     command = [
-        "yt-dlp",
+        *resolve_ytdlp_executable(),
         # YouTube requires EJS challenge solving (see yt-dlp wiki/EJS).
         "--js-runtimes",
         "node",

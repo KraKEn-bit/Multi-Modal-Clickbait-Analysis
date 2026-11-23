@@ -9,6 +9,7 @@ $ProjectRoot = Split-Path -Parent $PSScriptRoot
 $Python = Join-Path $ProjectRoot ".venv\Scripts\python.exe"
 $LockFile = Join-Path $ProjectRoot "outputs\logs\phase1_run.lock"
 $ProgressFile = Join-Path $ProjectRoot "outputs\logs\phase1_progress.json"
+$CompleteFlag = Join-Path $ProjectRoot "outputs\logs\phase1_complete.flag"
 $RunnerLog = Join-Path $ProjectRoot "outputs\logs\phase1_resilient.log"
 
 $env:HF_HUB_DISABLE_XET = "1"
@@ -36,45 +37,45 @@ function Write-Log([string]$Message) {
 }
 
 function Get-Phase1Progress {
-    $code = @'
-from pathlib import Path
-import json
-import yaml
-target = 1600
-cfg = Path("config.yaml")
-if cfg.exists():
-    target = int(yaml.safe_load(cfg.read_text(encoding='utf-8')).get('phase1', {}).get('target_total', 1600))
-p = Path('outputs/logs/phase1_progress.json')
-if p.exists():
-    d = json.loads(p.read_text(encoding='utf-8'))
-    print(str(d.get('complete_gemini', 0)) + ' ' + str(d.get('target_total', target)))
-else:
-    n = 0
-    for dpath in Path('data/transcripts').iterdir():
-        m = dpath / 'metadata.json'
-        if m.exists():
-            try:
-                if json.loads(m.read_text(encoding='utf-8')).get('summary_source') == 'gemini':
-                    n += 1
-            except Exception:
-                pass
-    print(str(n) + " " + str(target))
-'@
-    & $Python -c $code
+    $done = 0
+    $target = 1600
+    if (Test-Path $ProgressFile) {
+        try {
+            $progress = Get-Content $ProgressFile -Raw -Encoding utf8 | ConvertFrom-Json
+            if ($null -ne $progress.complete_gemini) {
+                $done = [int]$progress.complete_gemini
+            }
+            if ($null -ne $progress.target_total) {
+                $target = [int]$progress.target_total
+            }
+        } catch {
+            Write-Log "Failed to read progress JSON: $_"
+        }
+    }
+    return @($done, $target)
 }
 
 Set-Location $ProjectRoot
 New-Item -ItemType Directory -Force -Path (Split-Path $RunnerLog) | Out-Null
 Write-Log "Phase 1 resilient runner started | project=$ProjectRoot"
 
+if (Test-Path $CompleteFlag) {
+    Write-Log "Phase 1 marked complete (flag file). Exiting."
+    exit 0
+}
+
 while ($true) {
+    if (Test-Path $CompleteFlag) {
+        Write-Log "Phase 1 marked complete (flag file). Exiting."
+        break
+    }
     if (Test-Phase1ProcessRunning) {
         Write-Log "phase1_extract already running; waiting 60s..."
         Start-Sleep -Seconds 60
         continue
     }
 
-    $progress = (Get-Phase1Progress) -split ' '
+    $progress = Get-Phase1Progress
     $done = [int]$progress[0]
     $target = [int]$progress[1]
     if ($done -ge $target -and $target -gt 0) {
@@ -86,7 +87,7 @@ while ($true) {
     & $Python -u (Join-Path $ProjectRoot "scripts\phase1_extract.py") --resume
     $code = $LASTEXITCODE
 
-    $progress = (Get-Phase1Progress) -split ' '
+    $progress = Get-Phase1Progress
     $done = [int]$progress[0]
     $target = [int]$progress[1]
     if ($code -eq 0 -and $done -ge $target) {

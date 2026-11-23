@@ -44,11 +44,24 @@ def compute_tds(frame_embeddings: torch.Tensor) -> torch.Tensor:
     return 1.0 - cosine_similarity
 
 
+def _resolve_vit_self_attention_module(model: torch.nn.Module) -> torch.nn.Module:
+    """Return the ViT self-attention module for hook registration (HF v4/v5)."""
+    vit = model.visual_encoder.vit
+    # Legacy HF layout: vit.encoder.layer[i].attention.attention
+    encoder = getattr(vit, "encoder", None)
+    if encoder is not None and hasattr(encoder, "layer"):
+        return encoder.layer[-1].attention.attention
+    # Modern HF layout: vit.layers[i].attention
+    if hasattr(vit, "layers"):
+        return vit.layers[-1].attention
+    raise AttributeError("Could not locate ViT self-attention module for XAI hooks.")
+
+
 def _compute_vit_attention_probs(
     attention_module: torch.nn.Module,
     hidden_states: torch.Tensor,
 ) -> torch.Tensor:
-    """Manually compute ViT self-attention probabilities for hook-based XAI."""
+    """Manually compute ViT self-attention probabilities for legacy hook-based XAI."""
     query_layer = attention_module.transpose_for_scores(
         attention_module.query(hidden_states)
     )
@@ -74,13 +87,18 @@ def _attention_capture_context(model: torch.nn.Module) -> Iterator[dict[str, tor
     }
     hooks: list[torch.utils.hooks.RemovableHandle] = []
 
-    vit_self_attention = model.visual_encoder.vit.encoder.layer[-1].attention.attention
+    vit_self_attention = _resolve_vit_self_attention_module(model)
+    uses_legacy_attention = hasattr(vit_self_attention, "query")
 
     def vit_attention_hook(
         module: torch.nn.Module,
         inputs: tuple[torch.Tensor, ...],
-        _output: torch.Tensor,
+        output: torch.Tensor | tuple[torch.Tensor, ...],
     ) -> None:
+        if not uses_legacy_attention:
+            if isinstance(output, tuple) and len(output) >= 2 and output[1] is not None:
+                captured["vit_attention"] = output[1].detach()
+            return
         hidden_states = inputs[0]
         captured["vit_attention"] = _compute_vit_attention_probs(
             module,
@@ -128,6 +146,11 @@ def extract_attention_maps(
     model.eval()
     pixel_values = dataloader_batch["pixel_values"]
     batch_size, num_frames = pixel_values.shape[:2]
+
+    # Ensure attention weights are materialized (flash/sdpa backends may omit them).
+    vit_cfg = getattr(model.visual_encoder.vit, "config", None)
+    if vit_cfg is not None and hasattr(vit_cfg, "_attn_implementation"):
+        vit_cfg._attn_implementation = "eager"
 
     with torch.no_grad():
         with _attention_capture_context(model) as captured:

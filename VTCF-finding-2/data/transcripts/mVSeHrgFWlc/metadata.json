@@ -1,0 +1,19 @@
+{
+  "video_id": "mVSeHrgFWlc",
+  "title": "ব্ল্যাক ফাঙ্গাসের ব্যয়বহুল চিকিৎসায় সরকারিভাবে ঔষধ সরবরাহের পরামর্শ || #Black fungus",
+  "human_label": "clickbait",
+  "speech_coverage_percent": 81.18,
+  "transcript_word_count": 359,
+  "ocr_text_detected": true,
+  "ocr_char_count": 15,
+  "hook_ocr_usable": true,
+  "hook_promise_source": "title+ocr",
+  "semantic_divergence": 0.2815600633621216,
+  "summary_source": "gemini",
+  "llm_model_used": "gemini-3.1-flash-lite",
+  "whisper_confidence": null,
+  "processing_time_seconds": 108.76,
+  "asr_backend": "hf_whisper",
+  "hf_model": "bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium",
+  "diagnostic_note": "human_label is ground truth from BaitBuster-Bangla"
+}
