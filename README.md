@@ -200,7 +200,6 @@ None of these affect the **post-fix** numbers reported above.
 | Tables and verified numbers from the camera-ready draft | Raw frame / audio / transcript corpora |
 | Limitation and verification notes | End-to-end reproduction scripts |
 
-> **Code and full artifacts will be released publicly when the paper is accepted**, under a license announced with that release. Until then, please cite the preprint/camera-ready version of the paper rather than reverse-engineering unpublished code.
 
 ---
 
